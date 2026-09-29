@@ -1,0 +1,23 @@
+# Réglages du site « Les suites » (voir ../../../typweb/gabarit/typweb.toml)
+
+[cours]
+titre      = "Les suites"
+sous-titre = "Cours & exercices — 5e, 4 périodes (5UAA2)"
+auteur     = "Quentin Lambotte"
+annee      = "5e"
+uaa        = "5UAA2"
+depot      = "https://github.com/qlambotte/suites-cours"
+site-url   = "https://qlambotte.github.io/suites-cours/"
+
+[notes]
+dossier    = "../notes"
+principal  = "suites.typ"
+
+[pdf]
+corrige    = true
+# TEMPORAIRE : la bulle « page N des notes » suit la version papier déjà distribuée
+# (le clic ouvre toujours le PDF actuel). À retirer quand le nouveau PDF est distribué.
+pages-distribuees = "pages-distribuees.json"
+
+[modules]
+actifs = ["suites", "interactif"]

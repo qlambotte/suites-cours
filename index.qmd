@@ -1,0 +1,30 @@
+---
+title: "Les suites — cours & exercices"
+---
+
+Ce site accompagne le **cours imprimé** de 5e (UAA 2). On y trouve le même texte, avec les **mêmes numéros** (Activité 2.1, Exercice 3.5…), et en plus :
+
+- des **suites qui bougent** : on dévoile les termes un à un, on passe des points à l'escalier ou à la toile d'araignée, on fait varier la raison avec un curseur, et une bande autour de la limite montre à partir de quel rang tous les termes y restent ;
+- pour chaque exercice, des **coups de pouce** à dévoiler un par un : un renvoi à la théorie, une question à te poser, une étape pour démarrer, puis la solution et les pièges ;
+- les **réponses des activités**, cachées : un clic les dévoile, une fois que tu as cherché ;
+- une page pour **t'autoévaluer**, section par section ou objectif par objectif ;
+- une **bulle** en bas à droite qui indique à quelle page du cours imprimé tu te trouves (un clic ouvre le PDF à cette page) ;
+- un **stylo** (bouton ✎ en bas à gauche) pour annoter les pages. Tes annotations restent dans ton navigateur ; « Exporter » les enregistre dans un fichier.
+
+## Comment lire ces notes
+
+Ces notes alternent des **activités de découverte**, où tu construis toi-même la matière en complétant tableaux, réponses et graphiques, et des encadrés de **théorie**, qui fixent ce qu'il faut retenir. Garde de quoi écrire à portée de main : les activités sont faites pour être remplies.
+
+Tu croiseras régulièrement les encadrés suivants : l'**activité**, une situation à explorer, avec des blancs à compléter ; la **définition**, le sens précis d'un mot nouveau ; la **propriété**, un résultat important, souvent accompagné de sa démonstration ; l'**exemple**, un calcul entièrement résolu, à imiter ; la **remarque**, un point d'attention ou une précision.
+
+Chaque exercice porte un bandeau indiquant sa **difficulté**, de ★ (application directe) à ★★★ (situation nouvelle à transférer), et la **compétence** qu'il entraîne (par exemple `A3`), qui renvoie à la grille d'objectifs du cours.
+
+## Chapitres
+
+- **[Chapitre 1 — Généralités sur les suites](ch1-generalites-sur-les/index.qmd)** : deux situations pour commencer, définition, représentations, formule explicite et récurrence, variations, limite.
+- **[Chapitre 2 — Suites arithmétiques](ch2-suites-arithmetiques/index.qmd)** : définition, représentation, génération, d'un terme à un autre, limite, somme des $n$ premiers termes.
+- **[Chapitre 3 — Suites géométriques](ch3-suites-geometriques/index.qmd)** : les mêmes questions, quand on multiplie au lieu d'ajouter.
+
+::: {.callout-tip title="Comment travailler"}
+Lis le cours, **manipule les figures**, puis passe aux exercices. N'ouvre les *coups de pouce* qu'après avoir cherché : ils sont faits pour te débloquer, pas pour remplacer ta recherche.
+:::
