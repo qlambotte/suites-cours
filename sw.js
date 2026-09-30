@@ -3,7 +3,7 @@
      gardée ; toutes les pages sont mises de côté à la première visite ;
    - le reste (scripts, styles, figures, polices, MathJax) : copie gardée,
      rafraîchie en arrière-plan. Les PDF ne sont pas mis de côté (trop lourds). */
-var VERSION = "50ffc40920";
+var VERSION = "3187f85b2d";
 var CACHE = "typweb-" + VERSION;
 var PAGES = ["./", "index.html", "autoeval.html", "ch1-generalites-sur-les/1-deux-situations-pour-commencer.html", "ch1-generalites-sur-les/2-quest-ce-quune-suite-numerique.html", "ch1-generalites-sur-les/3-representer-une-suite.html", "ch1-generalites-sur-les/4-generer-une-suite.html", "ch1-generalites-sur-les/5-variations-dune-suite.html", "ch1-generalites-sur-les/6-limite-dune-suite.html", "ch1-generalites-sur-les/7-exercices.html", "ch1-generalites-sur-les/index.html", "ch2-suites-arithmetiques/1-une-pyramide-de-verre.html", "ch2-suites-arithmetiques/2-definition.html", "ch2-suites-arithmetiques/3-representation-et-variation.html", "ch2-suites-arithmetiques/4-generer-une-suite-arithmetique.html", "ch2-suites-arithmetiques/5-caracteristiques-variation-limite.html", "ch2-suites-arithmetiques/6-somme-des-n-premiers-termes.html", "ch2-suites-arithmetiques/7-exercices.html", "ch2-suites-arithmetiques/index.html", "ch3-suites-geometriques/1-le-pliage-dune-feuille.html", "ch3-suites-geometriques/2-definition.html", "ch3-suites-geometriques/3-representation-et-variation.html", "ch3-suites-geometriques/4-generer-une-suite-geometrique.html", "ch3-suites-geometriques/5-caracteristiques-variation-limite.html", "ch3-suites-geometriques/6-somme-des-n-premiers-termes.html", "ch3-suites-geometriques/7-exercices.html", "ch3-suites-geometriques/index.html", "essentiel.html", "nouveautes.html", "objectifs.html"];
 
