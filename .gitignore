@@ -3,3 +3,6 @@
 /_book/
 /_data/
 _rapport.txt
+# clé SSH : ne jamais la versionner (à sortir du dépôt et révoquer)
+/gh
+/gh.pub
