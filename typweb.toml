@@ -8,6 +8,7 @@ annee      = "5e"
 uaa        = "5UAA2"
 depot      = "https://github.com/qlambotte/suites-cours"
 site-url   = "https://qlambotte.github.io/suites-cours/"
+portail    = "https://qlambotte.github.io/6e.html" 
 
 [notes]
 dossier    = "../notes"
