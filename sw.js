@@ -3,9 +3,9 @@
      gardée ; toutes les pages sont mises de côté à la première visite ;
    - le reste (scripts, styles, figures, polices, MathJax) : copie gardée,
      rafraîchie en arrière-plan. Les PDF ne sont pas mis de côté (trop lourds). */
-var VERSION = "923bb3cde6";
+var VERSION = "b06712852f";
 var CACHE = "typweb-" + VERSION;
-var PAGES = ["./", "index.html", "autoeval.html", "ch1-generalites-sur-les/1-deux-situations-pour-commencer.html", "ch1-generalites-sur-les/2-quest-ce-quune-suite-numerique.html", "ch1-generalites-sur-les/3-representer-une-suite.html", "ch1-generalites-sur-les/4-generer-une-suite.html", "ch1-generalites-sur-les/5-variations-dune-suite.html", "ch1-generalites-sur-les/6-limite-dune-suite.html", "ch1-generalites-sur-les/7-exercices.html", "ch1-generalites-sur-les/index.html", "ch2-suites-arithmetiques/1-une-pyramide-de-verre.html", "ch2-suites-arithmetiques/2-definition.html", "ch2-suites-arithmetiques/3-representation-et-variation.html", "ch2-suites-arithmetiques/4-generer-une-suite-arithmetique.html", "ch2-suites-arithmetiques/5-caracteristiques-variation-limite.html", "ch2-suites-arithmetiques/6-somme-des-n-premiers-termes.html", "ch2-suites-arithmetiques/7-exercices.html", "ch2-suites-arithmetiques/index.html", "ch3-suites-geometriques/1-le-pliage-dune-feuille.html", "ch3-suites-geometriques/2-definition.html", "ch3-suites-geometriques/3-representation-et-variation.html", "ch3-suites-geometriques/4-generer-une-suite-geometrique.html", "ch3-suites-geometriques/5-caracteristiques-variation-limite.html", "ch3-suites-geometriques/6-somme-des-n-premiers-termes.html", "ch3-suites-geometriques/7-exercices.html", "ch3-suites-geometriques/index.html", "essentiel.html", "nouveautes.html", "objectifs.html"];
+var PAGES = ["./", "index.html", "index.json", "autoeval.html", "ch1-generalites-sur-les/1-deux-situations-pour-commencer.html", "ch1-generalites-sur-les/2-quest-ce-quune-suite-numerique.html", "ch1-generalites-sur-les/3-representer-une-suite.html", "ch1-generalites-sur-les/4-generer-une-suite.html", "ch1-generalites-sur-les/5-variations-dune-suite.html", "ch1-generalites-sur-les/6-limite-dune-suite.html", "ch1-generalites-sur-les/7-exercices.html", "ch1-generalites-sur-les/index.html", "ch2-suites-arithmetiques/1-une-pyramide-de-verre.html", "ch2-suites-arithmetiques/2-definition.html", "ch2-suites-arithmetiques/3-representation-et-variation.html", "ch2-suites-arithmetiques/4-generer-une-suite-arithmetique.html", "ch2-suites-arithmetiques/5-caracteristiques-variation-limite.html", "ch2-suites-arithmetiques/6-somme-des-n-premiers-termes.html", "ch2-suites-arithmetiques/7-exercices.html", "ch2-suites-arithmetiques/index.html", "ch3-suites-geometriques/1-le-pliage-dune-feuille.html", "ch3-suites-geometriques/2-definition.html", "ch3-suites-geometriques/3-representation-et-variation.html", "ch3-suites-geometriques/4-generer-une-suite-geometrique.html", "ch3-suites-geometriques/5-caracteristiques-variation-limite.html", "ch3-suites-geometriques/6-somme-des-n-premiers-termes.html", "ch3-suites-geometriques/7-exercices.html", "ch3-suites-geometriques/index.html", "essentiel.html", "mode-emploi.html", "nouveautes.html", "objectifs.html"];
 
 self.addEventListener("install", function (e) {
   e.waitUntil(caches.open(CACHE).then(function (c) {
@@ -32,7 +32,9 @@ self.addEventListener("fetch", function (e) {
   if (req.method !== "GET") return;
   var url = new URL(req.url);
   if (/\.pdf$/i.test(url.pathname)) return;
-  var page = req.mode === "navigate" || (req.headers.get("accept") || "").indexOf("text/html") >= 0;
+  // pages, index.json, prof.js (couche prof) et sync.js (synchronisation) : réseau d'abord, copie si hors ligne
+  var page = req.mode === "navigate" || (req.headers.get("accept") || "").indexOf("text/html") >= 0
+             || /(\.json|\/prof\.js|\/sync\.js)$/.test(url.pathname);
   if (page) {
     e.respondWith(fetch(req).then(function (r) { return garder(req, r); }).catch(function () {
       return caches.match(req, { ignoreSearch: true }).then(function (r) {
