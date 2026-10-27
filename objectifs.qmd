@@ -1,0 +1,154 @@
+---
+title: "Objectifs"
+subtitle: "Compétences à développer dans ce chapitre"
+---
+
+
+<!-- GÉNÉRÉ par typweb (grille de objectifs.typ) : NE PAS ÉDITER. -->
+
+
+::: {.obj-intro}
+Je suis capable de…
+:::
+
+
+::: {#obj-suivi data-cle="suites" data-autoeval="autoeval.html"}
+:::
+
+
+## Connaître {.obj-cat}
+
+::: {.obj-liste}
+
+::: {.obj data-code="C1"}
+[C1]{.obj-code}
+
+::: {.obj-texte}
+Traduire des écritures indicées en utilisant le vocabulaire lié aux suites (savoir différencier le rang d’un terme et le terme).
+:::
+:::
+
+::: {.obj data-code="C2"}
+[C2]{.obj-code}
+
+::: {.obj-texte}
+Reconnaître une suite arithmétique / géométrique exprimée dans des registres différents : numérique, symbolique, graphique ou au départ d’un énoncé contextualisé.
+:::
+:::
+
+::: {.obj data-code="C3"}
+[C3]{.obj-code}
+
+::: {.obj-texte}
+Identifier les éléments caractéristiques (1^er^ terme, raison, croissance) d’une suite arithmétique / géométrique exprimée dans des registres différents.
+:::
+:::
+
+::: {.obj data-code="C4"}
+[C4]{.obj-code}
+
+::: {.obj-texte}
+Écrire le terme général d’une suite arithmétique / géométrique au départ de ses éléments caractéristiques.
+:::
+:::
+
+::: {.obj data-code="C5"}
+[C5]{.obj-code}
+
+::: {.obj-texte}
+Donner un exemple de suites arithmétique / géométrique vérifiant des contraintes (croissance, convergence).
+:::
+:::
+
+::: {.obj data-code="C6"}
+[C6]{.obj-code}
+
+::: {.obj-texte}
+Conjecturer la limite d’une suite au départ de sa représentation numérique ou graphique.
+:::
+:::
+
+::: {.obj data-code="C7"}
+[C7]{.obj-code}
+
+::: {.obj-texte}
+Démontrer la formule de la somme des $n$ premiers termes d’une suite arithmétique / géométrique.
+:::
+:::
+
+:::
+
+
+## Appliquer {.obj-cat}
+
+::: {.obj-liste}
+
+::: {.obj data-code="A1"}
+[A1]{.obj-code}
+
+::: {.obj-texte}
+Représenter graphiquement une suite de nombres.
+:::
+:::
+
+::: {.obj data-code="A2"}
+[A2]{.obj-code}
+
+::: {.obj-texte}
+Justifier qu’une suite est arithmétique / géométrique.
+:::
+:::
+
+::: {.obj data-code="A3"}
+[A3]{.obj-code}
+
+::: {.obj-texte}
+Calculer les éléments caractéristiques ou un terme d’une suite arithmétique / géométrique.
+:::
+:::
+
+::: {.obj data-code="A4"}
+[A4]{.obj-code}
+
+::: {.obj-texte}
+Calculer la somme de $n$ termes consécutifs d’une suite arithmétique / géométrique.
+:::
+:::
+
+::: {.obj data-code="A5"}
+[A5]{.obj-code}
+
+::: {.obj-texte}
+Trouver le taux, l’intérêt ou la durée d’un placement à intérêts simples ou à intérêts composés.
+:::
+:::
+
+::: {.obj data-code="A6"}
+[A6]{.obj-code}
+
+::: {.obj-texte}
+Réaliser un tableau d’amortissement à l’aide de l’outil informatique.
+:::
+:::
+
+:::
+
+
+## Transférer {.obj-cat}
+
+::: {.obj-liste}
+
+::: {.obj data-code="T1"}
+[T1]{.obj-code}
+
+::: {.obj-texte}
+Résoudre un problème où interviennent des suites dans différents contextes.
+:::
+:::
+
+:::
+
+
+::: {.ae-lien}
+[✔ S'autoévaluer sur ces objectifs →](autoeval.qmd)
+:::

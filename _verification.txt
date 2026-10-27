@@ -1,0 +1,11 @@
+Vérification — Les suites
+39 exercices, 96 encadrés, 14 objectifs — 4 points à voir
+
+! objectifs sans exercice (3) : C3, A5, A6
+    → ajouter un exercice qui le travaille (comp: "…" de l'exercice)
+! objectifs sans question d'autoévaluation (2) : A5, A6
+! encadrés sans numéro de page du PDF (2) : preuve 2.1, preuve 3.1
+    → recompiler le PDF (typweb pdf)
+! conversion (2 avertissements) :
+    autoéval : aucune question pour l'objectif A5
+    autoéval : aucune question pour l'objectif A6

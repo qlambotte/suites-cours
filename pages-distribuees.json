@@ -1,0 +1,475 @@
+{
+ "note": "Pages de la version papier distribuée en septembre 2026 (suites-corrige.pdf du 24/09, même pagination que la version élève). Propriétés du ch. 3 renumérotées (+1) après l'ajout de la Propriété 3.1 (variation), qui reçoit la page de l'ancienne 3.1. Temporaire : retirer [pdf] pages-distribuees de typweb.toml quand le nouveau PDF est distribué.",
+ "reperes": [
+  {
+   "sorte": "activite",
+   "num": "1.1",
+   "page": 1
+  },
+  {
+   "sorte": "activite",
+   "num": "1.2",
+   "page": 2
+  },
+  {
+   "sorte": "definition",
+   "num": "1.1",
+   "page": 3
+  },
+  {
+   "sorte": "remarque",
+   "num": "1.1",
+   "page": 3
+  },
+  {
+   "sorte": "activite",
+   "num": "1.3",
+   "page": 4
+  },
+  {
+   "sorte": "activite",
+   "num": "1.4",
+   "page": 5
+  },
+  {
+   "sorte": "activite",
+   "num": "1.5",
+   "page": 5
+  },
+  {
+   "sorte": "definition",
+   "num": "1.2",
+   "page": 5
+  },
+  {
+   "sorte": "exemple",
+   "num": "1.1",
+   "page": 5
+  },
+  {
+   "sorte": "activite",
+   "num": "1.6",
+   "page": 6
+  },
+  {
+   "sorte": "definition",
+   "num": "1.3",
+   "page": 6
+  },
+  {
+   "sorte": "exemple",
+   "num": "1.2",
+   "page": 6
+  },
+  {
+   "sorte": "definition",
+   "num": "1.4",
+   "page": 7
+  },
+  {
+   "sorte": "remarque",
+   "num": "1.2",
+   "page": 7
+  },
+  {
+   "sorte": "activite",
+   "num": "1.7",
+   "page": 8
+  },
+  {
+   "sorte": "definition",
+   "num": "1.5",
+   "page": 8
+  },
+  {
+   "sorte": "exemple",
+   "num": "1.3",
+   "page": 9
+  },
+  {
+   "sorte": "exercice",
+   "num": "1.1",
+   "page": 9
+  },
+  {
+   "sorte": "exercice",
+   "num": "1.2",
+   "page": 9
+  },
+  {
+   "sorte": "exercice",
+   "num": "1.3",
+   "page": 9
+  },
+  {
+   "sorte": "exercice",
+   "num": "1.4",
+   "page": 10
+  },
+  {
+   "sorte": "exercice",
+   "num": "1.5",
+   "page": 10
+  },
+  {
+   "sorte": "exercice",
+   "num": "1.6",
+   "page": 10
+  },
+  {
+   "sorte": "exercice",
+   "num": "1.7",
+   "page": 10
+  },
+  {
+   "sorte": "exercice",
+   "num": "1.10",
+   "page": 11
+  },
+  {
+   "sorte": "exercice",
+   "num": "1.8",
+   "page": 11
+  },
+  {
+   "sorte": "exercice",
+   "num": "1.9",
+   "page": 11
+  },
+  {
+   "sorte": "activite",
+   "num": "2.1",
+   "page": 12
+  },
+  {
+   "sorte": "definition",
+   "num": "2.1",
+   "page": 13
+  },
+  {
+   "sorte": "remarque",
+   "num": "2.1",
+   "page": 13
+  },
+  {
+   "sorte": "exemple",
+   "num": "2.1",
+   "page": 14
+  },
+  {
+   "sorte": "exemple",
+   "num": "2.2",
+   "page": 14
+  },
+  {
+   "sorte": "propriete",
+   "num": "2.1",
+   "page": 14
+  },
+  {
+   "sorte": "propriete",
+   "num": "2.2",
+   "page": 14
+  },
+  {
+   "sorte": "activite",
+   "num": "2.2",
+   "page": 15
+  },
+  {
+   "sorte": "exemple",
+   "num": "2.3",
+   "page": 15
+  },
+  {
+   "sorte": "exemple",
+   "num": "2.4",
+   "page": 15
+  },
+  {
+   "sorte": "exemple",
+   "num": "2.5",
+   "page": 15
+  },
+  {
+   "sorte": "propriete",
+   "num": "2.3",
+   "page": 15
+  },
+  {
+   "sorte": "activite",
+   "num": "2.3",
+   "page": 16
+  },
+  {
+   "sorte": "propriete",
+   "num": "2.4",
+   "page": 16
+  },
+  {
+   "sorte": "propriete",
+   "num": "2.5",
+   "page": 16
+  },
+  {
+   "sorte": "exemple",
+   "num": "2.6",
+   "page": 17
+  },
+  {
+   "sorte": "propriete",
+   "num": "2.6",
+   "page": 17
+  },
+  {
+   "sorte": "exemple",
+   "num": "2.7",
+   "page": 18
+  },
+  {
+   "sorte": "exemple",
+   "num": "2.8",
+   "page": 18
+  },
+  {
+   "sorte": "exercice",
+   "num": "2.1",
+   "page": 18
+  },
+  {
+   "sorte": "exercice",
+   "num": "2.2",
+   "page": 18
+  },
+  {
+   "sorte": "exercice",
+   "num": "2.3",
+   "page": 18
+  },
+  {
+   "sorte": "exercice",
+   "num": "2.4",
+   "page": 18
+  },
+  {
+   "sorte": "exercice",
+   "num": "2.10",
+   "page": 19
+  },
+  {
+   "sorte": "exercice",
+   "num": "2.5",
+   "page": 19
+  },
+  {
+   "sorte": "exercice",
+   "num": "2.6",
+   "page": 19
+  },
+  {
+   "sorte": "exercice",
+   "num": "2.7",
+   "page": 19
+  },
+  {
+   "sorte": "exercice",
+   "num": "2.8",
+   "page": 19
+  },
+  {
+   "sorte": "exercice",
+   "num": "2.9",
+   "page": 19
+  },
+  {
+   "sorte": "exercice",
+   "num": "2.11",
+   "page": 20
+  },
+  {
+   "sorte": "exercice",
+   "num": "2.12",
+   "page": 20
+  },
+  {
+   "sorte": "exercice",
+   "num": "2.13",
+   "page": 21
+  },
+  {
+   "sorte": "exercice",
+   "num": "2.14",
+   "page": 21
+  },
+  {
+   "sorte": "exercice",
+   "num": "2.15",
+   "page": 21
+  },
+  {
+   "sorte": "activite",
+   "num": "3.1",
+   "page": 22
+  },
+  {
+   "sorte": "definition",
+   "num": "3.1",
+   "page": 23
+  },
+  {
+   "sorte": "exemple",
+   "num": "3.1",
+   "page": 23
+  },
+  {
+   "sorte": "remarque",
+   "num": "3.1",
+   "page": 23
+  },
+  {
+   "sorte": "exemple",
+   "num": "3.2",
+   "page": 24
+  },
+  {
+   "sorte": "exemple",
+   "num": "3.3",
+   "page": 24
+  },
+  {
+   "sorte": "propriete",
+   "num": "3.1",
+   "page": 24
+  },
+  {
+   "sorte": "propriete",
+   "num": "3.2",
+   "page": 24
+  },
+  {
+   "sorte": "activite",
+   "num": "3.2",
+   "page": 25
+  },
+  {
+   "sorte": "exemple",
+   "num": "3.4",
+   "page": 25
+  },
+  {
+   "sorte": "exemple",
+   "num": "3.5",
+   "page": 25
+  },
+  {
+   "sorte": "propriete",
+   "num": "3.3",
+   "page": 25
+  },
+  {
+   "sorte": "activite",
+   "num": "3.3",
+   "page": 26
+  },
+  {
+   "sorte": "propriete",
+   "num": "3.4",
+   "page": 26
+  },
+  {
+   "sorte": "exemple",
+   "num": "3.6",
+   "page": 27
+  },
+  {
+   "sorte": "propriete",
+   "num": "3.5",
+   "page": 27
+  },
+  {
+   "sorte": "propriete",
+   "num": "3.6",
+   "page": 27
+  },
+  {
+   "sorte": "exemple",
+   "num": "3.7",
+   "page": 28
+  },
+  {
+   "sorte": "exemple",
+   "num": "3.8",
+   "page": 28
+  },
+  {
+   "sorte": "exercice",
+   "num": "3.1",
+   "page": 28
+  },
+  {
+   "sorte": "exercice",
+   "num": "3.2",
+   "page": 28
+  },
+  {
+   "sorte": "exercice",
+   "num": "3.3",
+   "page": 28
+  },
+  {
+   "sorte": "exercice",
+   "num": "3.4",
+   "page": 28
+  },
+  {
+   "sorte": "exercice",
+   "num": "3.10",
+   "page": 29
+  },
+  {
+   "sorte": "exercice",
+   "num": "3.5",
+   "page": 29
+  },
+  {
+   "sorte": "exercice",
+   "num": "3.6",
+   "page": 29
+  },
+  {
+   "sorte": "exercice",
+   "num": "3.7",
+   "page": 29
+  },
+  {
+   "sorte": "exercice",
+   "num": "3.8",
+   "page": 29
+  },
+  {
+   "sorte": "exercice",
+   "num": "3.9",
+   "page": 29
+  },
+  {
+   "sorte": "exercice",
+   "num": "3.11",
+   "page": 30
+  },
+  {
+   "sorte": "exercice",
+   "num": "3.12",
+   "page": 31
+  },
+  {
+   "sorte": "exercice",
+   "num": "3.13",
+   "page": 31
+  },
+  {
+   "sorte": "exercice",
+   "num": "3.14",
+   "page": 31
+  }
+ ]
+}

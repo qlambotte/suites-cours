@@ -1,0 +1,2448 @@
+---
+title: "S'autoévaluer"
+search: false
+---
+
+
+<!-- GÉNÉRÉ par outils/typ2site.py (autoeval.py) : NE PAS ÉDITER. -->
+
+
+::: {#ae-app data-cle="suites"}
+::: {.ae-attente}
+Chargement…
+:::
+:::
+
+
+::: {#ae-banque .ae-cache}
+
+::: {.ae-sec data-ae-id="sec-situations" data-chap="1" data-url="ch1-generalites-sur-les/1-deux-situations-pour-commencer.html" data-n="3"}
+Deux situations pour commencer
+:::
+
+::: {.ae-sec data-ae-id="sec-suite" data-chap="1" data-url="ch1-generalites-sur-les/2-quest-ce-quune-suite-numerique.html" data-n="4"}
+Qu’est-ce qu’une suite numérique ?
+:::
+
+::: {.ae-sec data-ae-id="sec-representer" data-chap="1" data-url="ch1-generalites-sur-les/3-representer-une-suite.html" data-n="3"}
+Représenter une suite
+:::
+
+::: {.ae-sec data-ae-id="sec-generer" data-chap="1" data-url="ch1-generalites-sur-les/4-generer-une-suite.html" data-n="4"}
+Générer une suite
+:::
+
+::: {.ae-sec data-ae-id="sec-variations" data-chap="1" data-url="ch1-generalites-sur-les/5-variations-dune-suite.html" data-n="2"}
+Variations d’une suite
+:::
+
+::: {.ae-sec data-ae-id="sec-limite" data-chap="1" data-url="ch1-generalites-sur-les/6-limite-dune-suite.html" data-n="6"}
+Limite d’une suite
+:::
+
+::: {.ae-sec data-ae-id="sec-generalites-exercices" data-chap="1" data-url="ch1-generalites-sur-les/7-exercices.html" data-n="0"}
+Exercices
+:::
+
+::: {.ae-sec data-ae-id="sec-pyramide" data-chap="2" data-url="ch2-suites-arithmetiques/1-une-pyramide-de-verre.html" data-n="1"}
+Une pyramide de verre
+:::
+
+::: {.ae-sec data-ae-id="sec-arith-definition" data-chap="2" data-url="ch2-suites-arithmetiques/2-definition.html" data-n="4"}
+Définition
+:::
+
+::: {.ae-sec data-ae-id="sec-arith-representation" data-chap="2" data-url="ch2-suites-arithmetiques/3-representation-et-variation.html" data-n="2"}
+Représentation et variation
+:::
+
+::: {.ae-sec data-ae-id="sec-arith-generer" data-chap="2" data-url="ch2-suites-arithmetiques/4-generer-une-suite-arithmetique.html" data-n="4"}
+Générer une suite arithmétique
+:::
+
+::: {.ae-sec data-ae-id="sec-arith-limite" data-chap="2" data-url="ch2-suites-arithmetiques/5-caracteristiques-variation-limite.html" data-n="3"}
+Caractéristiques : variation, limite
+:::
+
+::: {.ae-sec data-ae-id="sec-arith-somme" data-chap="2" data-url="ch2-suites-arithmetiques/6-somme-des-n-premiers-termes.html" data-n="4"}
+Somme des $n$ premiers termes
+:::
+
+::: {.ae-sec data-ae-id="sec-arith-exercices" data-chap="2" data-url="ch2-suites-arithmetiques/7-exercices.html" data-n="0"}
+Exercices
+:::
+
+::: {.ae-sec data-ae-id="sec-pliage" data-chap="3" data-url="ch3-suites-geometriques/1-le-pliage-dune-feuille.html" data-n="1"}
+Le pliage d’une feuille
+:::
+
+::: {.ae-sec data-ae-id="sec-geo-definition" data-chap="3" data-url="ch3-suites-geometriques/2-definition.html" data-n="3"}
+Définition
+:::
+
+::: {.ae-sec data-ae-id="sec-geo-representation" data-chap="3" data-url="ch3-suites-geometriques/3-representation-et-variation.html" data-n="2"}
+Représentation et variation
+:::
+
+::: {.ae-sec data-ae-id="sec-geo-generer" data-chap="3" data-url="ch3-suites-geometriques/4-generer-une-suite-geometrique.html" data-n="4"}
+Générer une suite géométrique
+:::
+
+::: {.ae-sec data-ae-id="sec-geo-limite" data-chap="3" data-url="ch3-suites-geometriques/5-caracteristiques-variation-limite.html" data-n="4"}
+Caractéristiques : variation, limite
+:::
+
+::: {.ae-sec data-ae-id="sec-geo-somme" data-chap="3" data-url="ch3-suites-geometriques/6-somme-des-n-premiers-termes.html" data-n="2"}
+Somme des $n$ premiers termes
+:::
+
+::: {.ae-sec data-ae-id="sec-geo-exercices" data-chap="3" data-url="ch3-suites-geometriques/7-exercices.html" data-n="0"}
+Exercices
+:::
+
+::: {.ae-obj data-code="C1" data-cat="Connaître"}
+Traduire des écritures indicées en utilisant le vocabulaire lié aux suites (savoir différencier le rang d’un terme et le terme).
+:::
+
+::: {.ae-obj data-code="C2" data-cat="Connaître"}
+Reconnaître une suite arithmétique / géométrique exprimée dans des registres différents : numérique, symbolique, graphique ou au départ d’un énoncé contextualisé.
+:::
+
+::: {.ae-obj data-code="C3" data-cat="Connaître"}
+Identifier les éléments caractéristiques (1^er^ terme, raison, croissance) d’une suite arithmétique / géométrique exprimée dans des registres différents.
+:::
+
+::: {.ae-obj data-code="C4" data-cat="Connaître"}
+Écrire le terme général d’une suite arithmétique / géométrique au départ de ses éléments caractéristiques.
+:::
+
+::: {.ae-obj data-code="C5" data-cat="Connaître"}
+Donner un exemple de suites arithmétique / géométrique vérifiant des contraintes (croissance, convergence).
+:::
+
+::: {.ae-obj data-code="C6" data-cat="Connaître"}
+Conjecturer la limite d’une suite au départ de sa représentation numérique ou graphique.
+:::
+
+::: {.ae-obj data-code="C7" data-cat="Connaître"}
+Démontrer la formule de la somme des $n$ premiers termes d’une suite arithmétique / géométrique.
+:::
+
+::: {.ae-obj data-code="A1" data-cat="Appliquer"}
+Représenter graphiquement une suite de nombres.
+:::
+
+::: {.ae-obj data-code="A2" data-cat="Appliquer"}
+Justifier qu’une suite est arithmétique / géométrique.
+:::
+
+::: {.ae-obj data-code="A3" data-cat="Appliquer"}
+Calculer les éléments caractéristiques ou un terme d’une suite arithmétique / géométrique.
+:::
+
+::: {.ae-obj data-code="A4" data-cat="Appliquer"}
+Calculer la somme de $n$ termes consécutifs d’une suite arithmétique / géométrique.
+:::
+
+::: {.ae-obj data-code="A5" data-cat="Appliquer"}
+Trouver le taux, l’intérêt ou la durée d’un placement à intérêts simples ou à intérêts composés.
+:::
+
+::: {.ae-obj data-code="A6" data-cat="Appliquer"}
+Réaliser un tableau d’amortissement à l’aide de l’outil informatique.
+:::
+
+::: {.ae-obj data-code="T1" data-cat="Transférer"}
+Résoudre un problème où interviennent des suites dans différents contextes.
+:::
+
+::: {.ae-qa data-ae-id="qa-generalites" data-spec='{"questions": null, "tirage": {"nombre": 12, "sections": ["sec-situations", "sec-suite", "sec-representer", "sec-generer", "sec-variations", "sec-limite"], "obj": [], "types": [], "niveaux": []}}'}
+::: {.ae-qa-titre}
+Chapitre 1 : Généralités
+:::
+
+::: {.ae-qa-desc}
+Douze questions tirées au hasard sur le chapitre 1 : vocabulaire, représentations, génération, variation, limite.
+:::
+:::
+
+::: {.ae-qa data-ae-id="qa-arithmetiques" data-spec='{"questions": null, "tirage": {"nombre": 10, "sections": ["sec-pyramide", "sec-arith-definition", "sec-arith-representation", "sec-arith-generer", "sec-arith-limite", "sec-arith-somme"], "obj": [], "types": [], "niveaux": []}}'}
+::: {.ae-qa-titre}
+Chapitre 2 : Suites arithmétiques
+:::
+
+::: {.ae-qa-desc}
+Dix questions tirées au hasard sur le chapitre 2.
+:::
+:::
+
+::: {.ae-qa data-ae-id="qa-geometriques" data-spec='{"questions": null, "tirage": {"nombre": 10, "sections": ["sec-pliage", "sec-geo-definition", "sec-geo-representation", "sec-geo-generer", "sec-geo-limite", "sec-geo-somme"], "obj": [], "types": [], "niveaux": []}}'}
+::: {.ae-qa-titre}
+Chapitre 3 : Suites géométriques
+:::
+
+::: {.ae-qa-desc}
+Dix questions tirées au hasard sur le chapitre 3.
+:::
+:::
+
+::: {.ae-qa data-ae-id="qa-ari-ou-geo" data-spec='{"questions": ["gen-rumeur-famille", "ari-reconnaitre", "geo-reconnaitre", "ari-justifier-exemples", "geo-alignement", "ari-formule-explicite", "geo-formule-explicite", "ari-raison-signe", "geo-raison"], "tirage": null}'}
+::: {.ae-qa-titre}
+Arithmétique ou géométrique ?
+:::
+
+::: {.ae-qa-desc}
+Reconnaître, justifier, écrire le terme général : ne pas confondre différence et rapport.
+:::
+:::
+
+::: {.ae-qa data-ae-id="qa-limites" data-spec='{"questions": ["gen-limite-tableau", "gen-limite-graphique", "gen-limite-sens", "gen-limite-observer", "ari-limite", "geo-limite-tableau", "geo-limite-alterne", "geo-exemple-qcm"], "tirage": null}'}
+::: {.ae-qa-titre}
+Conjecturer une limite
+:::
+
+::: {.ae-qa-desc}
+Lire une limite sur un tableau ou un graphique, et utiliser les propriétés des suites arithmétiques et géométriques.
+:::
+:::
+
+::: {.ae-qa data-ae-id="qa-sommes" data-spec='{"questions": ["ari-pyramide-somme", "ari-somme-formule", "ari-somme-rangs", "ari-demonstration-etape", "geo-somme", "ari-demontrer-somme", "geo-demontrer-somme"], "tirage": null}'}
+::: {.ae-qa-titre}
+Sommes de termes
+:::
+
+::: {.ae-qa-desc}
+Calculer et démontrer les sommes des $n$ premiers termes.
+:::
+:::
+
+::: {.ae-qa data-ae-id="qa-bases" data-spec='{"questions": null, "tirage": {"nombre": 10, "sections": [], "obj": [], "types": [], "niveaux": [1]}}'}
+::: {.ae-qa-titre}
+Les bases, pour démarrer
+:::
+
+::: {.ae-qa-desc}
+Dix questions de niveau ★ sur tout le cours.
+:::
+:::
+
+::: {.ae-q data-ae-id="gen-rumeur-famille" data-type="qcm" data-section="sec-situations" data-obj="C2" data-niveau="1" data-id="5UAA2.q.gen-rumeur-famille" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Dans l’activité de la rumeur, le nombre de personnes au courant double chaque jour. Comment passe-t-on d’un jour au suivant ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+On multiplie toujours par le même nombre.
+:::
+
+::: {.ae-fb}
+Oui : on multiplie par $2$ chaque jour. C’est le comportement des suites que le chapitre 3 appelle géométriques.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+On ajoute toujours le même nombre.
+:::
+
+::: {.ae-fb}
+Non : de $1$ à $2$ on ajoute $1$, de $2$ à $4$ on ajoute $2$, de $4$ à $8$ on ajoute $4$. La différence n’est pas constante ; c’est le **rapport** qui l’est.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+On ajoute $2$ chaque jour.
+:::
+
+::: {.ae-fb}
+Doubler n’est pas ajouter $2$ : $4$ devient $8$, pas $6$. Doubler, c’est multiplier par $2$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+On ajoute le numéro du jour.
+:::
+
+::: {.ae-fb}
+Vérifie sur le tableau : $u_{3} = 8$ et $u_{4} = 16$ ; on a ajouté $8$, pas $4$. Chaque jour, on multiplie par $2$.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="gen-interets-simples" data-type="qcm" data-section="sec-situations" data-obj="A3" data-niveau="1" data-id="5UAA2.q.gen-interets-simples" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+On place $1000$ € à intérêts **simples**, au taux annuel de $3 \%$. De combien dispose-t-on après $4$ ans ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$1120$ €
+:::
+
+::: {.ae-fb}
+Oui : l’intérêt est calculé sur le montant de départ, $30$ € par an ; en $4$ ans, $1000 + 4 \cdot 30 = 1120$ €.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+environ $1125{,}51$ €
+:::
+
+::: {.ae-fb}
+C’est le résultat des intérêts **composés** ($1000 \cdot 1{,}03^{4}$). Aux intérêts simples, on ajoute chaque année la même somme, $3 \%$ de $1000$ €.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$1030$ €
+:::
+
+::: {.ae-fb}
+C’est le capital après $1$ an. Après $4$ ans, on a ajouté $4$ fois les $30$ € d’intérêt.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$1012$ €
+:::
+
+::: {.ae-fb}
+Tu as ajouté $4 \cdot 3 = 12$ € : $3 \%$ de $1000$ €, ce n’est pas $3$ €, mais $\frac{3}{100} \cdot 1000 = 30$ €.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="gen-interets-composes" data-type="qcm" data-section="sec-situations" data-obj="A3" data-niveau="1" data-id="5UAA2.q.gen-interets-composes" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+On place $2000$ € à intérêts **composés**, au taux annuel de $5 \%$. De combien dispose-t-on après $2$ ans ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$2205$ €
+:::
+
+::: {.ae-fb}
+Oui : augmenter de $5 \%$, c’est multiplier par $1{,}05$ ; en deux ans, $2000 \cdot 1{,}05^{2} = 2205$ €.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$2200$ €
+:::
+
+::: {.ae-fb}
+C’est le résultat des intérêts **simples** ($2000 + 2 \cdot 100$). Aux intérêts composés, la deuxième année, l’intérêt est calculé sur $2100$ € et vaut $105$ €.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$2100$ €
+:::
+
+::: {.ae-fb}
+C’est le capital après $1$ an seulement.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$4200$ €
+:::
+
+::: {.ae-fb}
+Tu as multiplié par $2$ au lieu d’élever au carré : $2000 \cdot 1{,}05 \cdot 2$. Deux années, c’est deux multiplications par $1{,}05$ : $2000 \cdot 1{,}05^{2}$.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="gen-rang-terme" data-type="qcm" data-section="sec-suite" data-obj="C1" data-niveau="1" data-id="5UAA2.q.gen-rang-terme" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+La suite $(u_{n}) = (4 ; 9 ; 14 ; 19 ; \ldots)$ est numérotée à partir de $0$. Que vaut $u_{2}$ ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$14$
+:::
+
+::: {.ae-fb}
+Oui : $u_{0} = 4$, $u_{1} = 9$, $u_{2} = 14$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$9$
+:::
+
+::: {.ae-fb}
+$9$ est le **deuxième** nombre de la liste, mais son rang est $1$ : la numérotation commence à $0$. Revois la [remarque sur le rang et le terme](ch1-generalites-sur-les/2-quest-ce-quune-suite-numerique.qmd#remarque-1-1).
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$2$
+:::
+
+::: {.ae-fb}
+$2$ est le rang, pas le terme. On demande la **valeur** qui occupe le rang $2$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$8$
+:::
+
+::: {.ae-fb}
+Tu as calculé $4 \cdot 2$. Il suffit ici de lire la liste : le terme de rang $2$ est le troisième nombre.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="gen-rang-du-terme" data-type="qcm" data-section="sec-suite" data-obj="C1" data-niveau="1" data-id="5UAA2.q.gen-rang-du-terme" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+La suite $(v_{n}) = (3 ; 6 ; 12 ; 24 ; 48 ; \ldots)$ est numérotée à partir de $1$. Que vaut $v_{3}$ ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$12$
+:::
+
+::: {.ae-fb}
+Oui : $v_{1} = 3$, $v_{2} = 6$, $v_{3} = 12$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$24$
+:::
+
+::: {.ae-fb}
+Tu as numéroté à partir de $0$ ; ici la suite commence à $v_{1}$, le premier nombre de la liste.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$9$
+:::
+
+::: {.ae-fb}
+Tu as calculé $3 \cdot 3$ (rang fois premier terme) : on ne calcule rien, on lit le terme qui occupe le rang $3$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$3$
+:::
+
+::: {.ae-fb}
+$3$ est le rang demandé (et aussi le premier terme $v_{1}$) ; on demande la **valeur** du terme de rang $3$.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="gen-successeur" data-type="qcm" data-section="sec-suite" data-obj="C1" data-niveau="1" data-id="5UAA2.q.gen-successeur" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Comment note-t-on le successeur du terme $u_{n-1}$ ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$u_{n}$
+:::
+
+::: {.ae-fb}
+Oui : le successeur a le rang suivant, $n - 1 + 1 = n$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$u_{n+1}$
+:::
+
+::: {.ae-fb}
+$u_{n+1}$ est le successeur de $u_{n}$. Celui de $u_{n-1}$ a le rang $n - 1 + 1 = n$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$u_{n-1} + 1$
+:::
+
+::: {.ae-fb}
+$u_{n-1} + 1$ est le **terme** $u_{n-1}$ augmenté de $1$, pas le terme suivant. C’est l’**indice** qui augmente de $1$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$u_{n-2}$
+:::
+
+::: {.ae-fb}
+$u_{n-2}$ est le prédécesseur de $u_{n-1}$ : on a reculé au lieu d’avancer.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="gen-vocabulaire-traduire" data-type="ouverte" data-section="sec-suite" data-obj="C1" data-niveau="2" data-id="5UAA2.q.gen-vocabulaire-traduire" data-tags="" data-forme="courte"}
+::: {.ae-enonce}
+Traduis en français l’égalité $u_{n+1} = u_{n} + 3$, en utilisant les mots « terme », « successeur » et « rang ».
+:::
+
+::: {.ae-rep}
+Pour tout rang $n$, le successeur du terme $u_{n}$ s’obtient en ajoutant $3$ à ce terme : chaque terme vaut le précédent augmenté de $3$.
+:::
+
+::: {.ae-crit}
+J’ai dit que $u_{n+1}$ est le successeur de $u_{n}$ (le terme de rang suivant).
+:::
+
+::: {.ae-crit}
+J’ai dit qu’on ajoute $3$ au **terme**, pas au rang.
+:::
+:::
+
+::: {.ae-q data-ae-id="gen-repere-points" data-type="qcm" data-section="sec-representer" data-obj="A1" data-niveau="1" data-id="5UAA2.q.gen-repere-points" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+On représente la suite $u_{n} = 5 - 2n$ (à partir de $n = 0$) dans un repère. Quel point y figure ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$(2 ; 1)$
+:::
+
+::: {.ae-fb}
+Oui : $u_{2} = 5 - 4 = 1$, d’où le point $(2 ; u_{2}) = (2 ; 1)$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$(1 ; 2)$
+:::
+
+::: {.ae-fb}
+Tu as inversé les coordonnées : le rang $n$ est en abscisse, le terme $u_{n}$ en ordonnée. Ici $u_{2} = 1$ donne $(2 ; 1)$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$(0 ; 0)$
+:::
+
+::: {.ae-fb}
+$u_{0} = 5 - 0 = 5$ : le premier point est $(0 ; 5)$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$(3 ; 11)$
+:::
+
+::: {.ae-fb}
+Erreur de signe : tu as calculé $5 + 2 \cdot 3$. Ici $u_{3} = 5 - 6 = -1$, d’où le point $(3 ; -1)$.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="gen-relier-points" data-type="qcm" data-section="sec-representer" data-obj="A1" data-niveau="1" data-id="5UAA2.q.gen-relier-points" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Pourquoi ne relie-t-on pas les points de la représentation d’une suite dans un repère ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+Parce qu’une suite n’est définie que pour des rangs entiers.
+:::
+
+::: {.ae-fb}
+Oui : entre $n = 1$ et $n = 2$, il n’y a aucun terme. Les points sont isolés.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+Parce que les points ne sont jamais alignés.
+:::
+
+::: {.ae-fb}
+Les points d’une suite arithmétique sont alignés, et on ne les relie pas non plus. La raison est ailleurs : il n’y a pas de terme entre deux rangs entiers.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+Pour que le graphique soit plus lisible.
+:::
+
+::: {.ae-fb}
+Ce n’est pas une question de lisibilité : un trait ferait croire qu’il existe des termes de rang $1{,}5$, $1{,}7$…
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+On peut les relier si la suite est croissante.
+:::
+
+::: {.ae-fb}
+Même croissante, une suite n’a pas de terme entre deux rangs entiers : on ne relie jamais les points.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="gen-droite-graduee" data-type="ouverte" data-section="sec-representer" data-obj="A1" data-niveau="2" data-id="5UAA2.q.gen-droite-graduee" data-tags="" data-forme="longue"}
+::: {.ae-enonce}
+Représente les termes $u_{0}$ à $u_{4}$ de la suite $u_{n} = \frac{1}{n + 1}$ sur une droite graduée de $0$ à $1$. Que montre ce dessin ?
+:::
+
+::: {.ae-rep}
+$u_{0} = 1$, $u_{1} = \frac{1}{2}$, $u_{2} = \frac{1}{3}$, $u_{3} = \frac{1}{4}$, $u_{4} = \frac{1}{5}$.
+
+```{=html}
+<div class="ia" data-ia="droite" data-cfg='{"min": 0.0, "max": 1.0, "pas": 0.25, "valeurs": [[1.0, ["u", "0"]], [0.5, ["u", "1"]], [0.333, ["u", "2"]], [0.25, ["u", "3"]], [0.2, ["u", "4"]]]}'></div>
+```
+
+Les termes se resserrent de plus en plus près de $0$ : ils semblent s’y accumuler.
+:::
+
+::: {.ae-crit}
+J’ai calculé correctement les cinq termes.
+:::
+
+::: {.ae-crit}
+J’ai placé des valeurs sur une seule droite, chacune avec son nom.
+:::
+
+::: {.ae-crit}
+J’ai remarqué que les termes s’accumulent vers $0$.
+:::
+:::
+
+::: {.ae-q data-ae-id="gen-explicite-calcul" data-type="qcm" data-section="sec-generer" data-obj="A3" data-niveau="1" data-id="5UAA2.q.gen-explicite-calcul" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Soit $u_{n} = n^{2} - 3n$. Que vaut $u_{5}$ ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$10$
+:::
+
+::: {.ae-fb}
+Oui : $u_{5} = 25 - 15 = 10$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$-5$
+:::
+
+::: {.ae-fb}
+Tu as calculé $5 \cdot 2 - 15$ : $n^{2}$, c’est $5 \cdot 5 = 25$, pas $5 \cdot 2$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$4$
+:::
+
+::: {.ae-fb}
+Tu as calculé $u_{4} = 16 - 12$ : on demande le terme de rang $5$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$40$
+:::
+
+::: {.ae-fb}
+Tu as additionné : $25 + 15$. La formule soustrait $3n$.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="gen-recurrence-calcul" data-type="qcm" data-section="sec-generer" data-obj="A3" data-niveau="1" data-id="5UAA2.q.gen-recurrence-calcul" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Soit la suite définie par $u_{0} = 2$ et $u_{n+1} = 3 u_{n} - 1$. Que vaut $u_{2}$ ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$14$
+:::
+
+::: {.ae-fb}
+Oui : $u_{1} = 3 \cdot 2 - 1 = 5$, puis $u_{2} = 3 \cdot 5 - 1 = 14$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$5$
+:::
+
+::: {.ae-fb}
+$5$, c’est $u_{1}$. Il faut encore une étape pour $u_{2}$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$17$
+:::
+
+::: {.ae-fb}
+Tu as oublié le $-1$ à la première étape ($u_{1} = 6$). Chaque étape applique toute la relation : $u_{1} = 3 \cdot 2 - 1 = 5$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$15$
+:::
+
+::: {.ae-fb}
+Tu as oublié le $-1$ à la deuxième étape : $u_{2} = 3 \cdot 5 - 1 = 14$.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="gen-explicite-ou-recurrence" data-type="qcm" data-section="sec-generer" data-obj="C1" data-niveau="1" data-id="5UAA2.q.gen-explicite-ou-recurrence" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Laquelle de ces écritures est une relation de récurrence ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$u_{n+1} = \frac{u_{n}}{2}$ et $u_{0} = 64$
+:::
+
+::: {.ae-fb}
+Oui : chaque terme est exprimé à partir du précédent, et le premier terme est donné.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$u_{n} = \frac{64}{2^{n}}$
+:::
+
+::: {.ae-fb}
+C’est une formule explicite : $u_{n}$ se calcule directement à partir du rang $n$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$u_{n+1} = \frac{u_{n}}{2}$
+:::
+
+::: {.ae-fb}
+Il manque le premier terme : sans lui, la relation décrit une infinité de suites.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$u_{n} = \frac{n}{2}$
+:::
+
+::: {.ae-fb}
+C’est une formule explicite (elle ne fait pas intervenir le terme précédent).
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="gen-deux-ecritures" data-type="ouverte" data-section="sec-generer" data-obj="C4" data-niveau="2" data-id="5UAA2.q.gen-deux-ecritures" data-tags="" data-forme="courte"}
+::: {.ae-enonce}
+Donne une formule explicite et une relation de récurrence pour la suite $(10 ; 7 ; 4 ; 1 ; \ldots)$, numérotée à partir de $0$.
+:::
+
+::: {.ae-rep}
+On retire $3$ à chaque rang : $u_{n+1} = u_{n} - 3$ avec $u_{0} = 10$, et $u_{n} = 10 - 3n$ (vérification : $u_{3} = 1$ ✓).
+:::
+
+::: {.ae-crit}
+Ma récurrence contient le premier terme $u_{0} = 10$.
+:::
+
+::: {.ae-crit}
+Ma formule explicite donne les bons premiers termes.
+:::
+:::
+
+::: {.ae-q data-ae-id="gen-variation-definition" data-type="qcm" data-section="sec-variations" data-obj="C3" data-niveau="1" data-id="5UAA2.q.gen-variation-definition" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Une suite $(u_{n})$ vérifie $u_{n+1} < u_{n}$ pour tout $n$. Elle est :
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+strictement décroissante
+:::
+
+::: {.ae-fb}
+Oui : chaque terme est strictement plus petit que le précédent.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+strictement croissante
+:::
+
+::: {.ae-fb}
+Lis bien l’inégalité : le terme **suivant** $u_{n+1}$ est plus petit. La suite descend.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+décroissante, mais pas strictement
+:::
+
+::: {.ae-fb}
+L’inégalité est stricte ($<$) : les termes ne sont jamais égaux, la décroissance est stricte.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+quelconque
+:::
+
+::: {.ae-fb}
+« Quelconque » veut dire ni croissante, ni décroissante, ni constante. Ici, chaque terme est plus petit que le précédent : la suite a une variation bien précise.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="gen-variation-quelconque" data-type="qcm" data-section="sec-variations" data-obj="C3" data-niveau="2" data-id="5UAA2.q.gen-variation-quelconque" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Quelle est la variation de la suite $u_{n} = (-2)^{n}$ ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+quelconque
+:::
+
+::: {.ae-fb}
+Oui : $1$ ; $-2$ ; $4$ ; $-8$… les termes montent et descendent alternativement.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+strictement décroissante
+:::
+
+::: {.ae-fb}
+$u_{1} = -2 < u_{0} = 1$, mais $u_{2} = 4 > u_{1}$ : il faut comparer **chaque** terme à son successeur.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+strictement croissante
+:::
+
+::: {.ae-fb}
+$u_{2} = 4 > u_{0} = 1$, mais $u_{1} = -2$ est plus petit que $u_{0}$. Compare des termes **consécutifs**.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+constante
+:::
+
+::: {.ae-fb}
+Les termes changent à chaque rang : $1$ ; $-2$ ; $4$ ; $-8$.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="gen-limite-tableau" data-type="qcm" data-section="sec-limite" data-obj="C6" data-niveau="1" data-id="5UAA2.q.gen-limite-tableau" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Voici quelques termes d’une suite. Quelle limite peut-on conjecturer ?
+
+::: {.tableau}
+| $n$ | $1$ | $10$ | $100$ | $1000$ | $10000$ |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| $a_{n}$ | $3{,}5$ | $3{,}05$ | $3{,}005$ | $3{,}0005$ | $3{,}00005$ |
+:::
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$3$
+:::
+
+::: {.ae-fb}
+Oui : l’écart avec $3$ est divisé par $10$ chaque fois que $n$ est multiplié par $10$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$3{,}00005$
+:::
+
+::: {.ae-fb}
+C’est le dernier terme du tableau, pas la limite : les termes suivants s’approchent encore plus de $3$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$0$
+:::
+
+::: {.ae-fb}
+C’est l’**écart** avec $3$ qui se rapproche de $0$, pas les termes eux-mêmes.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$+\infty$
+:::
+
+::: {.ae-fb}
+Les termes diminuent et restent au-dessus de $3$ : ils ne deviennent pas grands.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="gen-limite-graphique" data-type="qcm" data-section="sec-limite" data-obj="C6" data-niveau="1" data-id="5UAA2.q.gen-limite-graphique" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Voici la représentation d’une suite $(u_{n})$. Quelle limite peut-on conjecturer ?
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, -2.0], [1.0, 0.0], [2.0, 1.0], [3.0, 1.5], [4.0, 1.75], [5.0, 1.875], [6.0, 1.94], [7.0, 1.97]], "nmax": 8, "ymin": -3.0, "ymax": 3.0, "fixe": true, "ypas": 1.0, "n0": 0, "largeur": 520, "hauteur": 334}'></div>
+```
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$2$
+:::
+
+::: {.ae-fb}
+Oui : les points montent de moins en moins et s’approchent de la hauteur $2$ sans la dépasser.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$+\infty$
+:::
+
+::: {.ae-fb}
+La suite est croissante, mais elle ne devient pas aussi grande qu’on veut : elle s’aplatit sous la hauteur $2$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$-2$
+:::
+
+::: {.ae-fb}
+$-2$ est le premier terme $u_{0}$. La limite décrit ce qui se passe quand $n$ devient très grand.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$8$
+:::
+
+::: {.ae-fb}
+Tu as lu sur l’axe horizontal : la limite est une **valeur** des termes (lue sur l’axe vertical), pas un rang.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="gen-limite-sens" data-type="qcm" data-section="sec-limite" data-obj="C6" data-niveau="2" data-id="5UAA2.q.gen-limite-sens" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Que signifie l’écriture $\lim\limits_{n \to +\infty} u_{n} = 5$ ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+Les termes $u_{n}$ se rapprochent autant qu’on veut de $5$ quand le rang $n$ est suffisamment grand.
+:::
+
+::: {.ae-fb}
+Oui, c’est la [définition](ch1-generalites-sur-les/6-limite-dune-suite.qmd#definition-1-5) : aussi petite que soit la marge choisie autour de $5$, tous les termes y sont à partir d’un certain rang.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+Le terme $u_{5}$ est très grand.
+:::
+
+::: {.ae-fb}
+Le $5$ n’est pas un rang : c’est la valeur dont les termes se rapprochent.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+Un des termes de la suite vaut $5$.
+:::
+
+::: {.ae-fb}
+Ce n’est pas nécessaire : les termes de $u_{n} = 5 - \frac{1}{n}$ ne valent jamais $5$, et pourtant la limite vaut $5$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+Les termes sont tous plus petits que $5$.
+:::
+
+::: {.ae-fb}
+Pas forcément : $u_{n} = 5 + \frac{1}{n}$ a aussi pour limite $5$, avec des termes plus grands que $5$. La limite parle de rapprochement, pas de position.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="gen-limite-observer" data-type="qcm" data-section="sec-limite" data-obj="C6" data-niveau="2" data-id="5UAA2.q.gen-limite-observer" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Un élève calcule $u_{1000} \approx 0{,}001$ et affirme : « J’ai démontré que la limite vaut $0$. » Qu’en penses-tu ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+Il a seulement conjecturé la limite : un nombre fini de termes ne démontre rien.
+:::
+
+::: {.ae-fb}
+Oui : un tableau ou un graphique permet de **conjecturer** une limite, pas de l’établir avec certitude (encadré « Observer ≠ démontrer »).
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+Il a raison, $u_{1000}$ est très proche de $0$.
+:::
+
+::: {.ae-fb}
+Un seul terme ne dit rien de tous les suivants : la suite pourrait ensuite s’éloigner de $0$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+Il a raison s’il a aussi calculé $u_{10000}$.
+:::
+
+::: {.ae-fb}
+Même avec beaucoup de termes, on n’en observe qu’un nombre fini : on conjecture.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+Il a tort : la limite vaut forcément $0{,}001$.
+:::
+
+::: {.ae-fb}
+$0{,}001$ est la valeur d’**un** terme, pas la limite.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="gen-limite-rang-bande" data-type="ouverte" data-section="sec-limite" data-obj="C6" data-niveau="3" data-id="5UAA2.q.gen-limite-rang-bande" data-tags="" data-forme="longue"}
+::: {.ae-enonce}
+On considère $v_{n} = \frac{n}{n + 1}$, de limite $1$. À partir de quel rang tous les termes sont-ils à moins de $0{,}05$ de $1$ ? Justifie.
+:::
+
+::: {.ae-rep}
+L’écart vaut $1 - v_{n} = \frac{1}{n + 1}$. Il est inférieur à $0{,}05 = \frac{1}{20}$ lorsque $n + 1 > 20$, c’est-à-dire $n > 19$. À partir du rang $20$, tous les termes sont à moins de $0{,}05$ de $1$ (et $v_{19} = \frac{19}{20}$ est exactement à $0{,}05$).
+:::
+
+::: {.ae-crit}
+J’ai exprimé l’écart $1 - v_{n}$ en fonction de $n$.
+:::
+
+::: {.ae-crit}
+J’ai trouvé le rang $20$.
+:::
+
+::: {.ae-crit}
+J’ai expliqué pourquoi les termes suivants restent aussi dans la marge (l’écart diminue quand $n$ augmente).
+:::
+:::
+
+::: {.ae-q data-ae-id="ari-pyramide-somme" data-type="qcm" data-section="sec-pyramide" data-obj="A4" data-niveau="2" data-id="5UAA2.q.ari-pyramide-somme" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Avec l’astuce de Gauss, calcule $3 + 7 + 11 + \ldots + 39$ (termes d’une suite arithmétique de raison $4$).
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$210$
+:::
+
+::: {.ae-fb}
+Oui : il y a $10$ termes ($39 = 3 + 9 \cdot 4$) ; $\frac{10}{2} (3 + 39) = 5 \cdot 42 = 210$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$189$
+:::
+
+::: {.ae-fb}
+Tu as compté $9$ termes : de $u_{0} = 3$ à $u_{9} = 39$, il y en a $10$. $\frac{9}{2} \cdot 42 = 189$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$420$
+:::
+
+::: {.ae-fb}
+Tu as oublié de diviser par $2$ : chaque paire (premier + dernier) vaut $42$, et il y a $\frac{10}{2} = 5$ paires.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$42$
+:::
+
+::: {.ae-fb}
+$42$, c’est la somme d’**une** paire (le premier et le dernier terme). Combien y a-t-il de paires ?
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="ari-reconnaitre" data-type="qcm" data-section="sec-arith-definition" data-obj="C2" data-niveau="1" data-id="5UAA2.q.ari-reconnaitre" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Laquelle de ces suites est arithmétique ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$(12 ; 9{,}5 ; 7 ; 4{,}5 ; \ldots)$
+:::
+
+::: {.ae-fb}
+Oui : on retire toujours $2{,}5$ ; la raison est $-2{,}5$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$(1 ; 4 ; 9 ; 16 ; \ldots)$
+:::
+
+::: {.ae-fb}
+Les différences valent $3$, $5$, $7$ : elles ne sont pas constantes (ce sont les carrés).
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$(2 ; 6 ; 18 ; 54 ; \ldots)$
+:::
+
+::: {.ae-fb}
+On multiplie par $3$ : le **rapport** est constant, pas la différence. Elle est géométrique.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$(1 ; -1 ; 1 ; -1 ; \ldots)$
+:::
+
+::: {.ae-fb}
+Les différences valent $-2$ puis $2$ : elles changent de signe.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="ari-raison-signe" data-type="qcm" data-section="sec-arith-definition" data-obj="C3" data-niveau="1" data-id="5UAA2.q.ari-raison-signe" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Quelle est la raison de la suite arithmétique $(20 ; 14 ; 8 ; 2 ; \ldots)$ ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$-6$
+:::
+
+::: {.ae-fb}
+Oui : $u_{1} - u_{0} = 14 - 20 = -6$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$6$
+:::
+
+::: {.ae-fb}
+La suite descend : on **retire** $6$. La raison est $u_{1} - u_{0} = -6$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$20$
+:::
+
+::: {.ae-fb}
+$20$ est le premier terme, pas la raison.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$\frac{7}{10}$
+:::
+
+::: {.ae-fb}
+Tu as calculé un rapport ($\frac{14}{20}$) : pour une suite arithmétique, la raison est une **différence**.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="ari-justifier" data-type="ouverte" data-section="sec-arith-definition" data-obj="A2" data-niveau="2" data-id="5UAA2.q.ari-justifier" data-tags="" data-forme="longue"}
+::: {.ae-enonce}
+Soit la suite $u_{n} = 7 - 4n$. Montre qu’elle est arithmétique et donne sa raison.
+:::
+
+::: {.ae-rep}
+Pour tout $n$ : $u_{n+1} - u_{n} = (7 - 4(n + 1)) - (7 - 4n) = 7 - 4n - 4 - 7 + 4n = -4$. La différence entre deux termes consécutifs est constante : la suite est arithmétique, de raison $r = -4$.
+:::
+
+::: {.ae-crit}
+J’ai calculé $u_{n+1} - u_{n}$ pour un $n$ quelconque (pas seulement sur des exemples).
+:::
+
+::: {.ae-crit}
+J’ai remplacé correctement $n$ par $n + 1$, avec les parenthèses.
+:::
+
+::: {.ae-crit}
+J’ai conclu en citant la définition : différence constante, raison $-4$.
+:::
+:::
+
+::: {.ae-q data-ae-id="ari-justifier-exemples" data-type="qcm" data-section="sec-arith-definition" data-obj="A2" data-niveau="2" data-id="5UAA2.q.ari-justifier-exemples" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Pour prouver qu’une suite donnée par une formule explicite est arithmétique, que faut-il montrer ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+Que $u_{n+1} - u_{n}$ est le même nombre pour tout $n$.
+:::
+
+::: {.ae-fb}
+Oui : c’est la [définition](ch2-suites-arithmetiques/2-definition.qmd#definition-2-1), vérifiée pour un rang quelconque.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+Que $u_{1} - u_{0}$ et $u_{2} - u_{1}$ sont égaux.
+:::
+
+::: {.ae-fb}
+Deux différences égales ne suffisent pas : $u_{n} = n^{3} - 3n^{2} + 3n$ donne $1$ et $1$, puis $7$. Il faut un calcul valable pour tout $n$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+Que les termes augmentent.
+:::
+
+::: {.ae-fb}
+Une suite peut augmenter sans être arithmétique ($2$ ; $4$ ; $8$ ; …), et une suite arithmétique peut diminuer.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+Que $\frac{u_{n+1}}{u_{n}}$ est constant.
+:::
+
+::: {.ae-fb}
+C’est la définition d’une suite **géométrique**. Pour une arithmétique, on regarde la **différence**.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="ari-variation" data-type="qcm" data-section="sec-arith-representation" data-obj="C3" data-niveau="1" data-id="5UAA2.q.ari-variation" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Une suite arithmétique a pour premier terme $u_{0} = -8$ et pour raison $r = 3$. Elle est :
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+strictement croissante
+:::
+
+::: {.ae-fb}
+Oui : la raison est positive, on ajoute $3$ à chaque rang ([propriété](ch2-suites-arithmetiques/3-representation-et-variation.qmd#propriete-2-1)).
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+strictement décroissante
+:::
+
+::: {.ae-fb}
+Le signe du **premier terme** ne décide pas de la variation : c’est celui de la raison. $r = 3 > 0$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+croissante puis décroissante
+:::
+
+::: {.ae-fb}
+Une suite arithmétique varie toujours dans le même sens : on ajoute toujours le même nombre.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+constante
+:::
+
+::: {.ae-fb}
+Elle serait constante si $r = 0$.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="ari-graphique-raison" data-type="qcm" data-section="sec-arith-representation" data-obj="C3" data-niveau="1" data-id="5UAA2.q.ari-graphique-raison" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Ces points représentent une suite arithmétique. Quels sont son premier terme et sa raison ?
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 7.0], [1.0, 5.0], [2.0, 3.0], [3.0, 1.0], [4.0, -1.0]], "nmax": 5, "ymin": -2.0, "ymax": 8.0, "fixe": true, "ypas": 2.0, "n0": 0, "largeur": 520, "hauteur": 334}'></div>
+```
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$u_{0} = 7$ et $r = -2$
+:::
+
+::: {.ae-fb}
+Oui : le premier point est à la hauteur $7$ et l’on descend de $2$ à chaque rang.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$u_{0} = 7$ et $r = 2$
+:::
+
+::: {.ae-fb}
+Les points descendent : la raison est négative.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$u_{0} = -1$ et $r = 2$
+:::
+
+::: {.ae-fb}
+Tu as lu la suite de droite à gauche. Le premier terme est celui de rang $0$, sur l’axe vertical.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$u_{0} = 0$ et $r = 7$
+:::
+
+::: {.ae-fb}
+$0$ est le **rang** du premier point ; sa hauteur, $7$, est le premier terme.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="ari-formule-explicite" data-type="qcm" data-section="sec-arith-generer" data-obj="C4" data-niveau="1" data-id="5UAA2.q.ari-formule-explicite" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Une suite arithmétique a pour premier terme $u_{0} = 5$ et pour raison $r = -3$. Quel est son terme général ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$u_{n} = 5 - 3n$
+:::
+
+::: {.ae-fb}
+Oui : $u_{n} = u_{0} + n r = 5 + n \cdot (-3)$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$u_{n} = -3 + 5n$
+:::
+
+::: {.ae-fb}
+Tu as inversé premier terme et raison : $u_{0} = -3$ ici, au lieu de $5$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$u_{n} = 5 \cdot (-3)^{n}$
+:::
+
+::: {.ae-fb}
+C’est la formule d’une suite **géométrique**. Une suite arithmétique ajoute la raison : $u_{n} = u_{0} + n r$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$u_{n} = 5 - 3(n - 1)$
+:::
+
+::: {.ae-fb}
+Cette formule convient si la suite commence à $u_{1} = 5$. Ici le premier terme est $u_{0}$.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="ari-terme-a-partir-autre" data-type="qcm" data-section="sec-arith-generer" data-obj="A3" data-niveau="2" data-id="5UAA2.q.ari-terme-a-partir-autre" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Une suite arithmétique a pour raison $r = 4$ et vérifie $u_{30} = 50$. Que vaut $u_{12}$ ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$-22$
+:::
+
+::: {.ae-fb}
+Oui : $u_{12} = u_{30} + (12 - 30) \cdot 4 = 50 - 72 = -22$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$122$
+:::
+
+::: {.ae-fb}
+Tu as avancé au lieu de reculer : de $u_{30}$ à $u_{12}$, on recule de $18$ rangs, donc on **retire** $18$ fois la raison.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$98$
+:::
+
+::: {.ae-fb}
+Tu as calculé $50 + 12 \cdot 4$ : le nombre de rangs est l’écart $12 - 30 = -18$, pas $12$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$20$
+:::
+
+::: {.ae-fb}
+Tu as calculé $50 \cdot \frac{12}{30}$, comme pour une proportion. Une suite arithmétique n’est pas proportionnelle : $u_{n} = u_{p} + (n - p) r$.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="ari-raison-deux-termes" data-type="ouverte" data-section="sec-arith-generer" data-obj="A3" data-niveau="2" data-id="5UAA2.q.ari-raison-deux-termes" data-tags="" data-forme="courte"}
+::: {.ae-enonce}
+Une suite arithmétique vérifie $u_{4} = 11$ et $u_{10} = 32$. Calcule sa raison et son premier terme $u_{0}$.
+:::
+
+::: {.ae-rep}
+$r = \frac{32 - 11}{10 - 4} = \frac{21}{6} = 3{,}5$ ; puis $u_{0} = u_{4} - 4 r = 11 - 14 = -3$.
+:::
+
+::: {.ae-crit}
+J’ai divisé la différence des termes par la différence des rangs.
+:::
+
+::: {.ae-crit}
+J’ai trouvé $r = 3{,}5$ et $u_{0} = -3$.
+:::
+:::
+
+::: {.ae-q data-ae-id="ari-limite" data-type="qcm" data-section="sec-arith-limite" data-obj="C6" data-niveau="1" data-id="5UAA2.q.ari-limite" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Quelle est la limite de la suite arithmétique $u_{n} = 100 - 0{,}1 n$ ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$-\infty$
+:::
+
+::: {.ae-fb}
+Oui : la raison $-0{,}1$ est négative ; même petite, on la retire indéfiniment ([propriété](ch2-suites-arithmetiques/5-caracteristiques-variation-limite.qmd#propriete-2-5)).
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$100$
+:::
+
+::: {.ae-fb}
+$100$ est le premier terme. La suite continue de descendre : $u_{10000} = -900$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$0$
+:::
+
+::: {.ae-fb}
+La raison est petite, mais c’est une **différence** constante : les termes passent sous $0$ et continuent (ex. $u_{2000} = -100$).
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$-0{,}1$
+:::
+
+::: {.ae-fb}
+C’est la raison, pas la limite.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="ari-exemple-contraintes" data-type="ouverte" data-section="sec-arith-limite" data-obj="C5" data-niveau="2" data-id="5UAA2.q.ari-exemple-contraintes" data-tags="" data-forme="courte"}
+::: {.ae-enonce}
+Donne un exemple de suite arithmétique strictement décroissante dont le premier terme est $u_{0} = 3$. Précise sa raison, sa formule explicite et sa limite.
+:::
+
+::: {.ae-rep}
+Par exemple $r = -2$ : $u_{n} = 3 - 2n$, de limite $-\infty$ (toute raison négative convient).
+:::
+
+::: {.ae-crit}
+Ma raison est strictement négative et mon premier terme vaut $3$.
+:::
+
+::: {.ae-crit}
+Ma formule explicite est de la forme $u_{n} = 3 + n r$.
+:::
+
+::: {.ae-crit}
+J’ai donné la limite $-\infty$.
+:::
+:::
+
+::: {.ae-q data-ae-id="ari-exemple-qcm" data-type="qcm" data-section="sec-arith-limite" data-obj="C5" data-niveau="2" data-id="5UAA2.q.ari-exemple-qcm" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Quelle suite arithmétique est croissante et a pour premier terme $u_{0} = -10$ ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$u_{n} = -10 + 0{,}5 n$
+:::
+
+::: {.ae-fb}
+Oui : $u_{0} = -10$ et la raison $0{,}5$ est positive.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$u_{n} = 10 - 0{,}5 n$
+:::
+
+::: {.ae-fb}
+Premier terme $10$ et raison négative : les deux contraintes sont fausses.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$u_{n} = -10 - 0{,}5 n$
+:::
+
+::: {.ae-fb}
+Le premier terme convient, mais la raison $-0{,}5$ est négative : la suite décroît.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$u_{n} = -10 \cdot 1{,}5^{n}$
+:::
+
+::: {.ae-fb}
+Ce n’est pas une suite arithmétique (on multiplie par $1{,}5$), et elle est décroissante (termes négatifs de plus en plus grands en valeur absolue).
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="ari-somme-formule" data-type="qcm" data-section="sec-arith-somme" data-obj="A4" data-niveau="1" data-id="5UAA2.q.ari-somme-formule" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Une suite arithmétique a $u_{0} = 2$ et $r = 5$. Que vaut $S_{10} = u_{0} + u_{1} + \ldots + u_{9}$ ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$245$
+:::
+
+::: {.ae-fb}
+Oui : $u_{9} = 2 + 45 = 47$ et $S_{10} = \frac{10}{2} (2 + 47) = 5 \cdot 49 = 245$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$260$
+:::
+
+::: {.ae-fb}
+Tu as pris $u_{10} = 52$ comme dernier terme : les $10$ premiers termes vont de $u_{0}$ à $u_{9}$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$490$
+:::
+
+::: {.ae-fb}
+Tu as oublié de diviser par $2$ : $S_{n} = \frac{n}{2} (u_{0} + u_{n-1})$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$49$
+:::
+
+::: {.ae-fb}
+$49$ est la somme du premier et du dernier terme. Il y a $5$ paires de cette valeur.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="ari-olympiades" data-type="ouverte" data-section="sec-arith-generer" data-obj="A3 T1" data-niveau="2" data-id="5UAA2.q.ari-olympiades" data-tags="" data-forme="longue"}
+::: {.ae-enonce}
+Les olympiades se succèdent tous les $4$ ans ; la Ire a commencé en $1896$ (Jeux d’Athènes). On les compte même quand les Jeux n’ont pas eu lieu (guerres). En quelle année commence la XXXIIIe olympiade ? Et la XXXVe ?
+:::
+
+::: {.ae-rep}
+L’année de la $k$^e^ olympiade forme une suite arithmétique de raison $4$ : $a_{k} = 1896 + 4 (k - 1)$. XXXIIIe : $a_{33} = 1896 + 4 \cdot 32 = 2024$ (Jeux de Paris). XXXVe : $a_{35} = 1896 + 4 \cdot 34 = 2032$ (Jeux de Brisbane).
+:::
+
+::: {.ae-crit}
+J’ai reconnu une suite arithmétique de raison $4$.
+:::
+
+::: {.ae-crit}
+J’ai tenu compte du fait que la numérotation commence à $1$ (on ajoute $k - 1$ fois la raison).
+:::
+
+::: {.ae-crit}
+J’ai trouvé $2024$ et $2032$.
+:::
+:::
+
+::: {.ae-q data-ae-id="ari-somme-rangs" data-type="ouverte" data-section="sec-arith-somme" data-obj="A4" data-niveau="2" data-id="5UAA2.q.ari-somme-rangs" data-tags="" data-forme="longue"}
+::: {.ae-enonce}
+Calcule la somme $5 + 9 + 13 + \ldots + 101$ des termes consécutifs d’une suite arithmétique.
+:::
+
+::: {.ae-rep}
+Raison $4$, $u_{0} = 5$ ; $5 + 4n = 101$ donne $n = 24$ : il y a $25$ termes. Somme : $\frac{25}{2} (5 + 101) = 25 \cdot 53 = 1325$.
+:::
+
+::: {.ae-crit}
+J’ai trouvé le rang du dernier terme ($24$) et donc le nombre de termes ($25$).
+:::
+
+::: {.ae-crit}
+J’ai appliqué : nombre de termes divisé par $2$, fois (premier terme + dernier terme).
+:::
+
+::: {.ae-crit}
+J’ai trouvé $1325$.
+:::
+:::
+
+::: {.ae-q data-ae-id="ari-demontrer-somme" data-type="ouverte" data-section="sec-arith-somme" data-obj="C7" data-niveau="3" data-id="5UAA2.q.ari-demontrer-somme" data-tags="" data-forme="longue"}
+::: {.ae-enonce}
+Démontre que la somme des $n$ premiers termes d’une suite arithmétique vaut $S_{n} = \frac{n}{2} (u_{0} + u_{n-1})$.
+:::
+
+::: {.ae-rep}
+On écrit la somme dans les deux sens :
+
+$$
+S_{n} = u_{0} + u_{1} + \ldots + u_{n-1},  \\ S_{n} = u_{n-1} + u_{n-2} + \ldots + u_{0}.
+$$
+
+Dans une colonne, les rangs sont $k$ et $n - 1 - k$ : $u_{k} + u_{n-1-k} = (u_{0} + k r) + (u_{n-1} - k r) = u_{0} + u_{n-1}$. Les $n$ colonnes ont donc la même somme ; en additionnant les deux lignes, $2 S_{n} = n (u_{0} + u_{n-1})$, d’où la formule.
+:::
+
+::: {.ae-crit}
+J’ai écrit la somme dans l’ordre et à l’envers.
+:::
+
+::: {.ae-crit}
+J’ai justifié que chaque colonne vaut $u_{0} + u_{n-1}$, en utilisant la raison.
+:::
+
+::: {.ae-crit}
+J’ai compté $n$ colonnes et divisé par $2$ à la fin.
+:::
+:::
+
+::: {.ae-q data-ae-id="ari-demonstration-etape" data-type="qcm" data-section="sec-arith-somme" data-obj="C7" data-niveau="2" data-id="5UAA2.q.ari-demonstration-etape" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Dans la démonstration de la somme arithmétique, pourquoi $u_{1} + u_{n-2} = u_{0} + u_{n-1}$ ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+Parce que $u_{1} = u_{0} + r$ et $u_{n-2} = u_{n-1} - r$.
+:::
+
+::: {.ae-fb}
+Oui : on ajoute la raison d’un côté et on la retire de l’autre ; la somme ne change pas.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+Parce que $u_{1} = u_{0}$ et $u_{n-2} = u_{n-1}$.
+:::
+
+::: {.ae-fb}
+Ce serait vrai seulement si la raison était nulle.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+Parce que la somme de deux termes est toujours constante.
+:::
+
+::: {.ae-fb}
+C’est vrai pour des termes « symétriques » ($k$ et $n - 1 - k$), pas pour deux termes quelconques : $u_{1} + u_{2} \neq u_{0} + u_{n-1}$ en général.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+On le vérifie sur la pyramide.
+:::
+
+::: {.ae-fb}
+Un exemple illustre, il ne démontre pas : la propriété doit valoir pour toute suite arithmétique.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="geo-pliage" data-type="qcm" data-section="sec-pliage" data-obj="C2" data-niveau="1" data-id="5UAA2.q.geo-pliage" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Une feuille de $0{,}1$ mm d’épaisseur est pliée en deux à chaque étape. Quelle est son épaisseur après $5$ pliages ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$3{,}2$ mm
+:::
+
+::: {.ae-fb}
+Oui : l’épaisseur double à chaque pliage : $0{,}1 \cdot 2^{5} = 0{,}1 \cdot 32 = 3{,}2$ mm.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$1$ mm
+:::
+
+::: {.ae-fb}
+Tu as multiplié par $2 \cdot 5 = 10$ : on double **cinq fois de suite**, soit un facteur $2^{5} = 32$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$0{,}6$ mm
+:::
+
+::: {.ae-fb}
+Tu as ajouté $0{,}1$ mm à chaque pliage : c’est l’épaisseur qui double, on multiplie.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$1{,}6$ mm
+:::
+
+::: {.ae-fb}
+C’est l’épaisseur après $4$ pliages : il en manque un.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="geo-reconnaitre" data-type="qcm" data-section="sec-geo-definition" data-obj="C2" data-niveau="1" data-id="5UAA2.q.geo-reconnaitre" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Laquelle de ces suites est géométrique ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$(81 ; -27 ; 9 ; -3 ; \ldots)$
+:::
+
+::: {.ae-fb}
+Oui : chaque terme est le précédent multiplié par $-\frac{1}{3}$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$(2 ; 4 ; 6 ; 8 ; \ldots)$
+:::
+
+::: {.ae-fb}
+On ajoute $2$ : c’est la **différence** qui est constante. Les rapports $\frac{4}{2}$ et $\frac{6}{4}$ sont différents.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$(1 ; 2 ; 4 ; 7 ; 11 ; \ldots)$
+:::
+
+::: {.ae-fb}
+Les rapports $2$, $2$, $1{,}75$ ne sont pas égaux (on ajoute $1$, $2$, $3$, $4$).
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$(5 ; 0 ; 0 ; 0 ; \ldots)$
+:::
+
+::: {.ae-fb}
+Le rapport $\frac{0}{5} = 0$ est nul et $\frac{0}{0}$ n’a pas de sens : la définition exige un rapport constant **non nul**.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="geo-raison" data-type="qcm" data-section="sec-geo-definition" data-obj="C3" data-niveau="1" data-id="5UAA2.q.geo-raison" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Quelle est la raison de la suite géométrique $(48 ; 12 ; 3 ; 0{,}75 ; \ldots)$ ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$\frac{1}{4}$
+:::
+
+::: {.ae-fb}
+Oui : $\frac{12}{48} = \frac{1}{4}$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$4$
+:::
+
+::: {.ae-fb}
+Tu as divisé dans le mauvais sens ($\frac{48}{12}$). La raison est $\frac{u_{1}}{u_{0}}$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$-36$
+:::
+
+::: {.ae-fb}
+C’est la **différence** $12 - 48$. Pour une suite géométrique, la raison est un **rapport**.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$48$
+:::
+
+::: {.ae-fb}
+$48$ est le premier terme.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="geo-justifier" data-type="ouverte" data-section="sec-geo-definition" data-obj="A2" data-niveau="2" data-id="5UAA2.q.geo-justifier" data-tags="" data-forme="longue"}
+::: {.ae-enonce}
+Soit la suite $u_{n} = 5 \cdot 3^{n}$. Montre qu’elle est géométrique et donne sa raison.
+:::
+
+::: {.ae-rep}
+Aucun terme n’est nul et, pour tout $n$, $\frac{u_{n+1}}{u_{n}} = \frac{5 \cdot 3^{n+1}}{5 \cdot 3^{n}} = 3$. Le rapport de deux termes consécutifs est constant : la suite est géométrique de raison $q = 3$.
+:::
+
+::: {.ae-crit}
+J’ai calculé $\frac{u_{n+1}}{u_{n}}$ pour un $n$ quelconque.
+:::
+
+::: {.ae-crit}
+J’ai simplifié correctement : $\frac{3^{n+1}}{3^{n}} = 3$.
+:::
+
+::: {.ae-crit}
+J’ai conclu en citant la définition : rapport constant, raison $3$.
+:::
+:::
+
+::: {.ae-q data-ae-id="geo-variation" data-type="qcm" data-section="sec-geo-representation" data-obj="C3" data-niveau="2" data-id="5UAA2.q.geo-variation" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Une suite géométrique a pour premier terme $u_{0} = -2$ et pour raison $q = 3$. Elle est :
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+strictement décroissante
+:::
+
+::: {.ae-fb}
+Oui : $-2$ ; $-6$ ; $-18$… les termes sont négatifs et de plus en plus grands en valeur absolue : ils descendent.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+strictement croissante
+:::
+
+::: {.ae-fb}
+Avec $q > 1$, la suite « s’éloigne de $0$ » ; mais ici les termes sont négatifs : elle descend. Il faut regarder aussi le signe de $u_{0}$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+quelconque
+:::
+
+::: {.ae-fb}
+Les termes ne changent pas de signe ($q > 0$) : la variation est régulière.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+constante
+:::
+
+::: {.ae-fb}
+Elle serait constante si $q = 1$.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="geo-alignement" data-type="qcm" data-section="sec-geo-representation" data-obj="A1" data-niveau="1" data-id="5UAA2.q.geo-alignement" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Ces points représentent-ils une suite arithmétique ou une suite géométrique ?
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 1.0], [1.0, 1.5], [2.0, 2.25], [3.0, 3.375], [4.0, 5.06]], "nmax": 5, "ymin": 0.0, "ymax": 6.0, "fixe": true, "ypas": 1.0, "n0": 0, "largeur": 520, "hauteur": 334}'></div>
+```
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+Géométrique : les points ne sont pas alignés, et chaque terme est $1{,}5$ fois le précédent.
+:::
+
+::: {.ae-fb}
+Oui : $\frac{1{,}5}{1} = \frac{2{,}25}{1{,}5} = 1{,}5$ ; la courbe s’incurve.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+Arithmétique : la suite est croissante.
+:::
+
+::: {.ae-fb}
+Croissante ne veut pas dire arithmétique : les montées $0{,}5$ ; $0{,}75$ ; $1{,}125$ ne sont pas égales.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+Arithmétique : les points sont alignés.
+:::
+
+::: {.ae-fb}
+Regarde les montées d’un point au suivant : elles augmentent. Les points ne sont pas alignés.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+Ni l’une ni l’autre.
+:::
+
+::: {.ae-fb}
+Calcule les rapports $\frac{u_{1}}{u_{0}}$, $\frac{u_{2}}{u_{1}}$ : ils sont égaux.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="geo-formule-explicite" data-type="qcm" data-section="sec-geo-generer" data-obj="C4" data-niveau="1" data-id="5UAA2.q.geo-formule-explicite" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Une suite géométrique a pour premier terme $u_{0} = 3$ et pour raison $q = 2$. Quel est son terme général ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$u_{n} = 3 \cdot 2^{n}$
+:::
+
+::: {.ae-fb}
+Oui : $u_{n} = u_{0} \cdot q^{n}$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$u_{n} = 6^{n}$
+:::
+
+::: {.ae-fb}
+$3 \cdot 2^{n}$ n’est pas $(3 \cdot 2)^{n}$ : l’exposant ne porte que sur la raison. Vérifie : $u_{0} = 3$, alors que $6^{0} = 1$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$u_{n} = 3 + 2n$
+:::
+
+::: {.ae-fb}
+C’est une suite **arithmétique** (on ajoute $2$). Ici, on multiplie par $2$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$u_{n} = 2 \cdot 3^{n}$
+:::
+
+::: {.ae-fb}
+Tu as inversé premier terme et raison.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="geo-terme-a-partir-autre" data-type="qcm" data-section="sec-geo-generer" data-obj="A3" data-niveau="2" data-id="5UAA2.q.geo-terme-a-partir-autre" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Une suite géométrique a pour raison $q = 2$ et vérifie $u_{10} = 96$. Que vaut $u_{7}$ ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$12$
+:::
+
+::: {.ae-fb}
+Oui : $u_{7} = u_{10} \cdot 2^{7 - 10} = \frac{96}{8} = 12$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$768$
+:::
+
+::: {.ae-fb}
+Tu as avancé au lieu de reculer : de $u_{10}$ à $u_{7}$, on **divise** trois fois par $2$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$90$
+:::
+
+::: {.ae-fb}
+Tu as retiré $3 \cdot 2$, comme pour une suite arithmétique. Ici, on divise par $2^{3}$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$16$
+:::
+
+::: {.ae-fb}
+Tu as divisé par $2 \cdot 3 = 6$ : reculer de $3$ rangs, c’est diviser par $2^{3} = 8$.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="geo-raison-parite" data-type="ouverte" data-section="sec-geo-generer" data-obj="A3" data-niveau="3" data-id="5UAA2.q.geo-raison-parite" data-tags="" data-forme="longue"}
+::: {.ae-enonce}
+Une suite géométrique vérifie $u_{1} = 5$ et $u_{5} = 405$. Détermine toutes les raisons possibles et les premiers termes $u_{0}$ correspondants.
+:::
+
+::: {.ae-rep}
+$q^{4} = \frac{405}{5} = 81$. L’exposant $4$ est pair : $q = 3$ ou $q = -3$. Si $q = 3$ : $u_{0} = \frac{5}{3}$ ; si $q = -3$ : $u_{0} = -\frac{5}{3}$. Deux suites conviennent.
+:::
+
+::: {.ae-crit}
+J’ai calculé $q^{4} = 81$ (et non $q = \frac{81}{4}$).
+:::
+
+::: {.ae-crit}
+J’ai trouvé les deux raisons $3$ et $-3$, parce que l’exposant est pair.
+:::
+
+::: {.ae-crit}
+J’ai calculé $u_{0}$ pour chacune, en reculant d’un rang (division par $q$).
+:::
+:::
+
+::: {.ae-q data-ae-id="geo-limite-tableau" data-type="qcm" data-section="sec-geo-limite" data-obj="C6" data-niveau="1" data-id="5UAA2.q.geo-limite-tableau" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Quelle est la limite de la suite géométrique $u_{n} = 8 \cdot 0{,}9^{n}$ ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$0$
+:::
+
+::: {.ae-fb}
+Oui : $-1 < 0{,}9 < 1$ ; on multiplie sans cesse par un nombre plus petit que $1$, les termes se rapprochent de $0$ ([propriété](ch3-suites-geometriques/5-caracteristiques-variation-limite.qmd#propriete-3-5)).
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$8$
+:::
+
+::: {.ae-fb}
+$8$ est le premier terme ; les suivants sont de plus en plus petits.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$-\infty$
+:::
+
+::: {.ae-fb}
+La suite décroît, mais ses termes restent positifs : ils ne peuvent pas devenir très négatifs.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$0{,}9$
+:::
+
+::: {.ae-fb}
+C’est la raison, pas la limite.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="geo-limite-alterne" data-type="qcm" data-section="sec-geo-limite" data-obj="C6" data-niveau="2" data-id="5UAA2.q.geo-limite-alterne" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Que peut-on dire de la limite de $u_{n} = 2 \cdot (-3)^{n}$ ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+Elle n’existe pas : les termes changent de signe et s’éloignent de $0$.
+:::
+
+::: {.ae-fb}
+Oui : $q = -3 \leq -1$ ; $2$ ; $-6$ ; $18$ ; $-54$… la suite diverge.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+Elle vaut $+\infty$.
+:::
+
+::: {.ae-fb}
+La moitié des termes sont négatifs et de plus en plus grands en valeur absolue : les termes ne restent pas grands et positifs.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+Elle vaut $0$.
+:::
+
+::: {.ae-fb}
+Les termes s’éloignent de $0$ : $|q| = 3 > 1$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+Elle vaut $-\infty$.
+:::
+
+::: {.ae-fb}
+Un terme sur deux est positif et très grand : la suite n’a pas de limite.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="geo-exemple-contraintes" data-type="ouverte" data-section="sec-geo-limite" data-obj="C5" data-niveau="2" data-id="5UAA2.q.geo-exemple-contraintes" data-tags="" data-forme="courte"}
+::: {.ae-enonce}
+Donne un exemple de suite géométrique de premier terme négatif qui converge vers $0$. Précise $u_{0}$, $q$ et la formule explicite.
+:::
+
+::: {.ae-rep}
+Par exemple $u_{0} = -4$ et $q = \frac{1}{2}$ : $u_{n} = -4 \cdot (\frac{1}{2})^{n}$. (Toute raison vérifiant $-1 < q < 1$, $q \neq 0$, convient.)
+:::
+
+::: {.ae-crit}
+Mon premier terme est négatif.
+:::
+
+::: {.ae-crit}
+Ma raison vérifie $-1 < q < 1$ et n’est pas nulle.
+:::
+
+::: {.ae-crit}
+Ma formule est de la forme $u_{n} = u_{0} \cdot q^{n}$.
+:::
+:::
+
+::: {.ae-q data-ae-id="geo-exemple-qcm" data-type="qcm" data-section="sec-geo-limite" data-obj="C5" data-niveau="2" data-id="5UAA2.q.geo-exemple-qcm" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Quelle suite géométrique a pour limite $-\infty$ ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$u_{n} = -3 \cdot 2^{n}$
+:::
+
+::: {.ae-fb}
+Oui : $u_{0} < 0$ et $q > 1$ : les termes sont négatifs et deviennent aussi grands qu’on veut en valeur absolue.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$u_{n} = 3 \cdot (-2)^{n}$
+:::
+
+::: {.ae-fb}
+Avec $q = -2$, les termes changent de signe : pas de limite.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$u_{n} = -3 \cdot (\frac{1}{2})^{n}$
+:::
+
+::: {.ae-fb}
+Avec $q = \frac{1}{2}$, les termes se rapprochent de $0$ : la limite vaut $0$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$u_{n} = 3 \cdot 2^{n}$
+:::
+
+::: {.ae-fb}
+$u_{0} > 0$ et $q > 1$ : la limite vaut $+\infty$.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="geo-somme" data-type="qcm" data-section="sec-geo-somme" data-obj="A4" data-niveau="1" data-id="5UAA2.q.geo-somme" data-tags="" data-ordre="melange"}
+::: {.ae-enonce}
+Que vaut $S_{8} = 3 + 6 + 12 + \ldots$ (les $8$ premiers termes de la suite géométrique $u_{0} = 3$, $q = 2$) ?
+:::
+
+::: {.ae-prop .ae-bonne}
+::: {.ae-r}
+$765$
+:::
+
+::: {.ae-fb}
+Oui : $S_{8} = 3 \cdot \frac{2^{8} - 1}{2 - 1} = 3 \cdot 255 = 765$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$1533$
+:::
+
+::: {.ae-fb}
+Tu as calculé $S_{9}$ ($3 \cdot (2^{9} - 1)$) : les $8$ premiers termes vont de $u_{0}$ à $u_{7}$, et la formule utilise $q^{8}$.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$384$
+:::
+
+::: {.ae-fb}
+$384 = u_{7}$ est le dernier terme de la somme, pas la somme.
+:::
+:::
+
+::: {.ae-prop}
+::: {.ae-r}
+$768$
+:::
+
+::: {.ae-fb}
+Tu as oublié le $-1$ : $3 \cdot 2^{8} = 768$. La formule est $u_{0} \frac{q^{n} - 1}{q - 1}$.
+:::
+:::
+:::
+
+::: {.ae-q data-ae-id="geo-demontrer-somme" data-type="ouverte" data-section="sec-geo-somme" data-obj="C7" data-niveau="3" data-id="5UAA2.q.geo-demontrer-somme" data-tags="" data-forme="longue"}
+::: {.ae-enonce}
+Démontre que, pour une suite géométrique de raison $q \neq 1$, $S_{n} = u_{0} + u_{1} + \ldots + u_{n-1} = u_{0} \cdot \frac{q^{n} - 1}{q - 1}$.
+:::
+
+::: {.ae-rep}
+$$
+S_{n} = u_{0} + u_{0} q + \ldots + u_{0} q^{n-1},  \\ q S_{n} = u_{0} q + \ldots + u_{0} q^{n-1} + u_{0} q^{n}.
+$$
+
+En soustrayant, il ne reste que $q S_{n} - S_{n} = u_{0} q^{n} - u_{0}$, soit $(q - 1) S_{n} = u_{0} (q^{n} - 1)$. Comme $q \neq 1$, on divise par $q - 1$.
+:::
+
+::: {.ae-crit}
+J’ai écrit $S_{n}$ avec la formule explicite $u_{k} = u_{0} q^{k}$.
+:::
+
+::: {.ae-crit}
+J’ai multiplié par $q$ et soustrait, en montrant quels termes se simplifient.
+:::
+
+::: {.ae-crit}
+J’ai utilisé $q \neq 1$ pour diviser.
+:::
+:::
+
+::: {.ae-q data-ae-id="geo-iode" data-type="ouverte" data-section="sec-geo-generer" data-obj="T1" data-niveau="3" data-id="5UAA2.q.geo-iode" data-tags="" data-forme="longue"}
+::: {.ae-enonce}
+L’iode 131, utilisé en médecine, perd la moitié de sa radioactivité tous les $8$ jours environ. Un flacon a une activité de $800$ unités. Quelle sera son activité après $24$ jours ? Après combien de périodes de $8$ jours passera-t-elle sous $10$ unités ?
+:::
+
+::: {.ae-rep}
+L’activité est multipliée par $\frac{1}{2}$ tous les $8$ jours : $a_{n} = 800 \cdot (\frac{1}{2})^{n}$, où $n$ compte les périodes de $8$ jours. Après $24$ jours ($n = 3$) : $a_{3} = \frac{800}{8} = 100$ unités. $a_{6} = 12{,}5$ et $a_{7} = 6{,}25$ : l’activité passe sous $10$ unités après $7$ périodes, soit $56$ jours.
+:::
+
+::: {.ae-crit}
+J’ai modélisé par une suite géométrique de raison $\frac{1}{2}$ en comptant des périodes de $8$ jours.
+:::
+
+::: {.ae-crit}
+J’ai trouvé $100$ unités après $24$ jours.
+:::
+
+::: {.ae-crit}
+J’ai trouvé $7$ périodes (environ $56$ jours) en calculant les termes successifs.
+:::
+:::
+
+::: {.ae-q data-ae-id="gen-toile" data-type="ouverte" data-section="sec-limite" data-obj="A1 C6" data-niveau="3" data-id="5UAA2.q.gen-toile" data-tags="" data-forme="longue"}
+::: {.ae-enonce}
+La suite $(w_{n})$ est définie par $w_{0} = 0$ et $w_{n+1} = \frac{w_{n} + 6}{3}$. Calcule $w_{1}$, $w_{2}$, $w_{3}$, puis conjecture sa limite. Explique comment la « toile » du cours (droites $y = \frac{x + 6}{3}$ et $y = x$) permet de la trouver.
+:::
+
+::: {.ae-rep}
+$w_{1} = 2$, $w_{2} = \frac{8}{3} \approx 2{,}67$, $w_{3} = \frac{26}{9} \approx 2{,}89$ : on conjecture une limite égale à $3$. Sur la toile, les marches se resserrent vers le point où les deux droites se croisent : $x = \frac{x + 6}{3}$ donne $3x = x + 6$, $x = 3$.
+:::
+
+::: {.ae-crit}
+J’ai calculé les termes de proche en proche.
+:::
+
+::: {.ae-crit}
+J’ai conjecturé la limite $3$.
+:::
+
+::: {.ae-crit}
+J’ai relié la limite à l’intersection des deux droites.
+:::
+:::
+
+:::
+
+
+```{=html}
+<script type="application/json" id="ae-exos">[{"num": "1.1", "url": "ch1-generalites-sur-les/7-exercices.html#exercice-1-1", "obj": ["C1"], "page": "9", "niveau": 1, "section": "Exercices"}, {"num": "1.2", "url": "ch1-generalites-sur-les/7-exercices.html#exercice-1-2", "obj": ["A3"], "page": "9", "niveau": 1, "section": "Exercices"}, {"num": "1.3", "url": "ch1-generalites-sur-les/7-exercices.html#exercice-1-3", "obj": ["C1"], "page": "9", "niveau": 1, "section": "Exercices"}, {"num": "1.4", "url": "ch1-generalites-sur-les/7-exercices.html#exercice-1-4", "obj": ["C4"], "page": "10", "niveau": 1, "section": "Exercices"}, {"num": "1.5", "url": "ch1-generalites-sur-les/7-exercices.html#exercice-1-5", "obj": ["C4"], "page": "10", "niveau": 2, "section": "Exercices"}, {"num": "1.6", "url": "ch1-generalites-sur-les/7-exercices.html#exercice-1-6", "obj": ["A1"], "page": "10", "niveau": 2, "section": "Exercices"}, {"num": "1.7", "url": "ch1-generalites-sur-les/7-exercices.html#exercice-1-7", "obj": ["C2"], "page": "10", "niveau": 2, "section": "Exercices"}, {"num": "1.8", "url": "ch1-generalites-sur-les/7-exercices.html#exercice-1-8", "obj": ["C6"], "page": "11", "niveau": 2, "section": "Exercices"}, {"num": "1.9", "url": "ch1-generalites-sur-les/7-exercices.html#exercice-1-9", "obj": ["C6"], "page": "11", "niveau": 2, "section": "Exercices"}, {"num": "1.10", "url": "ch1-generalites-sur-les/7-exercices.html#exercice-1-10", "obj": ["C1"], "page": "11", "niveau": 2, "section": "Exercices"}, {"num": "2.1", "url": "ch2-suites-arithmetiques/7-exercices.html#exercice-2-1", "obj": ["C2"], "page": "18", "niveau": 1, "section": "Exercices"}, {"num": "2.2", "url": "ch2-suites-arithmetiques/7-exercices.html#exercice-2-2", "obj": ["A3"], "page": "18", "niveau": 1, "section": "Exercices"}, {"num": "2.3", "url": "ch2-suites-arithmetiques/7-exercices.html#exercice-2-3", "obj": ["C6"], "page": "18", "niveau": 1, "section": "Exercices"}, {"num": "2.4", "url": "ch2-suites-arithmetiques/7-exercices.html#exercice-2-4", "obj": ["A3"], "page": "18", "niveau": 2, "section": "Exercices"}, {"num": "2.5", "url": "ch2-suites-arithmetiques/7-exercices.html#exercice-2-5", "obj": ["A3"], "page": "19", "niveau": 2, "section": "Exercices"}, {"num": "2.6", "url": "ch2-suites-arithmetiques/7-exercices.html#exercice-2-6", "obj": ["A4"], "page": "19", "niveau": 2, "section": "Exercices"}, {"num": "2.7", "url": "ch2-suites-arithmetiques/7-exercices.html#exercice-2-7", "obj": ["A4"], "page": "19", "niveau": 2, "section": "Exercices"}, {"num": "2.8", "url": "ch2-suites-arithmetiques/7-exercices.html#exercice-2-8", "obj": ["C7"], "page": "19", "niveau": 3, "section": "Exercices"}, {"num": "2.9", "url": "ch2-suites-arithmetiques/7-exercices.html#exercice-2-9", "obj": ["A2"], "page": "19", "niveau": 2, "section": "Exercices"}, {"num": "2.10", "url": "ch2-suites-arithmetiques/7-exercices.html#exercice-2-10", "obj": ["C5"], "page": "19", "niveau": 2, "section": "Exercices"}, {"num": "2.11", "url": "ch2-suites-arithmetiques/7-exercices.html#exercice-2-11", "obj": ["A1"], "page": "20", "niveau": 2, "section": "Exercices"}, {"num": "2.12", "url": "ch2-suites-arithmetiques/7-exercices.html#exercice-2-12", "obj": ["C6"], "page": "20", "niveau": 2, "section": "Exercices"}, {"num": "2.13", "url": "ch2-suites-arithmetiques/7-exercices.html#exercice-2-13", "obj": ["T1"], "page": "21", "niveau": 3, "section": "Exercices"}, {"num": "2.14", "url": "ch2-suites-arithmetiques/7-exercices.html#exercice-2-14", "obj": ["T1"], "page": "21", "niveau": 3, "section": "Exercices"}, {"num": "2.15", "url": "ch2-suites-arithmetiques/7-exercices.html#exercice-2-15", "obj": ["T1"], "page": "21", "niveau": 3, "section": "Exercices"}, {"num": "3.1", "url": "ch3-suites-geometriques/7-exercices.html#exercice-3-1", "obj": ["C2"], "page": "28", "niveau": 1, "section": "Exercices"}, {"num": "3.2", "url": "ch3-suites-geometriques/7-exercices.html#exercice-3-2", "obj": ["A3"], "page": "28", "niveau": 2, "section": "Exercices"}, {"num": "3.3", "url": "ch3-suites-geometriques/7-exercices.html#exercice-3-3", "obj": ["A3"], "page": "28", "niveau": 2, "section": "Exercices"}, {"num": "3.4", "url": "ch3-suites-geometriques/7-exercices.html#exercice-3-4", "obj": ["A3"], "page": "28", "niveau": 2, "section": "Exercices"}, {"num": "3.5", "url": "ch3-suites-geometriques/7-exercices.html#exercice-3-5", "obj": ["A4"], "page": "29", "niveau": 2, "section": "Exercices"}, {"num": "3.6", "url": "ch3-suites-geometriques/7-exercices.html#exercice-3-6", "obj": ["A3"], "page": "29", "niveau": 2, "section": "Exercices"}, {"num": "3.7", "url": "ch3-suites-geometriques/7-exercices.html#exercice-3-7", "obj": ["A2"], "page": "29", "niveau": 2, "section": "Exercices"}, {"num": "3.8", "url": "ch3-suites-geometriques/7-exercices.html#exercice-3-8", "obj": ["C7"], "page": "29", "niveau": 3, "section": "Exercices"}, {"num": "3.9", "url": "ch3-suites-geometriques/7-exercices.html#exercice-3-9", "obj": ["C5"], "page": "29", "niveau": 2, "section": "Exercices"}, {"num": "3.10", "url": "ch3-suites-geometriques/7-exercices.html#exercice-3-10", "obj": ["A1"], "page": "29", "niveau": 1, "section": "Exercices"}, {"num": "3.11", "url": "ch3-suites-geometriques/7-exercices.html#exercice-3-11", "obj": ["C6"], "page": "30", "niveau": 2, "section": "Exercices"}, {"num": "3.12", "url": "ch3-suites-geometriques/7-exercices.html#exercice-3-12", "obj": ["T1"], "page": "31", "niveau": 3, "section": "Exercices"}, {"num": "3.13", "url": "ch3-suites-geometriques/7-exercices.html#exercice-3-13", "obj": ["T1"], "page": "31", "niveau": 3, "section": "Exercices"}, {"num": "3.14", "url": "ch3-suites-geometriques/7-exercices.html#exercice-3-14", "obj": ["T1"], "page": "31", "niveau": 3, "section": "Exercices"}]</script>
+```

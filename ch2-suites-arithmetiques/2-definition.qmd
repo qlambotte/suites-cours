@@ -1,0 +1,43 @@
+---
+title: "Définition"
+---
+
+<!-- GÉNÉRÉ par typweb à partir des notes Typst : NE PAS ÉDITER (les modifications seraient écrasées). -->
+
+::: {#definition-2-1 data-sorte="definition" data-num="2.1" data-page="13" data-phys="15" data-id="5UAA2.suite-arithmetique" data-type="definition" data-tags="" .theo .theo-definition}
+::: {.theo-head}
+**Définition 2.1** — suite arithmétique
+:::
+
+::: {.theo-body}
+Une **suite arithmétique** est une suite numérique telle que la **différence entre deux termes consécutifs est constante**. Cette différence constante est appelée la **raison**, notée $r$ :
+
+$$
+u_{n+1} - u_{n} = r \quad \text{pour tout} n \in \mathbb{N}.
+$$
+:::
+:::
+
+::: {#remarque-2-1 data-sorte="remarque" data-num="2.1" data-page="13" data-phys="16" data-id="5UAA2.rem.003" data-type="remarque" data-tags="" .theo .theo-remarque}
+::: {.theo-head}
+**Remarque 2.1**
+:::
+
+::: {.theo-body}
+Si la raison est nulle ($r = 0$), tous les termes sont égaux : la suite est **constante**. La raison peut être négative : on retire alors toujours le même nombre.
+:::
+:::
+
+::: {#exemple-2-1 data-sorte="exemple" data-num="2.1" data-page="14" data-phys="16" data-id="5UAA2.reconnaitre-suite-arithmetique" data-type="exemple" data-tags="" .theo .theo-exemple}
+::: {.theo-head}
+**Exemple 2.1** — reconnaître une suite arithmétique
+:::
+
+::: {.theo-body}
+Dans $(u_{n}) = (5 ; 8 ; 11 ; 14 ; \ldots)$, on passe d’un terme au suivant en ajoutant toujours $3$ : $8 - 5 = 3$, $11 - 8 = 3$, … La suite est arithmétique de raison $r = 3$. En revanche, $(1 ; 2 ; 4 ; 8 ; \ldots)$ n’est pas arithmétique : $2 - 1 = 1$ mais $4 - 2 = 2$, la différence n’est pas constante.
+:::
+:::
+
+::: {.ae-lien}
+[✔ S'autoévaluer sur cette section : test de 4 questions →](../autoeval.qmd#sections=sec-arith-definition)
+:::

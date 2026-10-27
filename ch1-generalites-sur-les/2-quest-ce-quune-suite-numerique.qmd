@@ -1,0 +1,34 @@
+---
+title: "Qu’est-ce qu’une suite numérique ?"
+---
+
+<!-- GÉNÉRÉ par typweb à partir des notes Typst : NE PAS ÉDITER (les modifications seraient écrasées). -->
+
+::: {#definition-1-1 data-sorte="definition" data-num="1.1" data-page="3" data-phys="5" data-id="5UAA2.suite-numerique" data-type="definition" data-tags="" .theo .theo-definition}
+::: {.theo-head}
+**Définition 1.1** — suite numérique
+:::
+
+::: {.theo-body}
+Une **suite numérique** est une fonction dont le domaine est $\mathbb{N}$ (les naturels $0, 1, 2, \ldots$) ou $\mathbb{N}_{0}$ (les naturels sans le $0$ : $1, 2, 3, \ldots$). C’est donc une **liste ordonnée de nombres réels**, où chaque nombre est repéré par sa position.
+:::
+:::
+
+Numéroter à partir de $0$ ou de $1$ est un simple choix, en fonction de la situation (dans la rumeur, il était naturel de partir de $u_{0} = 1$). Voici le vocabulaire essentiel :
+
+- une suite se note $(u_{n})$ ; un de ses éléments, $u_{n}$, est un **terme** de la suite, et $n$ est le **rang** du terme $u_{n}$ (sa position dans la liste) ;
+- le terme $u_{n+1}$ est le **successeur** de $u_{n}$ ; le terme $u_{n-1}$ en est le **prédécesseur**.
+
+::: {#remarque-1-1 data-sorte="remarque" data-num="1.1" data-page="3" data-phys="6" data-id="5UAA2.rem.001" data-type="remarque" data-tags="" .theo .theo-remarque}
+::: {.theo-head}
+**Remarque 1.1**
+:::
+
+::: {.theo-body}
+Ne confonds jamais le **rang** (la position, en indice) et le **terme** (la valeur). Dans $(u_{n}) = (5 ; 8 ; 11 ; \ldots)$ numérotée à partir de $0$ : le terme de rang $1$ est $u_{1} = 8$ ; le nombre $8$, lui, *occupe* le rang $1$.
+:::
+:::
+
+::: {.ae-lien}
+[✔ S'autoévaluer sur cette section : test de 4 questions →](../autoeval.qmd#sections=sec-suite)
+:::

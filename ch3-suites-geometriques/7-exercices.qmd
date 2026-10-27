@@ -1,0 +1,698 @@
+---
+title: "Exercices"
+---
+
+<!-- GÉNÉRÉ par typweb à partir des notes Typst : NE PAS ÉDITER (les modifications seraient écrasées). -->
+
+::: {#exemple-3-7 data-sorte="exemple" data-num="3.7" data-page="28" data-phys="33" data-id="5UAA2.avant-te-lancer-3" data-type="exemple" data-tags="" .theo .theo-exemple}
+::: {.theo-head}
+**Exemple 3.7** — avant de te lancer
+:::
+
+::: {.theo-body}
+Considérons la suite géométrique donnée par $u_{0} = 5$, $q = 3$. Alors $u_{n} = 5 \cdot 3^{n}$ ; elle converge vers $+\infty$ ; $u_{4} = 5 \cdot 81 = 405$ ; et $S_{5} = 5 \cdot \frac{3^{5} - 1}{3 - 1} = 5 \cdot \frac{242}{2} = 605$.
+:::
+:::
+
+::: {#exercice-3-1 data-sorte="exercice" data-num="3.1" data-page="28" data-phys="33" data-id="5UAA2.ex.026" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 3.1]{.exo-titre} [[C2]{.exo-comp} ★☆☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Parmi les suites suivantes, indique lesquelles sont géométriques ; pour celles-ci, précise la raison et donne la formule explicite.
+
+::: {.colonnes style="--n:2"}
+- $(1 ; 0{,}1 ; 0{,}01 ; 0{,}001 ; \ldots)$
+- $(3 ; 5 ; 7 ; 9 ; \ldots)$
+- $(7 ; 17{,}5 ; 43{,}75 ; 109{,}375 ; \ldots)$
+- $(\frac{1}{3} ; \frac{2}{9} ; \frac{4}{27} ; \frac{8}{81} ; \ldots)$
+:::
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [définition d’une suite géométrique](2-definition.qmd#definition-3-1) et l’[exemple qui la suit](2-definition.qmd#exemple-3-1).
+
+## Indice 2 {.unlisted}
+
+Pour chaque suite, calcule les rapports $\frac{u_{1}}{u_{0}}$, $\frac{u_{2}}{u_{1}}$, $\frac{u_{3}}{u_{2}}$ : sont-ils tous égaux ?
+
+## Indice 3 {.unlisted}
+
+Pour la troisième : $\frac{17{,}5}{7} = 2{,}5$, puis $\frac{43{,}75}{17{,}5}$… Si le rapport est constant, c’est $q$, et $u_{n} = u_{0} \cdot q^{n}$ ([génération](4-generer-une-suite-geometrique.qmd#propriete-3-2)).
+
+## Solution {.unlisted}
+
+Par la [Définition 3.1](2-definition.qmd#definition-3-1), une suite est géométrique lorsque le rapport entre deux termes consécutifs est constant. On calcule donc ces rapports ; s’ils sont égaux, leur valeur commune est la raison $q$, et la [Propriété 3.2](4-generer-une-suite-geometrique.qmd#propriete-3-2) donne la formule explicite $u_{n} = u_{0} \cdot q^{n}$.
+
+- $(1 ; 0{,}1 ; 0{,}01 ; 0{,}001 ; \ldots)$ : $\frac{0{,}1}{1} = \frac{0{,}01}{0{,}1} = \frac{0{,}001}{0{,}01} = 0{,}1$. Le rapport est constant : la suite est géométrique, de raison $q = 0{,}1$ et de premier terme $u_{0} = 1$, donc $u_{n} = 0{,}1^{n}$.
+- $(3 ; 5 ; 7 ; 9 ; \ldots)$ : $\frac{5}{3} \approx 1{,}67$ et $\frac{7}{5} = 1{,}4$. Les rapports ne sont pas égaux : la suite n’est pas géométrique. (Elle est arithmétique, de raison $2$.)
+- $(7 ; 17{,}5 ; 43{,}75 ; 109{,}375 ; \ldots)$ : $\frac{17{,}5}{7} = \frac{43{,}75}{17{,}5} = \frac{109{,}375}{43{,}75} = 2{,}5$. La suite est géométrique, de raison $q = 2{,}5$, et $u_{n} = 7 \cdot 2{,}5^{n}$.
+- $(\frac{1}{3} ; \frac{2}{9} ; \frac{4}{27} ; \frac{8}{81} ; \ldots)$ : $\frac{2}{9} \cdot \frac{3}{1} = \frac{4}{27} \cdot \frac{9}{2} = \frac{8}{81} \cdot \frac{27}{4} = \frac{2}{3}$. La suite est géométrique, de raison $q = \frac{2}{3}$, et $u_{n} = \frac{1}{3} \cdot (\frac{2}{3})^{n}$.
+
+## Pièges {.unlisted}
+
+- Calculer des différences au lieu de rapports.
+- Diviser dans le mauvais sens ($\frac{u_{0}}{u_{1}}$) : on obtient $\frac{1}{q}$.
+:::
+:::
+
+::: {#exercice-3-2 data-sorte="exercice" data-num="3.2" data-page="28" data-phys="33" data-id="5UAA2.ex.027" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 3.2]{.exo-titre} [[A3]{.exo-comp} ★★☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Pour les suites géométriques suivantes, calcule $u_{1}, u_{2}, u_{3}, u_{4}$, donne la formule explicite, calcule $u_{9}$ et $S_{10}$, et précise la variation et la convergence.
+
+::: {.colonnes style="--n:2"}
+- $u_{0} = -7$ et $q = 3$
+- $u_{0} = 128$ et $q = \frac{1}{2}$
+:::
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis les propriétés [« génération »](4-generer-une-suite-geometrique.qmd#propriete-3-2), [« somme des $n$ premiers termes »](6-somme-des-n-premiers-termes.qmd#propriete-3-6) et [« limite d’une suite géométrique »](5-caracteristiques-variation-limite.qmd#propriete-3-5), ainsi que l’activité qui la précède.
+
+## Indice 2 {.unlisted}
+
+Pour la variation, regarde à la fois le signe de $u_{0}$ et la valeur de $q$ : multiplier un nombre négatif par $3$, est-ce le faire monter ou descendre ?
+
+## Indice 3 {.unlisted}
+
+$u_{n} = u_{0} \cdot q^{n}$, puis $S_{10} = u_{0} \cdot \frac{q^{10} - 1}{q - 1}$.
+
+## Solution {.unlisted}
+
+On utilise la [Propriété 3.2](4-generer-une-suite-geometrique.qmd#propriete-3-2) ($u_{n} = u_{0} \cdot q^{n}$), la [Propriété 3.6](6-somme-des-n-premiers-termes.qmd#propriete-3-6) ($S_{n} = u_{0} \cdot \frac{q^{n} - 1}{q - 1}$ pour $q \neq 1$), la [Propriété 3.1](3-representation-et-variation.qmd#propriete-3-1) pour la variation et la [Propriété 3.5](5-caracteristiques-variation-limite.qmd#propriete-3-5) pour la limite.
+
+Première suite : $u_{0} = -7$ et $q = 3$.
+
+- On multiplie chaque terme par $3$ : $u_{1} = -21$, $u_{2} = -63$, $u_{3} = -189$, $u_{4} = -567$.
+- Formule explicite : $u_{n} = -7 \cdot 3^{n}$. Donc $u_{9} = -7 \cdot 3^{9} = -7 \cdot 19 \, 683 = -137 \, 781$.
+- $S_{10} = -7 \cdot \frac{3^{10} - 1}{3 - 1} = -7 \cdot \frac{59 \, 048}{2} = -7 \cdot 29 \, 524 = -206 \, 668$.
+- Variation : $u_{0} < 0$ et $q > 1$, donc la suite est strictement décroissante.
+- Limite : $q > 1$ et $u_{0} < 0$, donc $\lim\limits_{n \to +\infty} u_{n} = -\infty$ : la suite converge vers $-\infty$.
+
+Seconde suite : $u_{0} = 128$ et $q = \frac{1}{2}$.
+
+- On divise chaque terme par $2$ : $u_{1} = 64$, $u_{2} = 32$, $u_{3} = 16$, $u_{4} = 8$.
+- Formule explicite : $u_{n} = 128 \cdot (\frac{1}{2})^{n}$. Donc $u_{9} = \frac{128}{2^{9}} = \frac{128}{512} = 0{,}25$.
+- $S_{10} = 128 \cdot \frac{(\frac{1}{2})^{10} - 1}{\frac{1}{2} - 1} = 128 \cdot \frac{\frac{1}{1024} - 1}{-\frac{1}{2}} = 256 \cdot (1 - \frac{1}{1024}) = 256 - 0{,}25 = 255{,}75$.
+- Variation : $u_{0} > 0$ et $0 < q < 1$, donc la suite est strictement décroissante.
+- Limite : $-1 < q < 1$, donc $\lim\limits_{n \to +\infty} u_{n} = 0$ : la suite converge vers $0$.
+
+## Pièges {.unlisted}
+
+- Dire que la première suite est croissante « parce que $q > 1$ » : avec $u_{0} < 0$, elle décroît.
+- Se tromper de signe au dénominateur : $\frac{1}{2} - 1 = -\frac{1}{2}$.
+- Calculer $u_{9} = -7 \cdot 3 \cdot 9$ comme pour une suite arithmétique.
+:::
+:::
+
+::: {#exemple-3-8 data-sorte="exemple" data-num="3.8" data-page="28" data-phys="33" data-id="5UAA2.calculer-terme-partir-autre-2" data-type="exemple" data-tags="" .theo .theo-exemple}
+::: {.theo-head}
+**Exemple 3.8** — calculer un terme à partir d’un autre
+:::
+
+::: {.theo-body}
+Considérons la suite géométrique donnée par $q = 2$, $u_{10} = 5$. Alors
+
+$$
+u_{13} = u_{10} \cdot q^{13 - 10} = 5 \cdot 2^{3} = 40.
+$$
+:::
+:::
+
+::: {#exercice-3-3 data-sorte="exercice" data-num="3.3" data-page="28" data-phys="33" data-id="5UAA2.ex.028" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 3.3]{.exo-titre} [[A3]{.exo-comp} ★★☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Dans chaque cas, la suite est géométrique. Calcule le terme demandé.
+
+::: {.colonnes style="--n:2"}
+- $q = 2$, $u_{5} = 3$ : calcule $u_{8}$.
+- $q = \frac{1}{2}$, $u_{10} = 64$ : calcule $u_{7}$.
+- $q = 3$, $u_{4} = 2$ : calcule $u_{7}$.
+- $q = -2$, $u_{3} = 1$ : calcule $u_{6}$.
+- $q = 10$, $u_{6} = 7$ : calcule $u_{9}$.
+- $q = \frac{1}{3}$, $u_{8} = 9$ : calcule $u_{5}$.
+- $q = 2$, $u_{20} = 5$ : calcule $u_{16}$.
+- $q = -1$, $u_{4} = 5$ : calcule $u_{9}$.
+:::
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [propriété « d’un terme à un autre »](4-generer-une-suite-geometrique.qmd#propriete-3-3) et les deux exemples qui la précèdent.
+
+## Indice 2 {.unlisted}
+
+De combien de rangs avance-t-on ou recule-t-on ? Reculer d’un rang, c’est multiplier par $q$ ou diviser par $q$ ?
+
+## Indice 3 {.unlisted}
+
+Premier cas : de $u_{5}$ à $u_{8}$, on avance de $3$ rangs : $u_{8} = 3 \cdot 2^{3}$. Quand on recule, l’exposant $n - p$ est négatif : $q^{-3} = \frac{1}{q^{3}}$.
+
+## Solution {.unlisted}
+
+Par la [Propriété 3.3](4-generer-une-suite-geometrique.qmd#propriete-3-3), pour deux rangs $n$ et $p$, on a $u_{n} = u_{p} \cdot q^{n - p}$ : on multiplie par $q$ autant de fois qu’on avance de rangs. Quand on recule ($n < p$), l’exposant est négatif, ce qui revient à diviser par $q$.
+
+- $u_{8} = u_{5} \cdot 2^{8 - 5} = 3 \cdot 2^{3} = 3 \cdot 8 = 24$.
+- $u_{7} = u_{10} \cdot (\frac{1}{2})^{7 - 10} = 64 \cdot (\frac{1}{2})^{-3} = 64 \cdot 2^{3} = 512$.
+- $u_{7} = u_{4} \cdot 3^{7 - 4} = 2 \cdot 3^{3} = 2 \cdot 27 = 54$.
+- $u_{6} = u_{3} \cdot (-2)^{6 - 3} = 1 \cdot (-2)^{3} = -8$.
+- $u_{9} = u_{6} \cdot 10^{9 - 6} = 7 \cdot 1000 = 7000$.
+- $u_{5} = u_{8} \cdot (\frac{1}{3})^{5 - 8} = 9 \cdot (\frac{1}{3})^{-3} = 9 \cdot 27 = 243$.
+- $u_{16} = u_{20} \cdot 2^{16 - 20} = 5 \cdot 2^{-4} = \frac{5}{16} = 0{,}3125$.
+- $u_{9} = u_{4} \cdot (-1)^{9 - 4} = 5 \cdot (-1)^{5} = -5$.
+
+## Pièges {.unlisted}
+
+- Multiplier par $(n - p)$ au lieu d’élever à la puissance $n - p$ (réflexe des suites arithmétiques).
+- Oublier le signe : $(-2)^{3} = -8$.
+- Quand on recule avec $q = \frac{1}{2}$, diviser par $8$ au lieu de multiplier par $8$.
+:::
+:::
+
+::: {#exercice-3-4 data-sorte="exercice" data-num="3.4" data-page="28" data-phys="33" data-id="5UAA2.ex.029" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 3.4]{.exo-titre} [[A3]{.exo-comp} ★★☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Dans chaque cas, la suite est une suite géométrique. Calcule $u_{0}$ et la raison (attention au signe de la racine).
+
+::: {.colonnes style="--n:2"}
+- $u_{5} = 96$ et $u_{6} = 192$
+- $u_{1} = 6$ et $u_{4} = 48$
+:::
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [propriété « raison à partir de deux termes »](4-generer-une-suite-geometrique.qmd#propriete-3-4) et l’[exemple « trois cas »](4-generer-une-suite-geometrique.qmd#exemple-3-5).
+
+## Indice 2 {.unlisted}
+
+Combien de rangs séparent les deux termes connus ? L’exposant est-il pair ou impair ?
+
+## Indice 3 {.unlisted}
+
+Deuxième cas : $q^{3} = \frac{48}{6} = 8$. L’exposant $3$ est impair : une seule racine cubique. Pour $u_{0}$, recule depuis $u_{1}$ : $u_{0} = \frac{u_{1}}{q}$.
+
+## Solution {.unlisted}
+
+a) Les termes $u_{5}$ et $u_{6}$ sont consécutifs : par la [Définition 3.1](2-definition.qmd#definition-3-1), $q = \frac{u_{6}}{u_{5}} = \frac{192}{96} = 2$. Par la [Propriété 3.3](4-generer-une-suite-geometrique.qmd#propriete-3-3), $u_{5} = u_{0} \cdot q^{5}$, d’où $u_{0} = \frac{u_{5}}{q^{5}} = \frac{96}{32} = 3$. Vérification : $u_{6} = 3 \cdot 2^{6} = 3 \cdot 64 = 192$.
+
+b) Par la [Propriété 3.4](4-generer-une-suite-geometrique.qmd#propriete-3-4), $q^{4 - 1} = \frac{u_{4}}{u_{1}}$, c’est-à-dire $q^{3} = \frac{48}{6} = 8$. L’exposant $3$ est impair : il n’y a qu’une raison possible, $q = \sqrt[3]{8} = 2$. Ensuite $u_{1} = u_{0} \cdot q$, d’où $u_{0} = \frac{u_{1}}{q} = \frac{6}{2} = 3$. Vérification : $u_{4} = 3 \cdot 2^{4} = 3 \cdot 16 = 48$.
+
+## Pièges {.unlisted}
+
+- Diviser $48$ par $3$ au lieu d’extraire une racine cubique.
+- Pour $u_{0}$, multiplier par $q$ au lieu de diviser : on **recule** vers le rang $0$.
+:::
+:::
+
+::: {#exercice-3-5 data-sorte="exercice" data-num="3.5" data-page="29" data-phys="34" data-id="5UAA2.ex.030" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 3.5]{.exo-titre} [[A4]{.exo-comp} ★★☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Sachant que les termes des sommes suivantes sont les termes d’une suite géométrique, calcule les sommes.
+
+::: {.colonnes style="--n:2"}
+- $S_{12} = 8 + 16 + 32 + \ldots$
+- $3 + 6 + 12 + \ldots + 1536$
+:::
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [propriété « somme des $n$ premiers termes »](6-somme-des-n-premiers-termes.qmd#propriete-3-6) et l’exemple qui la suit.
+
+## Indice 2 {.unlisted}
+
+Quels sont le premier terme et la raison ? Combien y a-t-il de termes dans chaque somme ?
+
+## Indice 3 {.unlisted}
+
+Seconde somme : $u_{0} = 3$, $q = 2$ ; pour compter les termes, résous $3 \cdot 2^{n} = 1536$, soit $2^{n} = 512$.
+
+## Solution {.unlisted}
+
+On utilise la [Propriété 3.6](6-somme-des-n-premiers-termes.qmd#propriete-3-6) : la somme des $n$ premiers termes vaut $S_{n} = u_{0} \cdot \frac{q^{n} - 1}{q - 1}$ si $q \neq 1$. Il faut connaître le premier terme, la raison et le nombre de termes.
+
+a) Le premier terme est $u_{0} = 8$ et $\frac{16}{8} = \frac{32}{16} = 2$, donc $q = 2$. La somme compte $12$ termes :
+
+$$
+S_{12} = 8 \cdot \frac{2^{12} - 1}{2 - 1} = 8 \cdot 4095 = 32 \, 760.
+$$
+
+b) Le premier terme est $u_{0} = 3$ et $q = \frac{6}{3} = 2$, donc $u_{k} = 3 \cdot 2^{k}$. Le dernier terme vaut $1536$ : $3 \cdot 2^{k} = 1536$, donc $2^{k} = 512 = 2^{9}$ et $k = 9$. La somme va de $u_{0}$ à $u_{9}$ : elle compte $10$ termes.
+
+$$
+3 + 6 + 12 + \ldots + 1536 = S_{10} = 3 \cdot \frac{2^{10} - 1}{2 - 1} = 3 \cdot 1023 = 3069.
+$$
+
+## Pièges {.unlisted}
+
+- Compter $9$ termes au lieu de $10$ : de $u_{0}$ à $u_{9}$, il y en a $10$.
+- Utiliser la formule des suites arithmétiques.
+:::
+:::
+
+::: {#exercice-3-6 data-sorte="exercice" data-num="3.6" data-page="29" data-phys="34" data-id="5UAA2.ex.031" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 3.6]{.exo-titre} [[A3]{.exo-comp} ★★☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Sachant que $(u_{n})$ est géométrique, que $u_{3} = 24$ et $u_{11} = 6144$, calcule la raison puis $u_{0}$.
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [propriété « raison à partir de deux termes »](4-generer-une-suite-geometrique.qmd#propriete-3-4) et l’encadré « Attention à la parité de l’exposant ».
+
+## Indice 2 {.unlisted}
+
+Combien de rangs séparent $u_{3}$ et $u_{11}$ ? Cet exposant est-il pair ?
+
+## Indice 3 {.unlisted}
+
+$q^{8} = \frac{6144}{24} = 256$. Quels nombres ont une puissance huitième égale à $256$ ?
+
+## Solution {.unlisted}
+
+Par la [Propriété 3.4](4-generer-une-suite-geometrique.qmd#propriete-3-4), $q^{11 - 3} = \frac{u_{11}}{u_{3}}$, c’est-à-dire $q^{8} = \frac{6144}{24} = 256$. L’exposant $8$ est pair : il y a deux raisons possibles, opposées, $q = \pm \sqrt[8]{256} = \pm 2$.
+
+On calcule $u_{0}$ à partir de $u_{3} = u_{0} \cdot q^{3}$ ([Propriété 3.3](4-generer-une-suite-geometrique.qmd#propriete-3-3)) :
+
+- si $q = 2$, alors $u_{0} = \frac{u_{3}}{q^{3}} = \frac{24}{8} = 3$ ;
+- si $q = -2$, alors $u_{0} = \frac{24}{(-2)^{3}} = \frac{24}{-8} = -3$.
+
+Deux suites conviennent : $u_{n} = 3 \cdot 2^{n}$ et $u_{n} = -3 \cdot (-2)^{n}$. Vérification : $3 \cdot 2^{3} = 24$ et $-3 \cdot (-2)^{3} = -3 \cdot (-8) = 24$.
+
+## Pièges {.unlisted}
+
+- Oublier la raison négative : l’exposant est pair.
+- Calculer $u_{0} = 24 \cdot 2^{3}$ en avançant au lieu de reculer.
+:::
+:::
+
+::: {#exercice-3-7 data-sorte="exercice" data-num="3.7" data-page="29" data-phys="34" data-id="5UAA2.ex.032" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 3.7]{.exo-titre} [[A2]{.exo-comp} ★★☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+**Cite la théorie.** Un élève affirme que $(2 ; -6 ; 18 ; -54 ; \ldots)$ est géométrique. A-t-il raison ? Justifie en citant la *définition* utilisée, précise la raison et donne la formule explicite.
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [définition d’une suite géométrique](2-definition.qmd#definition-3-1).
+
+## Indice 2 {.unlisted}
+
+Que faut-il calculer pour vérifier la définition ? Un rapport négatif est-il permis ?
+
+## Indice 3 {.unlisted}
+
+$-\frac{6}{2} = -3$, $\frac{18}{-6} = -3$, $-\frac{54}{18} = -3$.
+
+## Solution {.unlisted}
+
+Par la [Définition 3.1](2-definition.qmd#definition-3-1), une suite est géométrique lorsque le rapport entre deux termes consécutifs est constant et non nul. Ici,
+
+$$
+\frac{-6}{2} = -3, \quad \frac{18}{-6} = -3, \quad \frac{-54}{18} = -3.
+$$
+
+Les rapports sont tous égaux à $-3$ : l’élève a raison, la suite est géométrique de raison $q = -3$. Son premier terme est $u_{0} = 2$, donc, par la [Propriété 3.2](4-generer-une-suite-geometrique.qmd#propriete-3-2), $u_{n} = 2 \cdot (-3)^{n}$. La raison est négative : les termes changent de signe à chaque étape ([Remarque 3.1](2-definition.qmd#remarque-3-1)), ce que l’on observe.
+
+## Pièges {.unlisted}
+
+- Penser qu’une raison négative est interdite : les termes changent alors de signe à chaque rang.
+- Écrire $u_{n} = -3 \cdot 2^{n}$ en inversant premier terme et raison.
+:::
+:::
+
+::: {#exercice-3-8 data-sorte="exercice" data-num="3.8" data-page="29" data-phys="34" data-id="5UAA2.ex.033" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 3.8]{.exo-titre} [[C7]{.exo-comp} ★★★]{.exo-meta}
+:::
+
+::: {.exo-corps}
+**Cite la théorie.** Énonce la propriété donnant la somme des $n$ premiers termes d’une suite géométrique, puis **démontre-la** (multiplie la somme par $q$ et soustrais).
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [propriété de la somme des $n$ premiers termes](6-somme-des-n-premiers-termes.qmd#propriete-3-6) et sa démonstration.
+
+## Indice 2 {.unlisted}
+
+Si tu multiplies toute la somme par $q$, que devient chaque terme ? Lesquels retrouves-tu dans $S_{n}$ ?
+
+## Indice 3 {.unlisted}
+
+$q \cdot S_{n} = u_{0} q + u_{0} q^{2} + \ldots + u_{0} q^{n}$ : tous ces termes, sauf le dernier, sont aussi dans $S_{n}$. Calcule $q S_{n} - S_{n}$.
+
+## Solution {.unlisted}
+
+Propriété ([Propriété 3.6](6-somme-des-n-premiers-termes.qmd#propriete-3-6)). Soit $(u_{n})$ une suite géométrique de raison $q \neq 1$. La somme de ses $n$ premiers termes vaut
+
+$$
+S_{n} = u_{0} + u_{1} + \ldots + u_{n-1} = u_{0} \cdot \frac{q^{n} - 1}{q - 1}.
+$$
+
+Démonstration. Par la [Propriété 3.2](4-generer-une-suite-geometrique.qmd#propriete-3-2), $u_{k} = u_{0} \cdot q^{k}$ pour tout $k$. On écrit $S_{n}$, puis $q \cdot S_{n}$ :
+
+$$
+S_{n} = u_{0} + u_{0} q + u_{0} q^{2} + \ldots + u_{0} q^{n-1},  \\ q \cdot S_{n} = u_{0} q + u_{0} q^{2} + \ldots + u_{0} q^{n-1} + u_{0} q^{n}.
+$$
+
+On soustrait la première ligne de la seconde. Les termes $u_{0} q, u_{0} q^{2}, \ldots, u_{0} q^{n-1}$ figurent dans les deux lignes et s’éliminent ; il reste
+
+$$
+q S_{n} - S_{n} = u_{0} q^{n} - u_{0}, \quad \text{c'est-à-dire} \quad (q - 1) S_{n} = u_{0} (q^{n} - 1).
+$$
+
+Comme $q \neq 1$, on a $q - 1 \neq 0$ et on peut diviser par $q - 1$ :
+
+$$
+S_{n} = u_{0} \cdot \frac{q^{n} - 1}{q - 1}.
+$$
+
+Si $q = 1$, tous les termes valent $u_{0}$, et la somme vaut $n \cdot u_{0}$.
+
+## Pièges {.unlisted}
+
+- Oublier la condition $q \neq 1$ : on divise par $q - 1$.
+- Se tromper dans les termes qui restent après la soustraction : ce sont le dernier de $q S_{n}$ et le premier de $S_{n}$.
+:::
+:::
+
+::: {#exercice-3-9 data-sorte="exercice" data-num="3.9" data-page="29" data-phys="34" data-id="5UAA2.ex.034" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 3.9]{.exo-titre} [[C5]{.exo-comp} ★★☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+**Donne un exemple.** Dans chaque cas, propose une suite géométrique qui convient et précise son premier terme $u_{0}$, sa raison $q$ et sa formule explicite.
+
+::: {.colonnes style="--n:2"}
+- qui converge vers $0$ ;
+- constante, égale à $4$ ;
+- dont les termes alternent de signe ;
+- qui converge vers $+\infty$.
+:::
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [propriété « limite d’une suite géométrique »](5-caracteristiques-variation-limite.qmd#propriete-3-5) et le tableau de l’activité qui la précède.
+
+## Indice 2 {.unlisted}
+
+Quelles valeurs de $q$ font converger la suite vers $0$ ? Quelle valeur la rend constante ? Quel signe de $q$ fait alterner les termes ?
+
+## Indice 3 {.unlisted}
+
+Choisis $q$ d’abord, puis $u_{0}$ (non nul), puis écris $u_{n} = u_{0} \cdot q^{n}$.
+
+## Solution {.unlisted}
+
+D’autres réponses sont possibles. On choisit d’abord la raison $q$ (et le signe de $u_{0}$) à l’aide de la [Propriété 3.5](5-caracteristiques-variation-limite.qmd#propriete-3-5) et de la [Remarque 3.1](2-definition.qmd#remarque-3-1), puis $u_{0} \neq 0$, et on écrit $u_{n} = u_{0} \cdot q^{n}$ ([Propriété 3.2](4-generer-une-suite-geometrique.qmd#propriete-3-2)).
+
+- Qui converge vers $0$ : il faut $-1 < q < 1$. Par exemple $u_{0} = 5$ et $q = \frac{1}{2}$ : $u_{n} = 5 \cdot (\frac{1}{2})^{n}$.
+- Constante, égale à $4$ : il faut $q = 1$ et $u_{0} = 4$ : $u_{n} = 4 \cdot 1^{n} = 4$.
+- Dont les termes alternent de signe : il faut $q < 0$. Par exemple $u_{0} = 1$ et $q = -2$ : $u_{n} = (-2)^{n}$, dont les termes sont $1 ; -2 ; 4 ; -8 ; \ldots$
+- Qui converge vers $+\infty$ : il faut $q > 1$ et $u_{0} > 0$. Par exemple $u_{0} = 1$ et $q = 2$ : $u_{n} = 2^{n}$.
+
+## Pièges {.unlisted}
+
+- Proposer $q = 0$ pour converger vers $0$ : la définition impose un rapport non nul.
+- Pour la limite $+\infty$, prendre $u_{0} < 0$ : la suite tend alors vers $-\infty$.
+:::
+:::
+
+::: {#exercice-3-10 data-sorte="exercice" data-num="3.10" data-page="29" data-phys="34" data-id="5UAA2.ex.035" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 3.10]{.exo-titre} [[A1]{.exo-comp} ★☆☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+**a)** Représente les cinq premiers termes ($n$ de $0$ à $4$) de la suite géométrique $u_{n} = 16 \cdot (\frac{1}{2})^{n}$ dans le repère ci-dessous.
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 16.0], [1.0, 8.0], [2.0, 4.0], [3.0, 2.0], [4.0, 1.0]], "nmax": 5, "ymin": 0.0, "ymax": 18.0, "fixe": true, "ypas": 2.0, "n0": 0, "largeur": 520, "hauteur": 307, "cache": true, "ylabel": "uₙ"}'></div>
+```
+
+**b)** On donne ci-dessous une *autre* suite. Est-elle plutôt arithmétique ou géométrique ? Justifie par l’allure des points, puis lis $u_{0}$, détermine la raison et donne la formule explicite.
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 8.0], [1.0, 4.0], [2.0, 2.0], [3.0, 1.0]], "nmax": 4, "ymin": 0.0, "ymax": 10.0, "fixe": true, "ypas": 2.0, "n0": 0, "largeur": 520, "hauteur": 317}'></div>
+```
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la section « Représentation et variation » du chapitre 3 et la [définition d’une suite géométrique](2-definition.qmd#definition-3-1).
+
+## Indice 2 {.unlisted}
+
+Sur le second graphique, les hauteurs diminuent-elles toujours du même nombre, ou sont-elles à chaque fois divisées par le même nombre ?
+
+## Indice 3 {.unlisted}
+
+a) $u_{0} = 16$, $u_{1} = 8$… b) Lis $u_{0} = 8$, puis compare $u_{1}$ à $u_{0}$.
+
+## Solution {.unlisted}
+
+a) On calcule les termes : $u_{0} = 16$, $u_{1} = 16 \cdot \frac{1}{2} = 8$, $u_{2} = 4$, $u_{3} = 2$, $u_{4} = 1$. On place les points $(0 ; 16)$, $(1 ; 8)$, $(2 ; 4)$, $(3 ; 2)$ et $(4 ; 1)$.
+
+b) On lit $u_{0} = 8$, $u_{1} = 4$, $u_{2} = 2$, $u_{3} = 1$. Les points ne sont pas alignés : les écarts $4 - 8 = -4$, $2 - 4 = -2$ et $1 - 2 = -1$ ne sont pas constants, donc la suite n’est pas arithmétique. En revanche, $\frac{4}{8} = \frac{2}{4} = \frac{1}{2} = \frac{1}{2}$ : le rapport est constant, donc, par la [Définition 3.1](2-definition.qmd#definition-3-1), la suite est géométrique, de raison $q = \frac{1}{2}$. Par la [Propriété 3.2](4-generer-une-suite-geometrique.qmd#propriete-3-2), $u_{n} = 8 \cdot (\frac{1}{2})^{n}$.
+
+## Pièges {.unlisted}
+
+- Lire une raison $q = -4$ en regardant la première descente : dans une suite géométrique, on compare par **division**.
+:::
+:::
+
+::: {#exercice-3-11 data-sorte="exercice" data-num="3.11" data-page="30" data-phys="35" data-id="5UAA2.ex.036" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 3.11]{.exo-titre} [[C6]{.exo-comp} ★★☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+**Calcule la limite** de chaque suite, à partir de sa représentation, sachant que ce sont des suites géométriques.
+
+**a)** D’après le graphique :
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 8.0], [1.0, 4.0], [2.0, 2.0], [3.0, 1.0], [4.0, 0.5], [5.0, 0.25]], "nmax": 5, "ymin": 0.0, "ymax": 9.0, "fixe": true, "ypas": 2.0, "n0": 0, "largeur": 520, "hauteur": 300, "zero": true}'></div>
+```
+
+**b)** D’après le tableau de valeurs :
+
+::: {.tableau}
+| $n$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| $u_{n}$ | $1$ | $3$ | $9$ | $27$ | $81$ | $243$ |
+:::
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [propriété « limite d’une suite géométrique »](5-caracteristiques-variation-limite.qmd#propriete-3-5).
+
+## Indice 2 {.unlisted}
+
+Pour appliquer la propriété, que faut-il connaître ? Peux-tu lire $q$ et le signe de $u_{0}$ sur chaque représentation ?
+
+## Indice 3 {.unlisted}
+
+a) $\frac{4}{8} = \frac{1}{2}$. b) $\frac{3}{1} = 3$.
+
+## Solution {.unlisted}
+
+On utilise la [Propriété 3.5](5-caracteristiques-variation-limite.qmd#propriete-3-5) : il faut connaître la raison $q$ et, si $q > 1$, le signe de $u_{0}$.
+
+a) On lit $u_{0} = 8$, $u_{1} = 4$, $u_{2} = 2$ : $\frac{4}{8} = \frac{2}{4} = \frac{1}{2}$, donc $q = \frac{1}{2}$. Comme $-1 < q < 1$, $\lim\limits_{n \to +\infty} u_{n} = 0$ : la suite converge vers $0$.
+
+b) $\frac{3}{1} = \frac{9}{3} = \frac{27}{9} = 3$, donc $q = 3$. Comme $q > 1$ et $u_{0} = 1 > 0$, $\lim\limits_{n \to +\infty} u_{n} = +\infty$ : la suite converge vers $+\infty$.
+
+## Pièges {.unlisted}
+
+- Dire « la limite vaut $0{,}25$ » en lisant le dernier point : la suite continue de diminuer.
+- Oublier le signe de $u_{0}$ quand $q > 1$.
+:::
+:::
+
+::: {#exercice-3-12 data-sorte="exercice" data-num="3.12" data-page="31" data-phys="36" data-id="5UAA2.ex.037" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 3.12]{.exo-titre} [[T1]{.exo-comp} ★★★]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Le prix d’un sac est de $165$ €. Il subit $4$ rabais successifs de $5 \%$ (soldes).
+
+- Calcule son prix après chaque rabais.
+- Quelle est la nature de la suite formée par ces prix ?
+- Quel est le pourcentage total de diminution ?
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis l’[activité sur les intérêts composés](../ch1-generalites-sur-les/1-deux-situations-pour-commencer.qmd#activite-1-2) : augmenter de $10 \%$, c’est multiplier par $1{,}1$. Et diminuer de $5 \%$ ?
+
+## Indice 2 {.unlisted}
+
+Par quel nombre multiplie-t-on le prix à chaque rabais ? Après $4$ rabais, par quel nombre a-t-on multiplié en tout ?
+
+## Indice 3 {.unlisted}
+
+Diminuer de $5 \%$, c’est garder $95 \%$ : on multiplie par $0{,}95$. $p_{1} = 165 \cdot 0{,}95$.
+
+## Solution {.unlisted}
+
+Diminuer un prix de $5 \%$, c’est en garder $95 \%$, donc le multiplier par $0{,}95$. Notons $p_{0} = 165$ le prix de départ et $p_{n}$ le prix après $n$ rabais.
+
+- $p_{1} = 165 \cdot 0{,}95 = 156{,}75$ €, $p_{2} = 156{,}75 \cdot 0{,}95 \approx 148{,}91$ €, $p_{3} \approx 141{,}47$ € et $p_{4} \approx 134{,}39$ €.
+- Chaque prix s’obtient en multipliant le précédent par le même nombre $0{,}95$ : par la [Définition 3.1](2-definition.qmd#definition-3-1), la suite des prix est géométrique, de raison $q = 0{,}95$, et $p_{n} = 165 \cdot 0{,}95^{n}$.
+- Après les $4$ rabais, le prix a été multiplié par $0{,}95^{4} \approx 0{,}8145$ : il vaut environ $81{,}45 \%$ du prix de départ. La diminution totale est donc d’environ $100 \% - 81{,}45 \% = 18{,}55 \%$, et non de $4 \cdot 5 \% = 20 \%$, car chaque rabais porte sur un prix déjà réduit.
+
+## Pièges {.unlisted}
+
+- Retirer $4 \times 5 \% = 20 \%$ : chaque rabais porte sur un prix déjà réduit.
+- Retirer à chaque fois $5 \%$ de $165$ € (c’est-à-dire $8{,}25$ €) : ce serait une suite arithmétique.
+:::
+:::
+
+::: {#exercice-3-13 data-sorte="exercice" data-num="3.13" data-page="31" data-phys="36" data-id="5UAA2.ex.038" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 3.13]{.exo-titre} [[T1]{.exo-comp} ★★★]{.exo-meta}
+:::
+
+::: {.exo-corps}
+La légende veut que l’inventeur du jeu d’échecs ait demandé $1$ grain de blé pour la 1^re^ case, $2$ pour la 2^e^, $4$ pour la 3^e^, et ainsi de suite en doublant jusqu’à la 64^e^ case. Combien de grains en tout ? Sachant que $100$ grains pèsent environ $5$ g et que la production mondiale annuelle de blé est d’environ $700$ millions de tonnes, la demande était-elle réaliste ?
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [propriété « somme des $n$ premiers termes »](6-somme-des-n-premiers-termes.qmd#propriete-3-6).
+
+## Indice 2 {.unlisted}
+
+Quels sont le premier terme, la raison et le nombre de termes ? Combien pèse un grain ?
+
+## Indice 3 {.unlisted}
+
+Sur la case de rang $k$ (de $0$ à $63$), il y a $2^{k}$ grains : $S_{64} = 1 \cdot \frac{2^{64} - 1}{2 - 1}$. Un grain pèse $\frac{5}{100} = 0{,}05$ g.
+
+## Solution {.unlisted}
+
+Sur la case de rang $k$ (de $0$ pour la première case à $63$ pour la dernière), il y a $2^{k}$ grains : le nombre de grains forme une suite géométrique de premier terme $u_{0} = 1$ et de raison $q = 2$. Le nombre total de grains est la somme des $64$ premiers termes. Par la [Propriété 3.6](6-somme-des-n-premiers-termes.qmd#propriete-3-6),
+
+$$
+S_{64} = 1 \cdot \frac{2^{64} - 1}{2 - 1} = 2^{64} - 1 \approx 1{,}84 \cdot 10^{19}.
+$$
+
+Il y a donc environ $1{,}84 \cdot 10^{19}$ grains. Comme $100$ grains pèsent $5$ g, un grain pèse $0{,}05$ g. La masse totale vaut environ $1{,}84 \cdot 10^{19} \cdot 0{,}05 \approx 9{,}2 \cdot 10^{17}$ g, soit $9{,}2 \cdot 10^{11}$ t, puisque $1$ t $= 10^{6}$ g. Cela représente $\frac{9{,}2 \cdot 10^{11}}{7 \cdot 10^{8}} \approx 1300$ années de production mondiale : la demande n’était pas réaliste.
+
+## Pièges {.unlisted}
+
+- Calculer seulement la dernière case ($2^{63}$ grains) au lieu de la somme de toutes les cases.
+- Se tromper dans les unités : $1$ tonne $= 10^{6}$ g.
+:::
+:::
+
+::: {#exercice-3-14 data-sorte="exercice" data-num="3.14" data-page="31" data-phys="36" data-id="5UAA2.ex.039" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 3.14]{.exo-titre} [[T1]{.exo-comp} ★★★]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Une balle est lâchée d’une hauteur de $2$ m. À chaque rebond, elle remonte à $75 \%$ de sa hauteur précédente.
+
+- Quelle hauteur atteint-elle après le 3^e^ rebond ?
+- Quelle hauteur après le $n$^e^ rebond ?
+- Après combien de rebonds la hauteur passe-t-elle sous $15$ cm ?
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [propriété « génération »](4-generer-une-suite-geometrique.qmd#propriete-3-2) d’une suite géométrique.
+
+## Indice 2 {.unlisted}
+
+Par quel nombre la hauteur est-elle multipliée à chaque rebond ? Quelle est la hauteur « au rang $0$ » ?
+
+## Indice 3 {.unlisted}
+
+$h_{0} = 2$ m et $q = 0{,}75$, donc $h_{n} = 2 \cdot 0{,}75^{n}$. Pour le dernier point, calcule quelques termes : $h_{8}$, $h_{9}$, $h_{10}$.
+
+## Solution {.unlisted}
+
+À chaque rebond, la balle remonte à $75 \%$ de la hauteur précédente : la hauteur est multipliée par $0{,}75$. Notons $h_{0} = 2$ m la hauteur de départ et $h_{n}$ la hauteur après le $n$^e^ rebond. La suite $(h_{n})$ est géométrique, de premier terme $h_{0} = 2$ et de raison $q = 0{,}75$.
+
+- Après le $3$^e^ rebond : $h_{3} = 2 \cdot 0{,}75^{3} \approx 0{,}84$ m.
+- Après le $n$^e^ rebond, par la [Propriété 3.2](4-generer-une-suite-geometrique.qmd#propriete-3-2) : $h_{n} = 2 \cdot 0{,}75^{n}$ m.
+- On cherche le premier rang tel que $h_{n} < 0{,}15$ m. On calcule : $h_{9} = 2 \cdot 0{,}75^{9} \approx 0{,}1502$ m, encore au-dessus de $15$ cm, et $h_{10} = 2 \cdot 0{,}75^{10} \approx 0{,}1126$ m. Comme $h_{0} > 0$ et $0 < q < 1$, la suite est strictement décroissante ([Propriété 3.1](3-representation-et-variation.qmd#propriete-3-1)) : la hauteur passe sous $15$ cm après le $10$^e^ rebond.
+
+## Pièges {.unlisted}
+
+- Arrondir trop tôt : $h_{9} \approx 0{,}150$ m semble valoir exactement $15$ cm, mais $h_{9} = 0{,}15017$… reste au-dessus.
+- Retirer $25$ cm à chaque rebond : c’est $25 \%$ de la hauteur **précédente** qui est perdu.
+:::
+:::

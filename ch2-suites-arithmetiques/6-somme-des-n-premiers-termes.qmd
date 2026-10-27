@@ -1,0 +1,75 @@
+---
+title: "Somme des n premiers termes"
+---
+
+<!-- GÉNÉRÉ par typweb à partir des notes Typst : NE PAS ÉDITER (les modifications seraient écrasées). -->
+
+L’activité de la pyramide a fait apparaître une formule pour la somme. Énonçons-la et démontrons-la proprement.
+
+::: {#propriete-2-6 data-sorte="propriete" data-num="2.6" data-page="17" data-phys="19" data-id="5UAA2.somme-premiers-termes-2" data-type="propriete" data-tags="" .theo .theo-propriete}
+::: {.theo-head}
+**Propriété 2.6** — somme des $n$ premiers termes
+:::
+
+::: {.theo-body}
+Soit $(u_{n})$ suite arithmétique de raison $r$. Alors la somme $S_{n}$ des $n$ premiers termes vaut
+
+$$
+S_{n} = u_{0} + u_{1} + \ldots + u_{n-1} = \frac{n}{2} (u_{0} + u_{n-1}).
+$$
+
+Plus généralement, une somme de termes consécutifs vaut
+
+$$
+\frac{\text{nombre de termes}}{2} \times (\text{premier terme} + \text{dernier terme}).
+$$
+:::
+:::
+
+::: {#preuve-2-1 data-sorte="preuve" data-num="2.1" .theo .theo-preuve}
+::: {.theo-head}
+**Démonstration 2.1**
+:::
+
+::: {.theo-body}
+Écrivons la somme $S_{n}$ dans les deux sens:
+
+$$
+S_{n} = u_{0} + u_{1} + \ldots + u_{n-1},  \\ S_{n} = u_{n-1} + u_{n-2} + \ldots + u_{0}.
+$$
+
+On a que $u_{1}+u_{n-2}=u_{0}+r+u_{n-1}-r=u_{0}+u_{n-1}$. De même
+
+$$
+u_{2}+u_{n-3}=u_{0}+2r+u_{n-1}-2r=u_{0}+u_{n-1}.
+$$
+
+En procédant de la même manière on obtient:
+
+$$
+u_{0}+u_{n-1}=u_{1}+u_{n-2}=u_{2}+u_{n-3}=\ldots=u_{n-1}+u_{0}.
+$$
+
+Chacune des $n$ colonnes a donc la même somme, $u_{0}+u_{n-1}$.
+
+Donc,
+
+$$
+2 S_{n} = n (u_{0} + u_{n-1}), \quad \text{d'où} \quad S_{n} = \frac{n}{2} (u_{0} + u_{n-1}).
+$$
+:::
+:::
+
+::: {#exemple-2-6 data-sorte="exemple" data-num="2.6" data-page="17" data-phys="20" data-id="5UAA2.exm.004" data-type="exemple" data-tags="" .theo .theo-exemple}
+::: {.theo-head}
+**Exemple 2.6**
+:::
+
+::: {.theo-body}
+Somme des $12$ premiers termes de la suite de la pyramide ($u_{0} = 4$, $u_{11} = 92$) : $S_{12} = \frac{12}{2} (4 + 92) = 6 \cdot 96 = 576$. On retrouve bien le résultat de l’activité.
+:::
+:::
+
+::: {.ae-lien}
+[✔ S'autoévaluer sur cette section : test de 4 questions →](../autoeval.qmd#sections=sec-arith-somme)
+:::

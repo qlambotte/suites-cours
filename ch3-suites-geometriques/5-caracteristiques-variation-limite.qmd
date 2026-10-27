@@ -1,0 +1,133 @@
+---
+title: "Caractéristiques : variation, limite"
+---
+
+<!-- GÉNÉRÉ par typweb à partir des notes Typst : NE PAS ÉDITER (les modifications seraient écrasées). -->
+
+::: {#activite-3-3 data-sorte="activite" data-num="3.3" data-page="26" data-phys="30" data-id="5UAA2.conjecturer-limite-2" data-type="activite" data-tags="" .theo .theo-activite}
+::: {.theo-head}
+**Activité 3.3** — conjecturer la limite
+:::
+
+::: {.theo-body}
+Observe les graphiques suivants, qui représentent des suites géométriques dans différents cas, selon le signe de la raison et du premier terme:
+
+::: {.grille style="--n:3"}
+::: {.cellule}
+**$0 < q < 1$ et $u_{0}>0$**
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 8.0], [1.0, 4.8], [2.0, 2.9], [3.0, 1.7], [4.0, 1.0], [5.0, 0.6], [6.0, 0.37]], "nmax": 6, "ymin": -2.0, "ymax": 9.0, "fixe": true, "ypas": 2.0, "n0": 0, "largeur": 520, "hauteur": 360}'></div>
+```
+:::
+
+::: {.cellule}
+**$q > 1$ et $u_{0}>0$**
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 1.0], [1.0, 1.6], [2.0, 2.6], [3.0, 4.1], [4.0, 6.6], [5.0, 10.5]], "nmax": 5, "ymin": -2.0, "ymax": 12.0, "fixe": true, "ypas": 2.0, "n0": 0, "largeur": 520, "hauteur": 360}'></div>
+```
+:::
+
+::: {.cellule}
+**$q \leq -1$ et $u_{0}>0$**
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 4.0], [1.0, -6.0], [2.0, 9.0], [3.0, -13.5]], "nmax": 3, "ymin": -15.0, "ymax": 12.0, "fixe": true, "ypas": 5.0, "n0": 0, "largeur": 520, "hauteur": 360, "zero": true}'></div>
+```
+:::
+:::
+
+::: {.grille style="--n:3"}
+::: {.cellule}
+**$0 < q < 1$ et $u_{0}<0$**
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, -8.0], [1.0, -4.8], [2.0, -2.9], [3.0, -1.7], [4.0, -1.0], [5.0, -0.6], [6.0, -0.37]], "nmax": 6, "ymin": -9.0, "ymax": 0.0, "fixe": true, "ypas": 2.0, "n0": 0, "largeur": 520, "hauteur": 360, "zero": true}'></div>
+```
+:::
+
+::: {.cellule}
+**$q > 1$ et $u_{0}<0$**
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, -1.0], [1.0, -1.6], [2.0, -2.6], [3.0, -4.1], [4.0, -6.6], [5.0, -10.5]], "nmax": 5, "ymin": -12.0, "ymax": 0.0, "fixe": true, "ypas": 2.0, "n0": 0, "largeur": 520, "hauteur": 360}'></div>
+```
+:::
+
+::: {.cellule}
+**$q \leq -1$ et $u_{0}<0$**
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, -4.0], [1.0, 6.0], [2.0, -9.0], [3.0, 13.5]], "nmax": 3, "ymin": -15.0, "ymax": 12.0, "fixe": true, "ypas": 5.0, "n0": 0, "largeur": 520, "hauteur": 360, "zero": true}'></div>
+```
+:::
+:::
+
+::: {.grille style="--n:3"}
+::: {.cellule}
+**$-1 < q < 0$ et $u_{0}<0$**
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, -8.0], [1.0, 4.8], [2.0, -2.9], [3.0, 1.7], [4.0, -1.0], [5.0, 0.6], [6.0, -0.37]], "nmax": 6, "ymin": -9.0, "ymax": 6.0, "fixe": true, "ypas": 2.0, "n0": 0, "largeur": 520, "hauteur": 360, "zero": true}'></div>
+```
+:::
+
+::: {.cellule}
+**$-1 < q < 0$ et $u_{0}>0$**
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 8.0], [1.0, -4.8], [2.0, 2.9], [3.0, -1.7], [4.0, 1.0], [5.0, -0.6], [6.0, 0.37]], "nmax": 5, "ymin": -6.0, "ymax": 8.0, "fixe": true, "ypas": 2.0, "n0": 0, "largeur": 520, "hauteur": 360}'></div>
+```
+:::
+
+::: {.cellule}
+**$q = 1$ et $u_{0}<0$**
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, -8.0], [1.0, -8.0], [2.0, -8.0], [3.0, -8.0]], "nmax": 3, "ymin": -15.0, "ymax": 12.0, "fixe": true, "ypas": 5.0, "n0": 0, "largeur": 520, "hauteur": 360, "zero": true}'></div>
+```
+:::
+:::
+
+Tu constates que le comportement d’une suite géométrique dépend à la fois de la **raison $q$** et du **signe du premier terme $u_{0}$**.
+
+À l’aide des graphiques, complète le tableau des limites $\lim\limits_{n \to +\infty} u_{n}$ selon le signe de $u_{0}$ et la valeur de $q$ :
+
+::: {.tableau}
+|   | $q \leq -1$ | $-1 < q < 0$ | $0 < q < 1$ | $q = 1$ | $q > 1$ |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| $u_{0} > 0$ | [pas de limite]{.rep} | [$0$]{.rep} | [$0$]{.rep} | [$u_{0}$]{.rep} | [$+\infty$]{.rep} |
+| $u_{0} < 0$ | [pas de limite]{.rep} | [$0$]{.rep} | [$0$]{.rep} | [$u_{0}$]{.rep} | [$-\infty$]{.rep} |
+:::
+:::
+:::
+
+::: {#propriete-3-5 data-sorte="propriete" data-num="3.5" data-page="27" data-phys="31" data-id="5UAA2.limite-suite-geometrique" data-type="propriete" data-tags="" .theo .theo-propriete}
+::: {.theo-head}
+**Propriété 3.5** — limite d’une suite géométrique
+:::
+
+::: {.theo-body}
+Soit $(u_{n})$ une suite géométrique de raison $q$ (et $u_{0} \neq 0$).
+
+- si $-1 < q < 1$, alors $\lim\limits_{n\to+\infty} u_{n} = 0$ : la suite **converge** vers $0$ ;
+- si $q = 1$, la suite est constante : elle **converge** vers $u_{0}$ ;
+- si $q > 1$, elle **converge** vers $+\infty$ (si $u_{0} > 0$) ou $-\infty$ (si $u_{0} < 0$) ;
+- si $q \leq -1$, la suite **diverge** (elle n’a pas de limite).
+:::
+:::
+
+Sur le site du cours, la figure suivante s’anime : fais varier la raison $q$ et le premier terme $u_{0}$, et retrouve chaque case du tableau de l’activité.
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"n0": 0, "nmax": 10, "mode": "points", "nom": "u", "ymin": -10.0, "ymax": 10.0, "u0": 0, "rec": {"js": "(p_q * x)"}, "curseurs": [{"nom": "u0", "etiquette": "u0", "min": -8.0, "max": 8.0, "pas": 1.0, "val": 6.0}, {"nom": "p_q", "etiquette": "q", "min": -1.5, "max": 1.5, "pas": 0.1, "val": 0.7}], "params": ["p_q"]}'></div>
+```
+
+::: {.ia-legende}
+Suite géométrique de premier terme $u_{0} = 6$ et de raison $q = 0{,}7$ (réglables sur le site).
+:::
+
+::: {.ae-lien}
+[✔ S'autoévaluer sur cette section : test de 4 questions →](../autoeval.qmd#sections=sec-geo-limite)
+:::

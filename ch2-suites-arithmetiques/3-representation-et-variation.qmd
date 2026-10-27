@@ -1,0 +1,61 @@
+---
+title: "Représentation et variation"
+---
+
+<!-- GÉNÉRÉ par typweb à partir des notes Typst : NE PAS ÉDITER (les modifications seraient écrasées). -->
+
+Les points d’une suite arithmétique sont **alignés** : sa croissance est **linéaire** (le rôle de la raison est celui de la pente d’une droite). Le signe de la raison donne aussitôt le sens de variation.
+
+::: {.grille style="--n:3"}
+::: {.cellule}
+**$r > 0$ (croissante)**
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 1.0], [1.0, 3.0], [2.0, 5.0], [3.0, 7.0], [4.0, 9.0]], "nmax": 4, "ymin": 0.0, "ymax": 10.0, "fixe": true, "ypas": 2.0, "n0": 0, "largeur": 520, "hauteur": 360}'></div>
+```
+:::
+
+::: {.cellule}
+**$r = 0$ (constante)**
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 5.0], [1.0, 5.0], [2.0, 5.0], [3.0, 5.0], [4.0, 5.0]], "nmax": 4, "ymin": 0.0, "ymax": 10.0, "fixe": true, "ypas": 2.0, "n0": 0, "largeur": 520, "hauteur": 360}'></div>
+```
+:::
+
+::: {.cellule}
+**$r < 0$ (décroissante)**
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 9.0], [1.0, 6.5], [2.0, 4.0], [3.0, 1.5], [4.0, -1.0]], "nmax": 4, "ymin": -2.0, "ymax": 10.0, "fixe": true, "ypas": 2.0, "n0": 0, "largeur": 520, "hauteur": 360}'></div>
+```
+:::
+:::
+
+::: {#propriete-2-1 data-sorte="propriete" data-num="2.1" data-page="14" data-phys="16" data-id="5UAA2.variation-suite-arithmetique" data-type="propriete" data-tags="" .theo .theo-propriete}
+::: {.theo-head}
+**Propriété 2.1** — variation d’une suite arithmétique
+:::
+
+::: {.theo-body}
+Soit $(u_{n})$ une suite arithmétique de raison $r$.
+
+- si $r > 0$, la suite est **strictement croissante** ;
+- si $r = 0$, la suite est **constante** ;
+- si $r < 0$, la suite est **strictement décroissante**.
+:::
+:::
+
+Sur le site du cours, la figure suivante s’anime : fais varier le premier terme $u_{0}$ et la raison $r$, puis observe que les points restent alignés et que le sens de variation ne dépend que du signe de $r$.
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"n0": 0, "nmax": 8, "mode": "points", "nom": "u", "ymin": -25.0, "ymax": 25.0, "u0": 0, "rec": {"js": "(x + p_r)"}, "curseurs": [{"nom": "u0", "etiquette": "u0", "min": -5.0, "max": 5.0, "pas": 1.0, "val": -3.0}, {"nom": "p_r", "etiquette": "r", "min": -2.5, "max": 2.5, "pas": 0.5, "val": 1.5}], "params": ["p_r"]}'></div>
+```
+
+::: {.ia-legende}
+Suite arithmétique de premier terme $u_{0} = -3$ et de raison $r = 1{,}5$ (réglables sur le site).
+:::
+
+::: {.ae-lien}
+[✔ S'autoévaluer sur cette section : test de 2 questions →](../autoeval.qmd#sections=sec-arith-representation)
+:::

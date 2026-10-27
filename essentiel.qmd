@@ -1,0 +1,390 @@
+---
+title: "L'essentiel"
+subtitle: "Définitions et propriétés du cours, pour s'y retrouver"
+---
+
+<!-- GÉNÉRÉ par typweb à partir des notes Typst : NE PAS ÉDITER (les modifications seraient écrasées). -->
+
+::: {.callout-important title="À lire avant d'utiliser cette page"}
+Cette page rassemble les énoncés du cours, **sans** les activités qui leur donnent du sens, sans les justifications, les exemples ni les méthodes vues en classe. Connaître ces énoncés **ne suffit pas** : l'essentiel, c'est de savoir les **utiliser**, et cela s'apprend avec les exemples et les exercices.
+
+Sers-t'en pour retrouver un énoncé ou vérifier que tu peux le **redire sans regarder**, puis retourne au cours (lien « dans le cours » sous chaque encadré) et aux exercices.
+:::
+
+## Chapitre 1 — Généralités sur les suites
+
+### Qu’est-ce qu’une suite numérique ?
+
+::: {#ess-definition-1-1 data-sorte="definition" data-num="1.1" data-page="3" data-phys="5" data-id="5UAA2.suite-numerique" data-type="definition" data-tags="" .theo .theo-definition}
+::: {.theo-head}
+**Définition 1.1** — suite numérique
+:::
+
+::: {.theo-body}
+Une **suite numérique** est une fonction dont le domaine est $\mathbb{N}$ (les naturels $0, 1, 2, \ldots$) ou $\mathbb{N}_{0}$ (les naturels sans le $0$ : $1, 2, 3, \ldots$). C’est donc une **liste ordonnée de nombres réels**, où chaque nombre est repéré par sa position.
+:::
+:::
+
+::: {.ess-lien}
+[↗ dans le cours](ch1-generalites-sur-les/2-quest-ce-quune-suite-numerique.qmd#definition-1-1)
+:::
+
+### Générer une suite
+
+::: {#ess-definition-1-2 data-sorte="definition" data-num="1.2" data-page="5" data-phys="7" data-id="5UAA2.formule-explicite" data-type="definition" data-tags="" .theo .theo-definition}
+::: {.theo-head}
+**Définition 1.2** — formule explicite
+:::
+
+::: {.theo-body}
+Une **formule explicite** donne le terme $u_{n}$ directement en fonction de son rang $n$. Elle permet de calculer n’importe quel terme sans connaître les précédents.
+:::
+:::
+
+::: {.ess-lien}
+[↗ dans le cours](ch1-generalites-sur-les/4-generer-une-suite.qmd#definition-1-2)
+:::
+
+::: {#ess-definition-1-3 data-sorte="definition" data-num="1.3" data-page="6" data-phys="8" data-id="5UAA2.relation-recurrence" data-type="definition" data-tags="" .theo .theo-definition}
+::: {.theo-head}
+**Définition 1.3** — relation de récurrence
+:::
+
+::: {.theo-body}
+Une **relation de récurrence** (du premier ordre) exprime chaque terme en fonction du **précédent**. Pour déterminer entièrement la suite, il faut aussi connaître son **premier terme**.
+:::
+:::
+
+::: {.ess-lien}
+[↗ dans le cours](ch1-generalites-sur-les/4-generer-une-suite.qmd#definition-1-3)
+:::
+
+### Variations d’une suite
+
+::: {#ess-definition-1-4 data-sorte="definition" data-num="1.4" data-page="7" data-phys="9" data-id="5UAA2.variation" data-type="definition" data-tags="" .theo .theo-definition}
+::: {.theo-head}
+**Définition 1.4** — variation
+:::
+
+::: {.theo-body}
+Soit $(u_{n})$ une suite. On dit qu’elle est
+
+- **croissante** si $\forall n \in \mathbb{N}, u_{n} \leq u_{n+1}$,
+- **strictement croissante** si $\forall n \in \mathbb{N},u_{n} < u_{n+1}$ ;
+- **décroissante** si $\forall n \in \mathbb{N},u_{n} \geq u_{n+1}$,
+- **strictement décroissante** si $\forall n \in \mathbb{N},u_{n} > u_{n+1}$ ;
+- **constante** si $\forall n \in \mathbb{N},u_{n} = u_{n+1}$ ;
+- **quelconque** si elle n’est dans aucun des cinq cas ci-dessus.
+:::
+:::
+
+::: {.ess-lien}
+[↗ dans le cours](ch1-generalites-sur-les/5-variations-dune-suite.qmd#definition-1-4)
+:::
+
+### Limite d’une suite
+
+::: {#ess-definition-1-5 data-sorte="definition" data-num="1.5" data-page="8" data-phys="10" data-id="5UAA2.limite-convergence" data-type="definition" data-tags="" .theo .theo-definition}
+::: {.theo-head}
+**Définition 1.5** — limite, convergence
+:::
+
+::: {.theo-body}
+Soit $(u_{n})$ une suite et $\ell \in \mathbb{R} \cup \{\pm \infty\}$ . On dit que $(u_{n})$ **converge vers $\ell$** (ou que la limite de $(u_{n})$ vaut $\ell$) si les termes $u_{n}$ se rapprochent autant qu’on veut de $\ell$ lorsque le rang $n$ est suffisamment grand. On note alors
+
+$$
+\lim\limits_{n \to +\infty} u_{n} = \ell.
+$$
+
+Sinon, on dit que la suite **diverge**.
+:::
+:::
+
+::: {.ess-lien}
+[↗ dans le cours](ch1-generalites-sur-les/6-limite-dune-suite.qmd#definition-1-5)
+:::
+
+## Chapitre 2 — Suites arithmétiques
+
+### Définition
+
+::: {#ess-definition-2-1 data-sorte="definition" data-num="2.1" data-page="13" data-phys="15" data-id="5UAA2.suite-arithmetique" data-type="definition" data-tags="" .theo .theo-definition}
+::: {.theo-head}
+**Définition 2.1** — suite arithmétique
+:::
+
+::: {.theo-body}
+Une **suite arithmétique** est une suite numérique telle que la **différence entre deux termes consécutifs est constante**. Cette différence constante est appelée la **raison**, notée $r$ :
+
+$$
+u_{n+1} - u_{n} = r \quad \text{pour tout} n \in \mathbb{N}.
+$$
+:::
+:::
+
+::: {.ess-lien}
+[↗ dans le cours](ch2-suites-arithmetiques/2-definition.qmd#definition-2-1)
+:::
+
+### Représentation et variation
+
+::: {#ess-propriete-2-1 data-sorte="propriete" data-num="2.1" data-page="14" data-phys="16" data-id="5UAA2.variation-suite-arithmetique" data-type="propriete" data-tags="" .theo .theo-propriete}
+::: {.theo-head}
+**Propriété 2.1** — variation d’une suite arithmétique
+:::
+
+::: {.theo-body}
+Soit $(u_{n})$ une suite arithmétique de raison $r$.
+
+- si $r > 0$, la suite est **strictement croissante** ;
+- si $r = 0$, la suite est **constante** ;
+- si $r < 0$, la suite est **strictement décroissante**.
+:::
+:::
+
+::: {.ess-lien}
+[↗ dans le cours](ch2-suites-arithmetiques/3-representation-et-variation.qmd#propriete-2-1)
+:::
+
+### Générer une suite arithmétique
+
+::: {#ess-propriete-2-2 data-sorte="propriete" data-num="2.2" data-page="14" data-phys="17" data-id="5UAA2.generation" data-type="propriete" data-tags="" .theo .theo-propriete}
+::: {.theo-head}
+**Propriété 2.2** — génération
+:::
+
+::: {.theo-body}
+Soit $(u_{n})$ une suite arithmétique de raison $r$ et de premier terme $u_{0}$.
+
+- **Relation de récurrence** : $u_{n+1} = u_{n} + r$.
+- **Formule explicite** : $u_{n} = u_{0} + n r$.
+:::
+:::
+
+::: {.ess-lien}
+[↗ dans le cours](ch2-suites-arithmetiques/4-generer-une-suite-arithmetique.qmd#propriete-2-2)
+:::
+
+::: {#ess-propriete-2-3 data-sorte="propriete" data-num="2.3" data-page="15" data-phys="18" data-id="5UAA2.terme-autre" data-type="propriete" data-tags="" .theo .theo-propriete}
+::: {.theo-head}
+**Propriété 2.3** — d’un terme à un autre
+:::
+
+::: {.theo-body}
+Pour une suite arithmétique de raison $r$ et pour tous rangs $n$ et $p$ :
+
+$$
+u_{n} = u_{p} + (n - p) r.
+$$
+:::
+:::
+
+::: {.ess-lien}
+[↗ dans le cours](ch2-suites-arithmetiques/4-generer-une-suite-arithmetique.qmd#propriete-2-3)
+:::
+
+::: {#ess-propriete-2-4 data-sorte="propriete" data-num="2.4" data-page="16" data-phys="18" data-id="5UAA2.raison-partir-deux-termes" data-type="propriete" data-tags="" .theo .theo-propriete}
+::: {.theo-head}
+**Propriété 2.4** — raison à partir de deux termes
+:::
+
+::: {.theo-body}
+Pour une suite arithmétique et deux rangs distincts $n \neq p$ :
+
+$$
+r = \frac{u_{n} - u_{p}}{n - p}.
+$$
+:::
+:::
+
+::: {.ess-lien}
+[↗ dans le cours](ch2-suites-arithmetiques/4-generer-une-suite-arithmetique.qmd#propriete-2-4)
+:::
+
+### Caractéristiques : variation, limite
+
+::: {#ess-propriete-2-5 data-sorte="propriete" data-num="2.5" data-page="16" data-phys="19" data-id="5UAA2.limite-suite-arithmetique" data-type="propriete" data-tags="" .theo .theo-propriete}
+::: {.theo-head}
+**Propriété 2.5** — limite d’une suite arithmétique
+:::
+
+::: {.theo-body}
+Soit $(u_{n})$ une suite arithmétique de raison $r$. Alors
+
+- si $r=0$, $\lim\limits_{n\to +\infty}u_{n}=u_{0}$ ;
+- si $r>0$, $\lim\limits_{n\to +\infty}u_{n}=+\infty$ ;
+- si $r<0$, $\lim\limits_{n\to +\infty}u_{n}=-\infty$ ;
+:::
+:::
+
+::: {.ess-lien}
+[↗ dans le cours](ch2-suites-arithmetiques/5-caracteristiques-variation-limite.qmd#propriete-2-5)
+:::
+
+### Somme des $n$ premiers termes
+
+::: {#ess-propriete-2-6 data-sorte="propriete" data-num="2.6" data-page="17" data-phys="19" data-id="5UAA2.somme-premiers-termes-2" data-type="propriete" data-tags="" .theo .theo-propriete}
+::: {.theo-head}
+**Propriété 2.6** — somme des $n$ premiers termes
+:::
+
+::: {.theo-body}
+Soit $(u_{n})$ suite arithmétique de raison $r$. Alors la somme $S_{n}$ des $n$ premiers termes vaut
+
+$$
+S_{n} = u_{0} + u_{1} + \ldots + u_{n-1} = \frac{n}{2} (u_{0} + u_{n-1}).
+$$
+
+Plus généralement, une somme de termes consécutifs vaut
+
+$$
+\frac{\text{nombre de termes}}{2} \times (\text{premier terme} + \text{dernier terme}).
+$$
+:::
+:::
+
+::: {.ess-lien}
+[↗ dans le cours](ch2-suites-arithmetiques/6-somme-des-n-premiers-termes.qmd#propriete-2-6)
+:::
+
+## Chapitre 3 — Suites géométriques
+
+### Définition
+
+::: {#ess-definition-3-1 data-sorte="definition" data-num="3.1" data-page="23" data-phys="26" data-id="5UAA2.suite-geometrique" data-type="definition" data-tags="" .theo .theo-definition}
+::: {.theo-head}
+**Définition 3.1** — suite géométrique
+:::
+
+::: {.theo-body}
+Une **suite géométrique** est une suite numérique telle que le **rapport entre deux termes consécutifs est constant** (et **non nul**). Ce rapport constant est appelé la **raison**, notée $q$ (pour la distinguer de la raison $r$ d’une suite arithmétique) :
+
+$$
+\frac{u_{n+1}}{u_{n}} = q \quad \text{pour tout} n \in \mathbb{N}.
+$$
+:::
+:::
+
+::: {.ess-lien}
+[↗ dans le cours](ch3-suites-geometriques/2-definition.qmd#definition-3-1)
+:::
+
+### Représentation et variation
+
+::: {#ess-propriete-3-1 data-sorte="propriete" data-num="3.1" data-page="24" data-phys="27" data-id="5UAA2.variation-suite-geometrique" data-type="propriete" data-tags="" .theo .theo-propriete}
+::: {.theo-head}
+**Propriété 3.1** — variation d’une suite géométrique
+:::
+
+::: {.theo-body}
+Soit $(u_{n})$ une suite géométrique de premier terme $u_{0} \neq 0$ et de raison $q$. Sa variation dépend de la raison $q$ **et** du signe du premier terme $u_{0}$ :
+
+::: {.tableau}
+|   | $q < 0$ | $0 < q < 1$ | $q = 1$ | $q > 1$ |
+|:---:|:---:|:---:|:---:|:---:|
+| $u_{0} > 0$ | quelconque | strict. décroissante | constante | strict. croissante |
+| $u_{0} < 0$ | quelconque | strict. croissante | constante | strict. décroissante |
+:::
+:::
+:::
+
+::: {.ess-lien}
+[↗ dans le cours](ch3-suites-geometriques/3-representation-et-variation.qmd#propriete-3-1)
+:::
+
+### Générer une suite géométrique
+
+::: {#ess-propriete-3-2 data-sorte="propriete" data-num="3.2" data-page="24" data-phys="27" data-id="5UAA2.generation-2" data-type="propriete" data-tags="" .theo .theo-propriete}
+::: {.theo-head}
+**Propriété 3.2** — génération
+:::
+
+::: {.theo-body}
+Soit $(u_{n})$ une suite géométrique de raison $q$ et de premier terme $u_{0}$.
+
+- **Relation de récurrence** : $u_{n+1} = q \cdot u_{n}$.
+- **Formule explicite** : $u_{n} = u_{0} \cdot q^{n}$.
+:::
+:::
+
+::: {.ess-lien}
+[↗ dans le cours](ch3-suites-geometriques/4-generer-une-suite-geometrique.qmd#propriete-3-2)
+:::
+
+::: {#ess-propriete-3-3 data-sorte="propriete" data-num="3.3" data-page="25" data-phys="29" data-id="5UAA2.terme-autre-2" data-type="propriete" data-tags="" .theo .theo-propriete}
+::: {.theo-head}
+**Propriété 3.3** — d’un terme à un autre
+:::
+
+::: {.theo-body}
+Pour une suite géométrique de raison $q$ et pour tous rangs $n$ et $p$ :
+
+$$
+u_{n} = u_{p} \cdot q^{n - p}.
+$$
+:::
+:::
+
+::: {.ess-lien}
+[↗ dans le cours](ch3-suites-geometriques/4-generer-une-suite-geometrique.qmd#propriete-3-3)
+:::
+
+::: {#ess-propriete-3-4 data-sorte="propriete" data-num="3.4" data-page="26" data-phys="30" data-id="5UAA2.raison-partir-deux-termes-2" data-type="propriete" data-tags="" .theo .theo-propriete}
+::: {.theo-head}
+**Propriété 3.4** — raison à partir de deux termes
+:::
+
+::: {.theo-body}
+Pour une suite géométrique et deux rangs $n>p$, on a $q^{n-p} = u_{n} / u_{p}$, d’où :
+
+- si $n - p$ est **impair** : $q = \sqrt[n-p]{u_{n} / u_{p}}$ ;
+- si $n - p$ est **pair** : $q = \pm \sqrt[n-p]{u_{n} / u_{p}}$.
+:::
+:::
+
+::: {.ess-lien}
+[↗ dans le cours](ch3-suites-geometriques/4-generer-une-suite-geometrique.qmd#propriete-3-4)
+:::
+
+### Caractéristiques : variation, limite
+
+::: {#ess-propriete-3-5 data-sorte="propriete" data-num="3.5" data-page="27" data-phys="31" data-id="5UAA2.limite-suite-geometrique" data-type="propriete" data-tags="" .theo .theo-propriete}
+::: {.theo-head}
+**Propriété 3.5** — limite d’une suite géométrique
+:::
+
+::: {.theo-body}
+Soit $(u_{n})$ une suite géométrique de raison $q$ (et $u_{0} \neq 0$).
+
+- si $-1 < q < 1$, alors $\lim\limits_{n\to+\infty} u_{n} = 0$ : la suite **converge** vers $0$ ;
+- si $q = 1$, la suite est constante : elle **converge** vers $u_{0}$ ;
+- si $q > 1$, elle **converge** vers $+\infty$ (si $u_{0} > 0$) ou $-\infty$ (si $u_{0} < 0$) ;
+- si $q \leq -1$, la suite **diverge** (elle n’a pas de limite).
+:::
+:::
+
+::: {.ess-lien}
+[↗ dans le cours](ch3-suites-geometriques/5-caracteristiques-variation-limite.qmd#propriete-3-5)
+:::
+
+### Somme des $n$ premiers termes
+
+::: {#ess-propriete-3-6 data-sorte="propriete" data-num="3.6" data-page="27" data-phys="31" data-id="5UAA2.somme-premiers-termes-4" data-type="propriete" data-tags="" .theo .theo-propriete}
+::: {.theo-head}
+**Propriété 3.6** — somme des $n$ premiers termes
+:::
+
+::: {.theo-body}
+Pour une suite géométrique de raison $q \neq 1$, la somme des $n$ premiers termes vaut
+
+$$
+S_{n} = u_{0} + u_{1} + \ldots + u_{n-1} = u_{0} \cdot \frac{q^{n} - 1}{q - 1}.
+$$
+
+(Si $q = 1$, la suite est constante et $S_{n} = n \cdot u_{0}$.)
+:::
+:::
+
+::: {.ess-lien}
+[↗ dans le cours](ch3-suites-geometriques/6-somme-des-n-premiers-termes.qmd#propriete-3-6)
+:::

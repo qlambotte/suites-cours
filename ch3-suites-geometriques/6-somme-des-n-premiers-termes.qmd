@@ -1,0 +1,55 @@
+---
+title: "Somme des n premiers termes"
+---
+
+<!-- GÉNÉRÉ par typweb à partir des notes Typst : NE PAS ÉDITER (les modifications seraient écrasées). -->
+
+::: {#propriete-3-6 data-sorte="propriete" data-num="3.6" data-page="27" data-phys="31" data-id="5UAA2.somme-premiers-termes-4" data-type="propriete" data-tags="" .theo .theo-propriete}
+::: {.theo-head}
+**Propriété 3.6** — somme des $n$ premiers termes
+:::
+
+::: {.theo-body}
+Pour une suite géométrique de raison $q \neq 1$, la somme des $n$ premiers termes vaut
+
+$$
+S_{n} = u_{0} + u_{1} + \ldots + u_{n-1} = u_{0} \cdot \frac{q^{n} - 1}{q - 1}.
+$$
+
+(Si $q = 1$, la suite est constante et $S_{n} = n \cdot u_{0}$.)
+:::
+:::
+
+::: {#preuve-3-1 data-sorte="preuve" data-num="3.1" .theo .theo-preuve}
+::: {.theo-head}
+**Démonstration 3.1**
+:::
+
+::: {.theo-body}
+Écrivons $S_{n}$ puis $q \cdot S_{n}$ et soustrayons :
+
+$$
+S_{n} =u_{0} + u_{1} + \ldots + u_{n-1} = u_{0} + u_{0} q + u_{0} q^{2} + \ldots + u_{0} q^{n-1},  \\ q \cdot S_{n} = q u_{0} + q u_{1} + \ldots +q u_{n-1}= \quad \quad u_{0} q + u_{0} q^{2} + \ldots + u_{0} q^{n-1} + u_{0} q^{n}.
+$$
+
+Presque tous les termes se simplifient : $q S_{n} - S_{n} = u_{0} q^{n} - u_{0}$, c’est-à-dire $(q - 1) S_{n} = u_{0} (q^{n} - 1)$. Comme $q \neq 1$, on peut diviser par $q-1$ :
+
+$$
+S_{n} = u_{0} \frac{q^{n} - 1}{q - 1}.
+$$
+:::
+:::
+
+::: {#exemple-3-6 data-sorte="exemple" data-num="3.6" data-page="27" data-phys="32" data-id="5UAA2.exm.006" data-type="exemple" data-tags="" .theo .theo-exemple}
+::: {.theo-head}
+**Exemple 3.6**
+:::
+
+::: {.theo-body}
+Calculons la somme des $10$ premiers termes de la suite géométrique de premier terme $u_{0} = 3$ et de raison $q = 2$ : $S_{10} = 3 \cdot \frac{2^{10} - 1}{2 - 1} = 3 \cdot 1023 = 3069$.
+:::
+:::
+
+::: {.ae-lien}
+[✔ S'autoévaluer sur cette section : test de 2 questions →](../autoeval.qmd#sections=sec-geo-somme)
+:::

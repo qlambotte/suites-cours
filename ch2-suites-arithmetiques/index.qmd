@@ -1,0 +1,17 @@
+---
+title: "Chapitre 2 — Suites arithmétiques"
+---
+
+<!-- GÉNÉRÉ par typweb à partir des notes Typst : NE PAS ÉDITER (les modifications seraient écrasées). -->
+
+Au chapitre précédent, les intérêts simples nous ont fait rencontrer une suite où l’on **ajoute toujours le même nombre** pour passer d’un terme au suivant. Ces suites — dites **arithmétiques** — sont l’objet de ce chapitre.
+
+## Sections
+
+1. [Une pyramide de verre](1-une-pyramide-de-verre.qmd)
+2. [Définition](2-definition.qmd)
+3. [Représentation et variation](3-representation-et-variation.qmd)
+4. [Générer une suite arithmétique](4-generer-une-suite-arithmetique.qmd)
+5. [Caractéristiques : variation, limite](5-caracteristiques-variation-limite.qmd)
+6. [Somme des $n$ premiers termes](6-somme-des-n-premiers-termes.qmd)
+7. [Exercices](7-exercices.qmd) []{.suivi-sec data-exos="2.1 2.2 2.3 2.4 2.5 2.6 2.7 2.8 2.9 2.10 2.11 2.12 2.13 2.14 2.15"}

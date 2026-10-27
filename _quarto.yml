@@ -1,0 +1,91 @@
+# GÉNÉRÉ par typweb à partir de typweb.toml : NE PAS ÉDITER (modifier typweb.toml).
+project:
+  type: book
+  output-dir: _book
+  # le contenu est régénéré depuis les notes Typst à chaque rendu / aperçu
+  pre-render: python3 ../../../typweb/typweb.py contenu
+  resources:
+    - js/*.js
+    - js/*.css
+    - js/*.json
+    - index.json
+    - sw.js
+    - suites.pdf
+    - suites-corrige.pdf
+
+book:
+  title: "Les suites"
+  subtitle: "Cours & exercices — 5e, 4 périodes (5UAA2)"
+  author: "Quentin Lambotte"
+  date: today
+  date-format: "YYYY"
+  reader-mode: false
+  search: true
+  site-url: "https://qlambotte.github.io/suites-cours/"
+  sidebar:
+    style: docked
+    collapse-level: 1
+    pinned: true
+  chapters:
+    - index.qmd
+    - objectifs.qmd
+    - part: ch1-generalites-sur-les/index.qmd
+      chapters:
+        - ch1-generalites-sur-les/1-deux-situations-pour-commencer.qmd
+        - ch1-generalites-sur-les/2-quest-ce-quune-suite-numerique.qmd
+        - ch1-generalites-sur-les/3-representer-une-suite.qmd
+        - ch1-generalites-sur-les/4-generer-une-suite.qmd
+        - ch1-generalites-sur-les/5-variations-dune-suite.qmd
+        - ch1-generalites-sur-les/6-limite-dune-suite.qmd
+        - ch1-generalites-sur-les/7-exercices.qmd
+    - part: ch2-suites-arithmetiques/index.qmd
+      chapters:
+        - ch2-suites-arithmetiques/1-une-pyramide-de-verre.qmd
+        - ch2-suites-arithmetiques/2-definition.qmd
+        - ch2-suites-arithmetiques/3-representation-et-variation.qmd
+        - ch2-suites-arithmetiques/4-generer-une-suite-arithmetique.qmd
+        - ch2-suites-arithmetiques/5-caracteristiques-variation-limite.qmd
+        - ch2-suites-arithmetiques/6-somme-des-n-premiers-termes.qmd
+        - ch2-suites-arithmetiques/7-exercices.qmd
+    - part: ch3-suites-geometriques/index.qmd
+      chapters:
+        - ch3-suites-geometriques/1-le-pliage-dune-feuille.qmd
+        - ch3-suites-geometriques/2-definition.qmd
+        - ch3-suites-geometriques/3-representation-et-variation.qmd
+        - ch3-suites-geometriques/4-generer-une-suite-geometrique.qmd
+        - ch3-suites-geometriques/5-caracteristiques-variation-limite.qmd
+        - ch3-suites-geometriques/6-somme-des-n-premiers-termes.qmd
+        - ch3-suites-geometriques/7-exercices.qmd
+    - essentiel.qmd
+    - autoeval.qmd
+    - nouveautes.qmd
+    - mode-emploi.qmd
+  page-footer:
+    left: "Les suites — cours & exercices"
+    right: "© {{< meta book.author >}}"
+
+lang: fr
+
+format:
+  html:
+    theme:
+      - cosmo
+      - polices.scss
+      - theme.scss
+      - styles-essai.scss
+    include-in-header:
+      - _includes/theme-init.html
+    include-after-body:
+      - _includes/aides.html
+      - _includes/tools.html
+      - _includes/scripts.html
+      - _includes/styles-essai.html
+    toc: true
+    toc-title: "Sur cette page"
+    toc-depth: 3
+    number-sections: false
+    html-math-method: mathjax
+    grid:
+      sidebar-width: 300px
+      body-width: 880px
+      margin-width: 200px

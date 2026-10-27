@@ -1,0 +1,43 @@
+---
+title: "Définition"
+---
+
+<!-- GÉNÉRÉ par typweb à partir des notes Typst : NE PAS ÉDITER (les modifications seraient écrasées). -->
+
+::: {#definition-3-1 data-sorte="definition" data-num="3.1" data-page="23" data-phys="26" data-id="5UAA2.suite-geometrique" data-type="definition" data-tags="" .theo .theo-definition}
+::: {.theo-head}
+**Définition 3.1** — suite géométrique
+:::
+
+::: {.theo-body}
+Une **suite géométrique** est une suite numérique telle que le **rapport entre deux termes consécutifs est constant** (et **non nul**). Ce rapport constant est appelé la **raison**, notée $q$ (pour la distinguer de la raison $r$ d’une suite arithmétique) :
+
+$$
+\frac{u_{n+1}}{u_{n}} = q \quad \text{pour tout} n \in \mathbb{N}.
+$$
+:::
+:::
+
+::: {#remarque-3-1 data-sorte="remarque" data-num="3.1" data-page="23" data-phys="26" data-id="5UAA2.rem.004" data-type="remarque" data-tags="" .theo .theo-remarque}
+::: {.theo-head}
+**Remarque 3.1**
+:::
+
+::: {.theo-body}
+Si la raison vaut $q = 1$, la suite est **constante**. La raison peut être négative : les termes changent alors de signe à chaque étape. Une suite géométrique n’a jamais de terme nul (sinon le rapport n’aurait pas de sens).
+:::
+:::
+
+::: {#exemple-3-1 data-sorte="exemple" data-num="3.1" data-page="23" data-phys="26" data-id="5UAA2.reconnaitre-suite-geometrique" data-type="exemple" data-tags="" .theo .theo-exemple}
+::: {.theo-head}
+**Exemple 3.1** — reconnaître une suite géométrique
+:::
+
+::: {.theo-body}
+Dans $(3 ; 6 ; 12 ; 24 ; \ldots)$, on multiplie toujours par $2$ : $\frac{6}{3} = 2$, $\frac{12}{6} = 2$, … La suite est géométrique de raison $q = 2$. En revanche, $(3 ; 5 ; 7 ; \ldots)$ n’est pas géométrique : $\frac{5}{3} \neq \frac{7}{5}$.
+:::
+:::
+
+::: {.ae-lien}
+[✔ S'autoévaluer sur cette section : test de 3 questions →](../autoeval.qmd#sections=sec-geo-definition)
+:::

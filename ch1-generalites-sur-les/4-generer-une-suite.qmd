@@ -1,0 +1,109 @@
+---
+title: "Générer une suite"
+---
+
+<!-- GÉNÉRÉ par typweb à partir des notes Typst : NE PAS ÉDITER (les modifications seraient écrasées). -->
+
+Il existe deux manières de décrire une suite : par une formule explicite, ou par une relation de récurrence.
+
+## Par une formule explicite
+
+::: {#definition-1-2 data-sorte="definition" data-num="1.2" data-page="5" data-phys="7" data-id="5UAA2.formule-explicite" data-type="definition" data-tags="" .theo .theo-definition}
+::: {.theo-head}
+**Définition 1.2** — formule explicite
+:::
+
+::: {.theo-body}
+Une **formule explicite** donne le terme $u_{n}$ directement en fonction de son rang $n$. Elle permet de calculer n’importe quel terme sans connaître les précédents.
+:::
+:::
+
+Comme une suite est une fonction, cette formule n’est rien d’autre que **l’expression analytique de la fonction** $u : n \mapsto u_{n}$ — exactement comme le $f(x)$ d’une fonction vu en 4^e^.
+
+::: {#exemple-1-1 data-sorte="exemple" data-num="1.1" data-page="5" data-phys="7" data-id="5UAA2.puissances-2" data-type="exemple" data-tags="" .theo .theo-exemple}
+::: {.theo-head}
+**Exemple 1.1** — les puissances de 2
+:::
+
+::: {.theo-body}
+Pour la suite $(1 ; 2 ; 4 ; 8 ; \ldots)$ numérotée à partir de $0$, on a $u_{n} = 2^{n}$. On calcule alors *directement* :
+
+$$
+u_{6} = 2^{6} = 64, \quad u_{10} = 2^{10} = 1024, \quad u_{20} = 2^{20} = 1 \, 048 \, 576.
+$$
+:::
+:::
+
+::: {#activite-1-4 data-sorte="activite" data-num="1.4" data-page="5" data-phys="7" data-id="5UAA2.calculer-formule-explicite" data-type="activite" data-tags="" .theo .theo-activite}
+::: {.theo-head}
+**Activité 1.4** — calculer avec une formule explicite
+:::
+
+::: {.theo-body}
+Complète chaque tableau à partir de la formule donnée.
+
+::: {.tableau}
+| Formule | $n = 1$ | $n = 2$ | $n = 3$ |
+|:---:|:---:|:---:|:---:|
+| $u_{n} = 2 n - 1$ | [$1$]{.rep} | [$3$]{.rep} | [$5$]{.rep} |
+| $u_{n} = \frac{n}{2} (n + 1)$ | [$1$]{.rep} | [$3$]{.rep} | [$6$]{.rep} |
+| $u_{n} = n^{2} + n - 1$ | [$1$]{.rep} | [$5$]{.rep} | [$11$]{.rep} |
+:::
+:::
+:::
+
+## Par une relation de récurrence
+
+Avant de définir cette deuxième méthode, apprenons à **nommer les termes voisins**.
+
+::: {#activite-1-5 data-sorte="activite" data-num="1.5" data-page="5" data-phys="7" data-id="5UAA2.se-reperer-suite" data-type="activite" data-tags="" .theo .theo-activite}
+::: {.theo-head}
+**Activité 1.5** — se repérer dans une suite
+:::
+
+::: {.theo-body}
+Place-toi sur le terme $u_{6}$ d’une suite. Sur l’axe ci-dessous, les termes sont repérés par leur rang (le rang augmente vers la droite).
+
+```{=html}
+<div class="ia" data-ia="rangs" data-cfg='{"rangs": [3, 4, 5, 6, 7, 8], "reperes": [[6, ["u", "6"], true], [7, ["u", "7"], false], [5, ["u", "5"], false], [8, ["u", "8"], false], [3, ["u", "3"], false]]}'></div>
+```
+
+a) Le terme **suivant** se note [$u_{7}$]{.rep} ; le terme **précédent** se note [$u_{5}$]{.rep} ; le terme situé **deux rangs plus loin** se note [$u_{8}$]{.rep} ; celui situé **trois rangs avant** se note [$u_{3}$]{.rep}.
+
+b) Généralisons. Pour un terme quelconque $u_{n}$ :
+
+::: {.tableau}
+| suivant | précédent | deux rangs plus loin | $k$ rangs plus loin |
+|:---:|:---:|:---:|:---:|
+| [$u_{n+1}$]{.rep} | [$u_{n-1}$]{.rep} | [$u_{n+2}$]{.rep} | [$u_{n+k}$]{.rep} |
+:::
+:::
+:::
+
+Cette écriture est exactement ce dont on a besoin pour décrire une suite « de proche en proche ».
+
+::: {#definition-1-3 data-sorte="definition" data-num="1.3" data-page="6" data-phys="8" data-id="5UAA2.relation-recurrence" data-type="definition" data-tags="" .theo .theo-definition}
+::: {.theo-head}
+**Définition 1.3** — relation de récurrence
+:::
+
+::: {.theo-body}
+Une **relation de récurrence** (du premier ordre) exprime chaque terme en fonction du **précédent**. Pour déterminer entièrement la suite, il faut aussi connaître son **premier terme**.
+:::
+:::
+
+Contrairement à une formule explicite, une relation de récurrence ne donne pas un terme lointain directement : pour obtenir $u_{100}$, il faut d’abord calculer $u_{1}, u_{2}, \ldots, u_{99}$.
+
+::: {#exemple-1-2 data-sorte="exemple" data-num="1.2" data-page="6" data-phys="8" data-id="5UAA2.exm.001" data-type="exemple" data-tags="" .theo .theo-exemple}
+::: {.theo-head}
+**Exemple 1.2**
+:::
+
+::: {.theo-body}
+La suite définie par $u_{n+1} = u_{n} + 200$ et $u_{1} = 1000$ se calcule de proche en proche : $u_{1} = 1000$, puis $u_{2} = 1000 + 200 = 1200$, puis $u_{3} = 1200 + 200 = 1400$, etc.
+:::
+:::
+
+::: {.ae-lien}
+[✔ S'autoévaluer sur cette section : test de 4 questions →](../autoeval.qmd#sections=sec-generer)
+:::

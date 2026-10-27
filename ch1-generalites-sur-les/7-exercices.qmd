@@ -1,0 +1,507 @@
+---
+title: "Exercices"
+---
+
+<!-- GÉNÉRÉ par typweb à partir des notes Typst : NE PAS ÉDITER (les modifications seraient écrasées). -->
+
+::: {#exemple-1-3 data-sorte="exemple" data-num="1.3" data-page="9" data-phys="11" data-id="5UAA2.avant-te-lancer" data-type="exemple" data-tags="" .theo .theo-exemple}
+::: {.theo-head}
+**Exemple 1.3** — avant de te lancer
+:::
+
+::: {.theo-body}
+Donnons une formule explicite *et* une relation de récurrence pour la suite $(u_{n}) = (5 ; 8 ; 11 ; 14 ; \ldots)$, numérotée à partir de $0$.
+
+On ajoute $3$ à chaque fois : la récurrence est $u_{n+1} = u_{n} + 3$ avec $u_{0} = 5$. Pour la formule explicite, partant de $u_{0} = 5$ et ajoutant $n$ fois le nombre $3$, on obtient $u_{n} = 5 + 3 n$. Vérification : $u_{0} = 5$, $u_{1} = 8$, $u_{2} = 11$. ✓
+:::
+:::
+
+::: {#exercice-1-1 data-sorte="exercice" data-num="1.1" data-page="9" data-phys="11" data-id="5UAA2.ex.001" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 1.1]{.exo-titre} [[C1]{.exo-comp} ★☆☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+On considère la suite $(u_{n}) = (7 ; 10 ; 13 ; 16 ; 19 ; \ldots)$, numérotée à partir de $0$.
+
+::: {.colonnes style="--n:2"}
+- Quel est le terme de rang $3$ ?
+- Quel est le rang du terme valant $19$ ?
+- Que vaut $u_{1}$ ? Et le successeur de $u_{1}$ ?
+- Le nombre $25$ est-il un terme de cette suite ? Si oui, quel est son rang ?
+:::
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis le vocabulaire qui suit la [définition d’une suite numérique](2-quest-ce-quune-suite-numerique.qmd#definition-1-1), et la [remarque sur le rang et le terme](2-quest-ce-quune-suite-numerique.qmd#remarque-1-1).
+
+## Indice 2 {.unlisted}
+
+Dans $u_{3}$, lequel des deux nombres est le rang : le $3$ en indice, ou la valeur de $u_{3}$ ? Et comme la suite commence à $u_{0}$, quel est le rang du premier terme, $7$ ?
+
+## Indice 3 {.unlisted}
+
+Écris les rangs au-dessus des termes : $u_{0} = 7$, $u_{1} = 10$, $u_{2} = 13$, $u_{3} = 16$, $u_{4} = 19$. Pour $25$, continue la liste : on ajoute $3$ à chaque fois.
+
+## Solution {.unlisted}
+
+- Le terme de rang $3$ est $u_{3} = 16$.
+- Le terme $19$ occupe le rang $4$ : $u_{4} = 19$.
+- $u_{1} = 10$ ; son successeur est $u_{2} = 13$.
+- En continuant : $u_{5} = 22$, $u_{6} = 25$. Le nombre $25$ est donc un terme de la suite, de rang $6$.
+
+## Pièges {.unlisted}
+
+- Compter les termes à partir de $1$ : le terme de rang $3$ n’est pas le troisième nombre de la liste, mais le quatrième, puisque la numérotation commence à $0$.
+- Répondre « $u_{1}$ » quand on demande la **valeur** du successeur de $u_{1}$ : on attend le nombre $13$ (le terme $u_{2}$).
+:::
+:::
+
+::: {#exercice-1-2 data-sorte="exercice" data-num="1.2" data-page="9" data-phys="11" data-id="5UAA2.ex.002" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 1.2]{.exo-titre} [[A3]{.exo-comp} ★☆☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Détermine les $5$ premiers termes (et le $20$^e^ si c’est rapide) des suites ci-dessous.
+
+::: {.colonnes style="--n:2"}
+- $u_{n} = 4 n - 6$
+- $u_{n} = n (n + 1)$
+- $u_{n} = -2 u_{n-1}$, $u_{0} = -3$
+- $u_{n+1} = \frac{1}{u_{n} + 1}$, $u_{0} = 0$
+:::
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [définition d’une formule explicite](4-generer-une-suite.qmd#definition-1-2) et celle d’une [relation de récurrence](4-generer-une-suite.qmd#definition-1-3).
+
+## Indice 2 {.unlisted}
+
+Pour chaque ligne, la suite est-elle donnée par une formule explicite (on remplace $n$ par un nombre) ou par une récurrence (il faut le terme précédent) ? Laquelle des deux permet d’obtenir $u_{20}$ tout de suite ?
+
+## Indice 3 {.unlisted}
+
+Pour $u_{n} = 4n - 6$ : $u_{0} = 4 \cdot 0 - 6 = -6$, $u_{1} = 4 \cdot 1 - 6 = -2$… Pour $u_{n} = -2 u_{n-1}$ avec $u_{0} = -3$ : $u_{1} = -2 \cdot (-3) = 6$, puis $u_{2} = -2 \cdot 6$…
+
+## Solution {.unlisted}
+
+Les suites sont numérotées à partir de $0$.
+
+- $u_{n} = 4n - 6$ : $-6$ ; $-2$ ; $2$ ; $6$ ; $10$. Et $u_{20} = 4 \cdot 20 - 6 = 74$.
+- $u_{n} = n(n + 1)$ : $0$ ; $2$ ; $6$ ; $12$ ; $20$. Et $u_{20} = 20 \cdot 21 = 420$.
+- $u_{n} = -2 u_{n-1}$, $u_{0} = -3$ : $-3$ ; $6$ ; $-12$ ; $24$ ; $-48$. Pour $u_{20}$, il faudrait calculer les $19$ termes précédents : ce n’est pas rapide (on verra au chapitre 3 comment faire).
+- $u_{n+1} = \frac{1}{u_{n} + 1}$, $u_{0} = 0$ : $0$ ; $1$ ; $\frac{1}{2}$ ; $\frac{2}{3}$ ; $\frac{3}{5}$. Même remarque pour $u_{20}$.
+
+## Pièges {.unlisted}
+
+- Pour $u_{n} = n(n + 1)$, calculer $n^{2} + 1$ : la parenthèse multiplie tout, $u_{2} = 2 \cdot 3 = 6$.
+- Dans une récurrence, se tromper de terme précédent : $u_{2}$ se calcule à partir de $u_{1}$, pas de $u_{0}$.
+- Oublier les signes avec $-2$ : les termes changent de signe à chaque étape.
+:::
+:::
+
+::: {#exercice-1-3 data-sorte="exercice" data-num="1.3" data-page="9" data-phys="11" data-id="5UAA2.ex.003" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 1.3]{.exo-titre} [[C1]{.exo-comp} ★☆☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Soit une suite $(u_{n})$. En te servant uniquement de la notation des rangs, écris :
+
+::: {.colonnes style="--n:2"}
+- le successeur de $u_{9}$ ;
+- le prédécesseur de $u_{9}$ ;
+- le terme situé $4$ rangs après $u_{n}$ ;
+- le terme situé $2$ rangs avant $u_{n}$.
+:::
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis l’[activité « se repérer dans une suite »](4-generer-une-suite.qmd#activite-1-5) et son tableau.
+
+## Indice 2 {.unlisted}
+
+Quand on avance d’un rang, que devient l’indice ? Et quand on avance de $4$ rangs ?
+
+## Indice 3 {.unlisted}
+
+Le successeur de $u_{n}$ est $u_{n+1}$ : l’indice augmente de $1$. Remplace $n$ par $9$.
+
+## Solution {.unlisted}
+
+- le successeur de $u_{9}$ : $u_{10}$ ;
+- le prédécesseur de $u_{9}$ : $u_{8}$ ;
+- le terme situé $4$ rangs après $u_{n}$ : $u_{n+4}$ ;
+- le terme situé $2$ rangs avant $u_{n}$ : $u_{n-2}$.
+
+## Pièges {.unlisted}
+
+- Écrire $u_{n} + 4$ au lieu de $u_{n+4}$ : $u_{n} + 4$ est le **terme** $u_{n}$ augmenté de $4$, pas le terme situé $4$ rangs plus loin.
+- Oublier les parenthèses de l’indice : $u_{n}+4$ se lit comme $u_{n} + 4$.
+:::
+:::
+
+::: {#exercice-1-4 data-sorte="exercice" data-num="1.4" data-page="10" data-phys="12" data-id="5UAA2.ex.004" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 1.4]{.exo-titre} [[C4]{.exo-comp} ★☆☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Soit la suite $(u_{n}) = (3 ; 5 ; 7 ; 9 ; 11 ; \ldots)$, numérotée à partir de $0$. Parmi les formules suivantes, laquelle décrit cette suite ? Justifie en calculant les premiers termes de celle que tu choisis.
+
+::: {.colonnes style="--n:3"}
+- $u_{n} = 3 n$
+- $u_{n} = 2 n + 3$
+- $u_{n} = n + 2$
+:::
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [définition d’une formule explicite](4-generer-une-suite.qmd#definition-1-2) : elle donne chaque terme à partir de son rang.
+
+## Indice 2 {.unlisted}
+
+Si une formule est la bonne, que doit-elle donner pour $n = 0$ ? Et pour $n = 1$ ?
+
+## Indice 3 {.unlisted}
+
+Calcule $u_{0}$, $u_{1}$ et $u_{2}$ avec chacune des trois formules et compare avec $3$ ; $5$ ; $7$.
+
+## Solution {.unlisted}
+
+- $u_{n} = 3n$ donne $0$ ; $3$ ; $6$ : ne convient pas (dès $u_{0}$).
+- $u_{n} = 2n + 3$ donne $3$ ; $5$ ; $7$ ; $9$ ; $11$ : convient.
+- $u_{n} = n + 2$ donne $2$ ; $3$ ; $4$ : ne convient pas.
+
+La bonne formule est $u_{n} = 2n + 3$ : on part de $3$ et l’on ajoute $2$ à chaque rang.
+
+## Pièges {.unlisted}
+
+- Ne tester qu’un seul terme : $u_{n} = 3n$ donne bien $3$ pour $n = 1$, mais la suite commence à $u_{0} = 3$.
+- Commencer la numérotation à $1$ alors que l’énoncé dit « à partir de $0$ ».
+:::
+:::
+
+::: {#exercice-1-5 data-sorte="exercice" data-num="1.5" data-page="10" data-phys="12" data-id="5UAA2.ex.005" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 1.5]{.exo-titre} [[C4]{.exo-comp} ★★☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Donne une formule explicite *et* une relation de récurrence pour chacune de ces suites (numérote à partir de $0$).
+
+::: {.colonnes style="--n:2"}
+- $(2 ; 4 ; 6 ; 8 ; 10 ; \ldots)$
+- $(6 ; 11 ; 16 ; 21 ; \ldots)$
+- $(4 ; 8 ; 16 ; 32 ; \ldots)$
+- $(100 ; 50 ; 25 ; 12{,}5 ; \ldots)$
+:::
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis l’[exemple « avant de te lancer »](#exemple-1-3) : il fait exactement ce travail pour $(5 ; 8 ; 11 ; \ldots)$.
+
+## Indice 2 {.unlisted}
+
+Pour passer d’un terme au suivant, ajoute-t-on toujours le même nombre, ou multiplie-t-on toujours par le même nombre ?
+
+## Indice 3 {.unlisted}
+
+Pour $(2 ; 4 ; 6 ; 8 ; \ldots)$ : on ajoute $2$, donc $u_{n+1} = u_{n} + 2$ et $u_{0} = 2$. Partant de $2$ et ajoutant $n$ fois $2$ : $u_{n} = 2 + 2n$. Pour $(4 ; 8 ; 16 ; \ldots)$, on multiplie : partant de $4$ et multipliant $n$ fois par $2$…
+
+## Solution {.unlisted}
+
+::: {.tableau}
+| Suite | Récurrence | Formule explicite |
+|:---:|:---:|:---:|
+| $(2 ; 4 ; 6 ; 8 ; \ldots)$ | $u_{n+1} = u_{n} + 2$, $u_{0} = 2$ | $u_{n} = 2 + 2n$ |
+| $(6 ; 11 ; 16 ; 21 ; \ldots)$ | $u_{n+1} = u_{n} + 5$, $u_{0} = 6$ | $u_{n} = 6 + 5n$ |
+| $(4 ; 8 ; 16 ; 32 ; \ldots)$ | $u_{n+1} = 2 u_{n}$, $u_{0} = 4$ | $u_{n} = 4 \cdot 2^{n}$ |
+| $(100 ; 50 ; 25 ; 12{,}5 ; \ldots)$ | $u_{n+1} = \frac{u_{n}}{2}$, $u_{0} = 100$ | $u_{n} = 100 \cdot (\frac{1}{2})^{n}$ |
+:::
+
+Vérification, par exemple pour la troisième : $u_{3} = 4 \cdot 2^{3} = 32$. ✓
+
+## Pièges {.unlisted}
+
+- Oublier le premier terme dans la récurrence : $u_{n+1} = u_{n} + 2$ seul décrit aussi $(0 ; 2 ; 4 ; \ldots)$.
+- Écrire $u_{n} = 2n$ pour $(4 ; 8 ; 16 ; \ldots)$ : on multiplie par $2$ à chaque étape, $n$ fois de suite, ce qui donne une puissance $2^{n}$.
+- Ne pas vérifier la formule sur un ou deux termes.
+:::
+:::
+
+::: {#exercice-1-6 data-sorte="exercice" data-num="1.6" data-page="10" data-phys="12" data-id="5UAA2.ex.006" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 1.6]{.exo-titre} [[A1]{.exo-comp} ★★☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+On donne la suite $u_{n} = 2 n - 1$ (numérotée à partir de $0$). Calcule $u_{0}, \ldots, u_{5}$, puis représente ces termes **dans le repère** (points $(n ; u_{n})$) *et* **sur la droite graduée** (les valeurs $u_{n}$).
+
+::: {.grille style="--n:2"}
+::: {.cellule}
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, -1.0], [1.0, 1.0], [2.0, 3.0], [3.0, 5.0], [4.0, 7.0], [5.0, 9.0]], "nmax": 6, "ymin": -2.0, "ymax": 10.0, "fixe": true, "ypas": 2.0, "n0": 0, "largeur": 520, "hauteur": 386, "cache": true}'></div>
+```
+:::
+
+::: {.cellule}
+```{=html}
+<div class="ia" data-ia="droite" data-cfg='{"min": -2.0, "max": 10.0, "pas": 2.0, "valeurs": [[-1.0, ["u", "0"]], [1.0, ["u", "1"]], [3.0, ["u", "2"]], [5.0, ["u", "3"]], [7.0, ["u", "4"]], [9.0, ["u", "5"]]], "cache": true}'></div>
+```
+:::
+:::
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis le début de la section « Représenter une suite » et l’[activité « deux dessins pour une même suite »](3-representer-une-suite.qmd#activite-1-3).
+
+## Indice 2 {.unlisted}
+
+Dans le repère, quelles sont les coordonnées du point qui représente $u_{0}$ ? Et sur la droite graduée, que reporte-t-on : le rang ou la valeur ?
+
+## Indice 3 {.unlisted}
+
+$u_{0} = 2 \cdot 0 - 1 = -1$ : dans le repère, le point $(0 ; -1)$ ; sur la droite graduée, un point en $-1$, noté $u_{0}$.
+
+## Solution {.unlisted}
+
+$u_{0} = -1$, $u_{1} = 1$, $u_{2} = 3$, $u_{3} = 5$, $u_{4} = 7$, $u_{5} = 9$.
+
+- Dans le repère : les points $(0 ; -1)$, $(1 ; 1)$, $(2 ; 3)$, $(3 ; 5)$, $(4 ; 7)$ et $(5 ; 9)$, sans les relier.
+- Sur la droite graduée : les valeurs $-1$, $1$, $3$, $5$, $7$, $9$, chacune avec son nom $u_{0}, \ldots, u_{5}$.
+
+## Pièges {.unlisted}
+
+- Relier les points : une suite n’est définie qu’aux rangs entiers, il n’y a rien entre $n = 1$ et $n = 2$.
+- Placer le rang sur la droite graduée à la place de la valeur.
+:::
+:::
+
+::: {#exercice-1-7 data-sorte="exercice" data-num="1.7" data-page="10" data-phys="12" data-id="5UAA2.ex.007" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 1.7]{.exo-titre} [[C2]{.exo-comp} ★★☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+::: {.grille style="--n:2"}
+::: {.cellule}
+Voici la représentation d’une suite $(u_{n})$.
+
+a) Lis les valeurs de $u_{0}, u_{1}, u_{2}, u_{3}, u_{4}$.
+
+b) Décris la suite par une phrase.
+
+c) Propose une formule explicite.
+:::
+
+::: {.cellule}
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 1.0], [1.0, 3.0], [2.0, 5.0], [3.0, 7.0], [4.0, 9.0]], "nmax": 5, "ymin": 0.0, "ymax": 10.0, "fixe": true, "ypas": 2.0, "n0": 0, "largeur": 520, "hauteur": 408}'></div>
+```
+:::
+:::
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la section « Représenter une suite » et l’[activité « deux dessins pour une même suite »](3-representer-une-suite.qmd#activite-1-3) : dans le repère, chaque point a pour coordonnées $(n ; u_{n})$.
+
+## Indice 2 {.unlisted}
+
+Le point le plus à gauche est sur l’axe vertical : quel est son rang ? Comment passe-t-on d’un point au suivant ?
+
+## Indice 3 {.unlisted}
+
+Lis les hauteurs : $u_{0} = 1$, $u_{1} = 3$… Puis regarde de combien la hauteur augmente d’un rang au suivant.
+
+## Solution {.unlisted}
+
+a) $u_{0} = 1$, $u_{1} = 3$, $u_{2} = 5$, $u_{3} = 7$, $u_{4} = 9$.
+
+b) La suite part de $1$ et l’on ajoute $2$ à chaque rang : ce sont les nombres impairs.
+
+c) Partant de $1$ et ajoutant $n$ fois $2$ : $u_{n} = 1 + 2n$ (vérification : $u_{4} = 1 + 8 = 9$ ✓).
+
+## Pièges {.unlisted}
+
+- Commencer à lire au rang $1$ : le premier point est sur l’axe vertical, c’est $u_{0}$.
+- Proposer $u_{n} = 2n$ : cette formule donne $u_{0} = 0$, pas $1$.
+:::
+:::
+
+::: {#exercice-1-8 data-sorte="exercice" data-num="1.8" data-page="11" data-phys="13" data-id="5UAA2.ex.008" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 1.8]{.exo-titre} [[C6]{.exo-comp} ★★☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Pour chaque suite, calcule quelques termes, donne sa variation et **conjecture** sa limite. Précise si elle converge ou diverge.
+
+::: {.colonnes style="--n:2"}
+- $u_{n} = \frac{1}{n^{2}}$
+- $u_{n} = \frac{n}{n + 1}$
+- $(u_{n}) = (2 ; 4 ; 8 ; 16 ; \ldots)$
+- $u_{n} = (-1)^{n}$
+:::
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [définition de la variation](5-variations-dune-suite.qmd#definition-1-4) et la [définition de la limite](6-limite-dune-suite.qmd#definition-1-5).
+
+## Indice 2 {.unlisted}
+
+Quand $n$ devient très grand, que devient $\frac{1}{n^{2}}$ ? Et une fraction dont le numérateur et le dénominateur sont presque égaux, comme $\frac{1000}{1001}$ ?
+
+## Indice 3 {.unlisted}
+
+Calcule par exemple $u_{10}$ et $u_{100}$ pour chaque suite (à la calculatrice) : les termes se rapprochent-ils d’un nombre ?
+
+## Solution {.unlisted}
+
+- $u_{n} = \frac{1}{n^{2}}$ (à partir de $n = 1$) : $1$ ; $\frac{1}{4}$ ; $\frac{1}{9}$ ; $\frac{1}{16}$… Strictement décroissante ; les termes se rapprochent de $0$ : on conjecture $\lim\limits_{n \to +\infty} u_{n} = 0$, la suite converge.
+- $u_{n} = \frac{n}{n + 1}$ : $0$ ; $\frac{1}{2}$ ; $\frac{2}{3}$ ; $\frac{3}{4}$… Strictement croissante ; $u_{100} = \frac{100}{101} \approx 0{,}990$ : on conjecture une limite égale à $1$, la suite converge.
+- $(2 ; 4 ; 8 ; 16 ; \ldots)$ : strictement croissante ; les termes deviennent aussi grands qu’on veut : on conjecture une limite égale à $+\infty$ : la suite converge vers $+\infty$ ([définition 1.5](6-limite-dune-suite.qmd#definition-1-5)).
+- $u_{n} = (-1)^{n}$ : $1$ ; $-1$ ; $1$ ; $-1$… Quelconque ; les termes sautent sans cesse de $1$ à $-1$ : pas de limite, la suite diverge.
+
+## Pièges {.unlisted}
+
+- Affirmer une limite en ne regardant que trois termes : calcule un terme lointain ($n = 100$, $n = 1000$).
+- Dire que $(-1)^{n}$ « converge vers $1$ et vers $-1$ » : une limite est unique ; ici, il n’y en a pas.
+:::
+:::
+
+::: {#exercice-1-9 data-sorte="exercice" data-num="1.9" data-page="11" data-phys="13" data-id="5UAA2.ex.009" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 1.9]{.exo-titre} [[C6]{.exo-comp} ★★☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Dans chaque cas, **conjecture** la limite de la suite (ou indique qu’elle n’en a pas), à partir de la représentation donnée.
+
+::: {.grille style="--n:2"}
+::: {.cellule}
+a) D’après le **graphique** :
+:::
+
+::: {.cellule}
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[1.0, 4.0], [2.0, 3.5], [3.0, 3.333], [4.0, 3.25], [5.0, 3.2], [6.0, 3.167], [7.0, 3.143], [8.0, 3.125]], "nmax": 8.0, "ymin": 2.5, "ymax": 4.5}'></div>
+```
+
+::: {.ia-legende}
+Suite $(a_{n})$
+:::
+:::
+:::
+
+b) D’après le **tableau de valeurs** :
+
+::: {.tableau}
+| $n$ | $1$ | $5$ | $10$ | $100$ | $1000$ |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| $b_{n}$ | 4,5 | 4,9 | 4,95 | 4,995 | 4,9995 |
+:::
+
+c) D’après la **droite graduée** (où sont reportés les termes $c_{0}, c_{1}, \ldots$) :
+
+```{=html}
+<div class="ia" data-ia="droite" data-cfg='{"min": 0.0, "max": 1.0, "pas": 0.25, "valeurs": [[1.0, ["c", "0"]], [0.5, ["c", "1"]], [0.25, ["c", "2"]], [0.125, ["c", "3"]], [0.0625, ["c", "4"]], [0.03125, ""], [0.015625, ""]]}'></div>
+```
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis l’[activité « conjecturer une limite »](6-limite-dune-suite.qmd#activite-1-7) : on y lit une limite sur un graphique, un tableau et une droite graduée.
+
+## Indice 2 {.unlisted}
+
+Vers quelle hauteur les points s’aplatissent-ils ? Vers quel nombre les valeurs du tableau se rapprochent-elles quand $n$ est très grand ? Où les points de la droite graduée s’accumulent-ils ?
+
+## Indice 3 {.unlisted}
+
+Dans le tableau, compare chaque valeur à $5$ : $5 - 4{,}5 = 0{,}5$, $5 - 4{,}95 = 0{,}05$… L’écart diminue-t-il ?
+
+## Solution {.unlisted}
+
+a) Les points descendent de moins en moins et s’approchent de la hauteur $3$ : on conjecture $\lim\limits_{n \to +\infty} a_{n} = 3$.
+
+b) L’écart avec $5$ est divisé par $10$ quand $n$ est multiplié par $10$ : on conjecture $\lim\limits_{n \to +\infty} b_{n} = 5$.
+
+c) Chaque terme est la moitié du précédent ; les termes s’accumulent contre $0$ : on conjecture $\lim\limits_{n \to +\infty} c_{n} = 0$.
+
+## Pièges {.unlisted}
+
+- Donner la dernière valeur du tableau ($4{,}9995$) comme limite : la limite est le nombre dont les termes se rapprochent autant qu’on veut, ici $5$.
+- Écrire que la limite est « démontrée » : un graphique ou un tableau ne montre qu’un nombre fini de termes, on **conjecture**.
+:::
+:::
+
+::: {#exercice-1-10 data-sorte="exercice" data-num="1.10" data-page="11" data-phys="13" data-id="5UAA2.ex.010" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 1.10]{.exo-titre} [[C1]{.exo-comp} ★★☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Un élève affirme : « Avec une relation de récurrence, je peux calculer $u_{50}$ aussi vite qu’avec une formule explicite. » A-t-il raison ? Justifie en expliquant, avec tes mots, la différence entre les deux modes de génération.
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la phrase qui suit la [définition d’une relation de récurrence](4-generer-une-suite.qmd#definition-1-3).
+
+## Indice 2 {.unlisted}
+
+Avec une récurrence, que faut-il connaître pour calculer $u_{50}$ ? Et pour calculer ce terme-là ?
+
+## Indice 3 {.unlisted}
+
+Compare avec la formule explicite : pour $u_{n} = 3n + 2$, que vaut $u_{50}$ ? Combien de calculs as-tu faits ?
+
+## Solution {.unlisted}
+
+Il a tort. Une relation de récurrence exprime chaque terme à partir du précédent : pour obtenir $u_{50}$, il faut d’abord calculer $u_{1}$, puis $u_{2}$, …, jusqu’à $u_{49}$, soit $50$ étapes. Une formule explicite donne $u_{50}$ en une seule fois, en remplaçant $n$ par $50$ ; par exemple, si $u_{n} = 3n + 2$, alors $u_{50} = 152$.
+
+## Pièges {.unlisted}
+
+- Répondre « oui, avec une calculatrice » : la question porte sur la **méthode** (le nombre d’étapes), pas sur la vitesse de calcul.
+:::
+:::

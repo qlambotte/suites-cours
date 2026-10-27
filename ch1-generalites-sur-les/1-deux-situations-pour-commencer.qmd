@@ -1,0 +1,128 @@
+---
+title: "Deux situations pour commencer"
+---
+
+<!-- GÉNÉRÉ par typweb à partir des notes Typst : NE PAS ÉDITER (les modifications seraient écrasées). -->
+
+## Une rumeur qui se propage
+
+::: {#activite-1-1 data-sorte="activite" data-num="1.1" data-page="1" data-phys="3" data-id="5UAA2.rumeur" data-type="activite" data-tags="" .theo .theo-activite}
+::: {.theo-head}
+**Activité 1.1** — la rumeur
+:::
+
+::: {.theo-body}
+Laura confie un secret à une personne. Le lendemain, cette personne le confie à une nouvelle personne ; le jour suivant, chacune des personnes déjà au courant le confie à une *nouvelle* personne, et ainsi de suite : chaque jour, le nombre de personnes au courant **double**.
+
+Notons $u_{n}$ le nombre de personnes qui connaissent le secret après $n$ jours. Au départ, $u_{0} = 1$. Complète le tableau :
+
+::: {.tableau}
+| $n$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ | $7$ | $8$ |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| $u_{n}$ | $1$ | $2$ | [$4$]{.rep} | [$8$]{.rep} | [$16$]{.rep} | [$32$]{.rep} | [$64$]{.rep} | [$128$]{.rep} | [$256$]{.rep} |
+:::
+
+a) Quelle relation lie le nombre $u_{n}$ de personnes au nombre de jours $n$ écoulés depuis l’aveu de Laura ? $u_{n} =$ [$2^{n}$]{.rep}
+
+b) Cette formule permet de répondre sans tout calculer : il suffit de chercher le plus petit $n$ tel que $2^{n}$ dépasse la population. Complète :
+
+::: {.tableau}
+| Population | Plus petite puissance qui dépasse | Jours |
+|:---:|:---:|:---:|
+| École ($1800$) | [$2^{11} = 2048$]{.rep} | [$11$]{.rep} |
+| Mons ($96 \, 000$) | [$2^{17} = 131 \, 072$]{.rep} | [$17$]{.rep} |
+| Belgique ($11{,}6$ millions) | [$2^{24} \approx 16{,}8$ M]{.rep} | [$24$]{.rep} |
+| Terre ($8$ milliards) | [$2^{33} \approx 8{,}6$ G]{.rep} | [$33$]{.rep} |
+:::
+:::
+:::
+
+Remplace le mot « secret » par « virus » et tu comprends pourquoi un confinement, en empêchant chaque personne d’en contaminer d’autres, freine une épidémie. Cette suite grandit de plus en plus vite : c’est une *croissance exponentielle*, le comportement typique des suites que nous appellerons bientôt **géométriques**.
+
+## Deux façons de faire fructifier un capital
+
+Tu déposes $1000$ € sur un compte d’épargne à un taux annuel de $10 \%$. Il existe deux mécanismes qui font évoluer ton capital; ils vont faire apparaître les *deux grandes familles* de suites de ce cours.
+
+::: {#activite-1-2 data-sorte="activite" data-num="1.2" data-page="2" data-phys="4" data-id="5UAA2.interets-simples-composes" data-type="activite" data-tags="" .theo .theo-activite}
+::: {.theo-head}
+**Activité 1.2** — intérêts simples et composés
+:::
+
+::: {.theo-body}
+**Intérêts simples** — l’intérêt est calculé une seule fois, sur le montant de départ : $10 \%$ de $1000$ € $= 100$ € par an. On **ajoute** donc toujours la même somme. Complète :
+
+::: {.tableau}
+| année | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| € | $1000$ | $1100$ | [$1200$]{.rep} | [$1300$]{.rep} | [$1400$]{.rep} | [$1500$]{.rep} |
+:::
+
+Formule : $C_{n} =$ [$1000 + 100 n$]{.rep}
+
+**Intérêts composés** — l’intérêt est recalculé chaque année sur le capital de l’année précédente.
+
+Cherchons d’abord un raccourci. Augmenter une somme $C$ de $10 \%$, c’est lui ajouter $\frac{10}{100} C$, donc calculer $C + \frac{10}{100} C$. En mettant $C$ en évidence, cela vaut $C \cdot (1 + \class{rep}{0{,}1}) = \class{rep}{1{,}1} \cdot C$. Autrement dit, augmenter de $10 \%$ revient à **multiplier par $1{,}1$**. Utilise ce raccourci pour compléter (montants arrondis à l’euro) :
+
+::: {.tableau}
+| année | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| € | $1000$ | $1100$ | [$1210$]{.rep} | [$1331$]{.rep} | [$1464$]{.rep} | [$1611$]{.rep} |
+:::
+
+Formule : $C_{n} =$ [$1000 \cdot 1{,}1^{n}$]{.rep}
+
+c) Qu’est-ce qui distingue les deux façons de passer d’une année à la suivante ?
+
+::: {.rep-bloc}
+Aux intérêts simples on **ajoute** toujours $+100$ (différence constante) ; aux intérêts composés on **multiplie** toujours par $1{,}1$ (rapport constant).
+:::
+
+d) Représentons les deux capitaux dans un repère :
+
+::: {.grille style="--n:2"}
+::: {.cellule}
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 1000.0], [1.0, 1100.0], [2.0, 1200.0], [3.0, 1300.0], [4.0, 1400.0], [5.0, 1500.0], [6.0, 1600.0], [7.0, 1700.0], [8.0, 1800.0], [9.0, 1900.0], [10.0, 2000.0]], "nmax": 10, "ymin": 800.0, "ymax": 2100.0, "fixe": true, "ypas": 200.0, "n0": 0, "largeur": 520, "hauteur": 358, "cache": true}'></div>
+```
+
+::: {.ia-legende}
+Intérêts simples : points *alignés*.
+:::
+:::
+
+::: {.cellule}
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 1000.0], [1.0, 1100.0], [2.0, 1210.0], [3.0, 1331.0], [4.0, 1464.0], [5.0, 1611.0], [6.0, 1772.0], [7.0, 1949.0], [8.0, 2144.0], [9.0, 2358.0], [10.0, 2594.0]], "nmax": 10, "ymin": 800.0, "ymax": 2700.0, "fixe": true, "ypas": 400.0, "n0": 0, "largeur": 520, "hauteur": 358, "cache": true}'></div>
+```
+
+::: {.ia-legende}
+Intérêts composés : courbe qui s’incurve.
+:::
+:::
+:::
+:::
+:::
+
+Ces deux suites illustrent les deux comportements fondamentaux du cours :
+
+::: {.grille style="--n:2"}
+::: {.cellule}
+::: {#cadre-difference-constante .cadre-info}
+**Différence constante.** On passe d’un terme au suivant en **ajoutant** toujours le même nombre ($+100$). Croissance régulière, « comme une droite ».
+
+→ suite **arithmétique** (chapitre 2).
+:::
+:::
+
+::: {.cellule}
+::: {#cadre-rapport-constant .cadre-info}
+**Rapport constant.** On passe d’un terme au suivant en **multipliant** toujours par le même nombre ($\cdot 1{,}1$). Croissance qui s’emballe.
+
+→ suite **géométrique** (chapitre 3).
+:::
+:::
+:::
+
+::: {.ae-lien}
+[✔ S'autoévaluer sur cette section : test de 3 questions →](../autoeval.qmd#sections=sec-situations)
+:::

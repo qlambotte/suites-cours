@@ -1,0 +1,57 @@
+---
+title: "Variations d’une suite"
+---
+
+<!-- GÉNÉRÉ par typweb à partir des notes Typst : NE PAS ÉDITER (les modifications seraient écrasées). -->
+
+Comme pour les fonctions en 4^e^, on s’intéresse aux variations d’une suite: la suite **monte-t-elle ou descend-elle** (sa variation) ? En 5^e^ on se posera aussi la question suivante : **vers quoi se dirige-t-elle** quand le rang devient très grand ?
+
+::: {#activite-1-6 data-sorte="activite" data-num="1.6" data-page="6" data-phys="8" data-id="5UAA2.observer-variation" data-type="activite" data-tags="" .theo .theo-activite}
+::: {.theo-head}
+**Activité 1.6** — observer la variation
+:::
+
+::: {.theo-body}
+Pour chacune des suites suivantes, calcule quelques termes puis indique sa variation (strictement croissante, strictement décroissante, constante ou quelconque).
+
+::: {.tableau}
+| Suite | Variation |
+|:---:|:---:|
+| $(1 ; 4 ; 9 ; 16 ; 25 ; \ldots)$ | [strict. croissante]{.rep} |
+| $(4 ; 4 ; 4 ; 4 ; \ldots)$ | [constante]{.rep} |
+| $(1 ; \frac{1}{2} ; \frac{1}{3} ; \frac{1}{4} ; \ldots)$ | [strict. décroissante]{.rep} |
+| $(2 ; -2 ; 2 ; -2 ; \ldots)$ | [quelconque]{.rep} |
+:::
+:::
+:::
+
+::: {#definition-1-4 data-sorte="definition" data-num="1.4" data-page="7" data-phys="9" data-id="5UAA2.variation" data-type="definition" data-tags="" .theo .theo-definition}
+::: {.theo-head}
+**Définition 1.4** — variation
+:::
+
+::: {.theo-body}
+Soit $(u_{n})$ une suite. On dit qu’elle est
+
+- **croissante** si $\forall n \in \mathbb{N}, u_{n} \leq u_{n+1}$,
+- **strictement croissante** si $\forall n \in \mathbb{N},u_{n} < u_{n+1}$ ;
+- **décroissante** si $\forall n \in \mathbb{N},u_{n} \geq u_{n+1}$,
+- **strictement décroissante** si $\forall n \in \mathbb{N},u_{n} > u_{n+1}$ ;
+- **constante** si $\forall n \in \mathbb{N},u_{n} = u_{n+1}$ ;
+- **quelconque** si elle n’est dans aucun des cinq cas ci-dessus.
+:::
+:::
+
+::: {#remarque-1-2 data-sorte="remarque" data-num="1.2" data-page="7" data-phys="9" data-id="5UAA2.rem.002" data-type="remarque" data-tags="" .theo .theo-remarque}
+::: {.theo-head}
+**Remarque 1.2**
+:::
+
+::: {.theo-body}
+C’est la même idée que pour les fonctions en 4^e^ : une suite croissante correspond à une fonction croissante sur son domaine. Comparer $u_{n+1}$ et $u_{n}$ revient à comparer deux valeurs consécutives de la fonction $u$. La différence : une suite n’est définie qu’en des rangs entiers, il suffit donc de comparer chaque terme à son successeur.
+:::
+:::
+
+::: {.ae-lien}
+[✔ S'autoévaluer sur cette section : test de 2 questions →](../autoeval.qmd#sections=sec-variations)
+:::

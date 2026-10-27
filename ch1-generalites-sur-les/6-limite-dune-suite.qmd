@@ -1,0 +1,103 @@
+---
+title: "Limite d’une suite"
+---
+
+<!-- GÉNÉRÉ par typweb à partir des notes Typst : NE PAS ÉDITER (les modifications seraient écrasées). -->
+
+Intéressons-nous maintenant à la **tendance** de la suite quand le rang devient très grand.
+
+::: {#activite-1-7 data-sorte="activite" data-num="1.7" data-page="8" data-phys="10" data-id="5UAA2.conjecturer-limite" data-type="activite" data-tags="" .theo .theo-activite}
+::: {.theo-head}
+**Activité 1.7** — conjecturer une limite
+:::
+
+::: {.theo-body}
+Observe les deux graphiques et le tableau de valeurs, puis conjecture vers quel nombre chaque suite se dirige lorsque le rang $n$ devient très grand.
+
+::: {.grille style="--n:2"}
+::: {.cellule}
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[1.0, 1.0], [2.0, 0.5], [3.0, 0.333], [4.0, 0.25], [5.0, 0.2], [6.0, 0.167], [7.0, 0.143], [8.0, 0.125], [9.0, 0.111], [10.0, 0.1]], "nmax": 10.0, "ymin": 0.0, "ymax": 1.1}'></div>
+```
+
+::: {.ia-legende}
+$u_{n} = \frac{1}{n}$
+:::
+:::
+
+::: {.cellule}
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 0.0], [1.0, 0.5], [2.0, 0.667], [3.0, 0.75], [4.0, 0.8], [5.0, 0.833], [6.0, 0.857], [7.0, 0.875], [8.0, 0.889], [9.0, 0.9], [10.0, 0.909]], "nmax": 10.0, "ymin": 0.0, "ymax": 1.1}'></div>
+```
+
+::: {.ia-legende}
+$v_{n} = \frac{n}{n+1}$
+:::
+:::
+:::
+
+Conjectures : $\lim\limits_{n \to +\infty} u_{n} =$ [$0$]{.rep} $\lim\limits_{n \to +\infty} v_{n} =$ [$1$]{.rep}
+
+Voici enfin une suite $(a_{n})$ donnée par un tableau de valeurs :
+
+::: {.tableau}
+| $n$ | $1$ | $5$ | $10$ | $100$ | $1000$ |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| $a_{n}$ | 2,5 | 2,1 | 2,05 | 2,005 | 2,0005 |
+:::
+
+Vers quel nombre $a_{n}$ semble-t-il se rapprocher ? [$2$]{.rep}
+
+Une suite peut aussi se lire **sur une droite graduée** : ses termes y sont reportés, et l’on voit vers quel nombre ils *s’accumulent*. Ci-dessous, la suite $w_{n}$ définie par $w_{0} = 0$ et $w_{n+1} = \frac{w_{n} + 2}{2}$ :
+
+```{=html}
+<div class="ia" data-ia="droite" data-cfg='{"min": 0.0, "max": 2.0, "pas": 0.5, "valeurs": [[0.0, ["w", "0"]], [1.0, ["w", "1"]], [1.5, ["w", "2"]], [1.75, ["w", "3"]], [1.875, ["w", "4"]]]}'></div>
+```
+
+Les termes s’accumulent vers [$2$]{.rep} : on conjecture $\lim\limits_{n \to +\infty} w_{n} = 2$.
+:::
+:::
+
+::: {#definition-1-5 data-sorte="definition" data-num="1.5" data-page="8" data-phys="10" data-id="5UAA2.limite-convergence" data-type="definition" data-tags="" .theo .theo-definition}
+::: {.theo-head}
+**Définition 1.5** — limite, convergence
+:::
+
+::: {.theo-body}
+Soit $(u_{n})$ une suite et $\ell \in \mathbb{R} \cup \{\pm \infty\}$ . On dit que $(u_{n})$ **converge vers $\ell$** (ou que la limite de $(u_{n})$ vaut $\ell$) si les termes $u_{n}$ se rapprochent autant qu’on veut de $\ell$ lorsque le rang $n$ est suffisamment grand. On note alors
+
+$$
+\lim\limits_{n \to +\infty} u_{n} = \ell.
+$$
+
+Sinon, on dit que la suite **diverge**.
+:::
+:::
+
+Que signifie « autant qu’on veut » ? Reprenons la suite $v_{n} = \frac{n}{n+1}$ de l’activité et fixons une marge autour de $1$, par exemple $0{,}1$ : les termes situés dans la bande colorée autour de la droite d’équation $y = 1$ sont à moins de $0{,}1$ de $1$ (le curseur $\varepsilon$ règle la largeur de la bande). À partir du rang $10$, tous les termes y restent, car l’écart $1 - v_{n} = \frac{1}{n+1}$ est alors inférieur à $0{,}1$. Avec une marge plus petite, $0{,}01$, il faut attendre le rang $100$. Quelle que soit la marge choisie, aussi petite soit-elle, un tel rang existe : c’est exactement ce que dit la définition.
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"n0": 0, "nmax": 15, "mode": "points", "nom": "v", "ymin": 0.0, "ymax": 1.2, "limite": 1.0, "bande": 0.1, "u": {"js": "(x / (x + 1.0))"}}'></div>
+```
+
+::: {.ia-legende}
+La suite $v_{n} = \frac{n}{n+1}$ et la bande de demi-largeur $0{,}1$ autour de $1$.
+:::
+
+La suite $(w_{n})$ de l’activité, définie par récurrence, se lit aussi sur un graphique. On trace la droite d’équation $y = \frac{x + 2}{2}$, qui donne le terme suivant à partir du terme courant, et la droite d’équation $y = x$. On part de $w_{0} = 0$ sur l’axe horizontal, on monte jusqu’à la première droite pour lire $w_{1}$, puis on se déplace horizontalement jusqu’à la droite $y = x$ : ce point a pour abscisse $w_{1}$, et l’on recommence à partir de lui pour lire $w_{2}$, et ainsi de suite. Les marches de cette « toile » se resserrent vers le point où les deux droites se croisent, d’abscisse $2$ : c’est la limite que nous avions conjecturée.
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"n0": 0, "nmax": 6, "mode": "toile", "nom": "w", "xmin": 0.0, "xmax": 2.5, "u0": 0.0, "rec": {"js": "((x + 2.0) / 2.0)"}}'></div>
+```
+
+::: {.ia-legende}
+La toile de la suite définie par $w_{n+1} = \frac{w_{n} + 2}{2}$ et $w_{0} = 0$.
+:::
+
+::: {.callout-warning title="Observer ≠ démontrer"}
+Un tableau de valeurs ou un graphique ne montre qu’un *nombre fini* de termes : il ne permet jamais d’**établir** une limite avec certitude, seulement de la **conjecturer**. C’est pourquoi, dans ce cours, on *conjecture* une limite par observation.
+:::
+
+::: {.ae-lien}
+[✔ S'autoévaluer sur cette section : test de 6 questions →](../autoeval.qmd#sections=sec-limite)
+:::

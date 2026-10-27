@@ -1,0 +1,17 @@
+---
+title: "Chapitre 3 — Suites géométriques"
+---
+
+<!-- GÉNÉRÉ par typweb à partir des notes Typst : NE PAS ÉDITER (les modifications seraient écrasées). -->
+
+Les intérêts composés (chapitre 1) nous ont fait rencontrer une suite où l’on **multiplie toujours par le même nombre** pour passer d’un terme au suivant. Ces suites — dites **géométriques** — sont l’objet de ce chapitre.
+
+## Sections
+
+1. [Le pliage d’une feuille](1-le-pliage-dune-feuille.qmd)
+2. [Définition](2-definition.qmd)
+3. [Représentation et variation](3-representation-et-variation.qmd)
+4. [Générer une suite géométrique](4-generer-une-suite-geometrique.qmd)
+5. [Caractéristiques : variation, limite](5-caracteristiques-variation-limite.qmd)
+6. [Somme des $n$ premiers termes](6-somme-des-n-premiers-termes.qmd)
+7. [Exercices](7-exercices.qmd) []{.suivi-sec data-exos="3.1 3.2 3.3 3.4 3.5 3.6 3.7 3.8 3.9 3.10 3.11 3.12 3.13 3.14"}

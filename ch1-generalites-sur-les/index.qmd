@@ -1,0 +1,17 @@
+---
+title: "Chapitre 1 — Généralités sur les suites"
+---
+
+<!-- GÉNÉRÉ par typweb à partir des notes Typst : NE PAS ÉDITER (les modifications seraient écrasées). -->
+
+Les suites sont des objets mathématiques qui permettent de **modéliser** des phénomènes que l’on observe à intervalles réguliers : une population qui grandit, un capital qui fructifie, une rumeur qui se répand… À chaque étape (un jour, une année, un rebond) correspond un nombre, et c’est la *liste ordonnée* de tous ces nombres que l’on appelle une suite. Découvrons-les à travers deux situations, que nous garderons comme fil rouge.
+
+## Sections
+
+1. [Deux situations pour commencer](1-deux-situations-pour-commencer.qmd)
+2. [Qu’est-ce qu’une suite numérique ?](2-quest-ce-quune-suite-numerique.qmd)
+3. [Représenter une suite](3-representer-une-suite.qmd)
+4. [Générer une suite](4-generer-une-suite.qmd)
+5. [Variations d’une suite](5-variations-dune-suite.qmd)
+6. [Limite d’une suite](6-limite-dune-suite.qmd)
+7. [Exercices](7-exercices.qmd) []{.suivi-sec data-exos="1.1 1.2 1.3 1.4 1.5 1.6 1.7 1.8 1.9 1.10"}

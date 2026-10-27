@@ -1,0 +1,661 @@
+---
+title: "Exercices"
+---
+
+<!-- GÉNÉRÉ par typweb à partir des notes Typst : NE PAS ÉDITER (les modifications seraient écrasées). -->
+
+::: {#exemple-2-7 data-sorte="exemple" data-num="2.7" data-page="18" data-phys="21" data-id="5UAA2.avant-te-lancer-2" data-type="exemple" data-tags="" .theo .theo-exemple}
+::: {.theo-head}
+**Exemple 2.7** — avant de te lancer
+:::
+
+::: {.theo-body}
+Une suite arithmétique a $u_{0} = 4$ et $r = -3$. Alors $u_{n} = 4 - 3 n$ ; elle est strictement décroissante ; $u_{10} = 4 - 30 = -26$ ; et $S_{10} = \frac{10}{2} (u_{0} + u_{9}) = 5 (4 + (4 - 27)) = 5 (4 - 23) = 5 \cdot (-19) = -95$.
+:::
+:::
+
+::: {#exercice-2-1 data-sorte="exercice" data-num="2.1" data-page="18" data-phys="21" data-id="5UAA2.ex.011" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 2.1]{.exo-titre} [[C2]{.exo-comp} ★☆☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Parmi les suites suivantes, indique lesquelles sont arithmétiques ; pour celles-ci, précise la raison et donne la formule explicite.
+
+::: {.colonnes style="--n:2"}
+- $(-17 ; -10 ; -3 ; 4 ; 11 ; \ldots)$
+- $(16 ; 4 ; -8 ; -20 ; \ldots)$
+- $(4 ; 8 ; 16 ; 32 ; \ldots)$
+- $(1 ; 2 ; 4 ; 5 ; 7 ; 8 ; \ldots)$
+:::
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [définition d’une suite arithmétique](2-definition.qmd#definition-2-1) et l’[exemple qui la suit](2-definition.qmd#exemple-2-1).
+
+## Indice 2 {.unlisted}
+
+Pour chaque suite, calcule les différences $u_{1} - u_{0}$, $u_{2} - u_{1}$, $u_{3} - u_{2}$ : sont-elles toutes égales ?
+
+## Indice 3 {.unlisted}
+
+Pour la première : $-10 - (-17) = 7$, $-3 - (-10) = 7$… Si la différence est constante, c’est la raison $r$, et $u_{n} = u_{0} + n r$ ([génération](4-generer-une-suite-arithmetique.qmd#propriete-2-2)).
+
+## Solution {.unlisted}
+
+- $(-17 ; -10 ; -3 ; 4 ; 11 ; \ldots)$ : différences toutes égales à $7$ ; arithmétique, $r = 7$, $u_{n} = -17 + 7n$.
+- $(16 ; 4 ; -8 ; -20 ; \ldots)$ : différences toutes égales à $-12$ ; arithmétique, $r = -12$, $u_{n} = 16 - 12n$.
+- $(4 ; 8 ; 16 ; 32 ; \ldots)$ : différences $4$, $8$, $16$ : pas arithmétique (on multiplie par $2$ : elle est géométrique).
+- $(1 ; 2 ; 4 ; 5 ; 7 ; 8 ; \ldots)$ : différences $1$, $2$, $1$, $2$ : pas arithmétique.
+
+## Pièges {.unlisted}
+
+- Calculer $u_{0} - u_{1}$ au lieu de $u_{1} - u_{0}$ : on obtient la raison avec le mauvais signe.
+- Conclure après une seule différence : pour $(1 ; 2 ; 4 ; 5 ; \ldots)$, la première vaut $1$ mais la deuxième vaut $2$.
+:::
+:::
+
+::: {#exercice-2-2 data-sorte="exercice" data-num="2.2" data-page="18" data-phys="21" data-id="5UAA2.ex.012" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 2.2]{.exo-titre} [[A3]{.exo-comp} ★☆☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Une suite arithmétique $(x_{n})$ a pour premier terme $x_{0} = -4$ et pour raison $r = 3$. Calcule ses $5$ premiers termes, donne son sens de variation, sa formule explicite, et calcule $x_{100}$.
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [propriété « génération »](4-generer-une-suite-arithmetique.qmd#propriete-2-2) et la [propriété sur la variation](3-representation-et-variation.qmd#propriete-2-1).
+
+## Indice 2 {.unlisted}
+
+On ajoute $3$ à chaque rang : la suite monte-t-elle ou descend-elle ? Et combien de fois ajoute-t-on $3$ pour aller de $x_{0}$ à $x_{100}$ ?
+
+## Indice 3 {.unlisted}
+
+$x_{1} = -4 + 3 = -1$, $x_{2} = -1 + 3 = 2$… La formule explicite est $x_{n} = x_{0} + n r$.
+
+## Solution {.unlisted}
+
+$x_{0} = -4$, $x_{1} = -1$, $x_{2} = 2$, $x_{3} = 5$, $x_{4} = 8$. La raison $r = 3$ est positive : la suite est strictement croissante. $x_{n} = -4 + 3n$, donc $x_{100} = -4 + 300 = 296$.
+
+## Pièges {.unlisted}
+
+- Écrire $x_{n} = -4n + 3$ en inversant premier terme et raison.
+- Calculer $x_{100} = -4 + 3 \cdot 99$ : de $x_{0}$ à $x_{100}$, on ajoute $100$ fois la raison.
+:::
+:::
+
+::: {#exercice-2-3 data-sorte="exercice" data-num="2.3" data-page="18" data-phys="21" data-id="5UAA2.ex.013" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 2.3]{.exo-titre} [[C6]{.exo-comp} ★☆☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Soit la suite définie par $u_{n+1} = u_{n} - 5$ et $u_{0} = -2$. Cette suite est-elle arithmétique? Quelle est sa raison, sa variation et sa limite ?
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [définition](2-definition.qmd#definition-2-1), la [variation](3-representation-et-variation.qmd#propriete-2-1) et la [limite](5-caracteristiques-variation-limite.qmd#propriete-2-5) d’une suite arithmétique.
+
+## Indice 2 {.unlisted}
+
+Que vaut $u_{n+1} - u_{n}$ ? Est-ce le même nombre pour tous les rangs ?
+
+## Indice 3 {.unlisted}
+
+$u_{n+1} = u_{n} - 5$ donne $u_{n+1} - u_{n} = -5$ pour tout $n$ : c’est la définition avec $r = -5$.
+
+## Solution {.unlisted}
+
+Pour tout $n$, $u_{n+1} - u_{n} = -5$ : la suite est arithmétique de raison $r = -5$ (premiers termes : $-2$ ; $-7$ ; $-12$ ; $-17$). Comme $r < 0$, elle est strictement décroissante, et $\lim\limits_{n \to +\infty} u_{n} = -\infty$.
+
+## Pièges {.unlisted}
+
+- Prendre $r = 5$ : on **retire** $5$, la raison est négative.
+- Confondre le premier terme ($-2$) avec la raison.
+:::
+:::
+
+::: {#exemple-2-8 data-sorte="exemple" data-num="2.8" data-page="18" data-phys="21" data-id="5UAA2.calculer-terme-partir-autre" data-type="exemple" data-tags="" .theo .theo-exemple}
+::: {.theo-head}
+**Exemple 2.8** — calculer un terme à partir d’un autre
+:::
+
+::: {.theo-body}
+Suite arithmétique, $r = 2$, $u_{30} = 50$. Alors $u_{12} = u_{30} + (12 - 30) \cdot 2 = 50 - 36 = 14$.
+:::
+:::
+
+::: {#exercice-2-4 data-sorte="exercice" data-num="2.4" data-page="18" data-phys="21" data-id="5UAA2.ex.014" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 2.4]{.exo-titre} [[A3]{.exo-comp} ★★☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Dans chaque cas, la suite est arithmétique. Calcule le terme demandé (attention : parfois on remonte vers un rang plus petit).
+
+::: {.colonnes style="--n:2"}
+- $r = 4$, $u_{10} = 30$ : calcule $u_{25}$.
+- $r = -3$, $u_{20} = 100$ : calcule $u_{8}$.
+- $r = 5$, $u_{50} = 12$ : calcule $u_{14}$.
+- $r = -2$, $u_{7} = 40$ : calcule $u_{31}$.
+- $r = \frac{1}{2}$, $u_{40} = 15$ : calcule $u_{12}$.
+- $r = 6$, $u_{100} = 500$ : calcule $u_{85}$.
+- $r = -1$, $u_{13} = 0$ : calcule $u_{60}$.
+- $r = 3$, $u_{21} = -7$ : calcule $u_{9}$.
+:::
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [propriété « d’un terme à un autre »](4-generer-une-suite-arithmetique.qmd#propriete-2-3) et les deux exemples qui la précèdent.
+
+## Indice 2 {.unlisted}
+
+De combien de rangs avance-t-on (ou recule-t-on) pour passer du terme connu au terme demandé ? Ce nombre est-il positif ou négatif ?
+
+## Indice 3 {.unlisted}
+
+Premier cas : de $u_{10}$ à $u_{25}$, on avance de $25 - 10 = 15$ rangs, donc on ajoute $15$ fois la raison : $u_{25} = 30 + 15 \cdot 4$.
+
+## Solution {.unlisted}
+
+On applique $u_{n} = u_{p} + (n - p) r$.
+
+- $u_{25} = 30 + 15 \cdot 4 = 90$ ;
+- $u_{8} = 100 + (-12) \cdot (-3) = 136$ ;
+- $u_{14} = 12 + (-36) \cdot 5 = -168$ ;
+- $u_{31} = 40 + 24 \cdot (-2) = -8$ ;
+- $u_{12} = 15 + (-28) \cdot \frac{1}{2} = 1$ ;
+- $u_{85} = 500 + (-15) \cdot 6 = 410$ ;
+- $u_{60} = 0 + 47 \cdot (-1) = -47$ ;
+- $u_{9} = -7 + (-12) \cdot 3 = -43$.
+
+## Pièges {.unlisted}
+
+- Calculer $p - n$ au lieu de $n - p$ : quand on recule, le nombre de rangs est négatif.
+- Oublier la règle des signes quand on recule avec une raison négative : $(-12) \cdot (-3) = +36$.
+:::
+:::
+
+::: {#exercice-2-5 data-sorte="exercice" data-num="2.5" data-page="19" data-phys="22" data-id="5UAA2.ex.015" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 2.5]{.exo-titre} [[A3]{.exo-comp} ★★☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Calcule la raison d’une suite arithmétique dont :
+
+::: {.colonnes style="--n:2"}
+- $u_{9} = 30$ et $u_{21} = 120$ ;
+- $u_{3} = 1$ et $u_{10} = 15$.
+:::
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [propriété « raison à partir de deux termes »](4-generer-une-suite-arithmetique.qmd#propriete-2-4) et l’exemple qui la précède.
+
+## Indice 2 {.unlisted}
+
+Entre les deux termes connus, combien de fois a-t-on ajouté la raison ? De combien la valeur a-t-elle augmenté ?
+
+## Indice 3 {.unlisted}
+
+De $u_{9}$ à $u_{21}$, on avance de $12$ rangs et la valeur augmente de $120 - 30 = 90$ : $12$ fois la raison valent $90$.
+
+## Solution {.unlisted}
+
+- $r = \frac{120 - 30}{12} = \frac{90}{12} = 7{,}5$.
+- $r = \frac{u_{10} - u_{3}}{10 - 3} = \frac{15 - 1}{7} = 2$.
+
+## Pièges {.unlisted}
+
+- Diviser par $21$ ou par $9$ au lieu de diviser par l’écart entre les rangs.
+- Inverser l’ordre au numérateur et pas au dénominateur (ou le contraire) : on obtient la raison avec le mauvais signe.
+:::
+:::
+
+::: {#exercice-2-6 data-sorte="exercice" data-num="2.6" data-page="19" data-phys="22" data-id="5UAA2.ex.016" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 2.6]{.exo-titre} [[A4]{.exo-comp} ★★☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+$(t_{n})$ est une suite arithmétique de raison $r$. Complète (utilise la bonne formule à chaque fois).
+
+::: {.tableau}
+| On te donne | Trouve |
+|:---:|:---:|
+| $t_{3} = 6$, $r = \frac{1}{2}$ | $t_{1}$, $t_{9}$, $t_{20}$ |
+| $t_{0} = 10$, $r = -3$ | $S_{10}$ |
+| $t_{0} = -3$, $r = 4$ | $S_{7}$ |
+| $t_{0} = -1$, $t_{4} = 11$ | $S_{35}$ |
+:::
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis les propriétés [« d’un terme à un autre »](4-generer-une-suite-arithmetique.qmd#propriete-2-3), [« raison à partir de deux termes »](4-generer-une-suite-arithmetique.qmd#propriete-2-4) et [« somme des $n$ premiers termes »](6-somme-des-n-premiers-termes.qmd#propriete-2-6).
+
+## Indice 2 {.unlisted}
+
+Pour une somme $S_{n}$, de quoi as-tu besoin ? Du premier terme $t_{0}$ et du dernier terme $t_{n-1}$ : les connais-tu déjà ?
+
+## Indice 3 {.unlisted}
+
+Pour $S_{10}$ avec $t_{0} = 10$ et $r = -3$ : le dernier terme est $t_{9} = 10 + 9 \cdot (-3) = -17$.
+
+## Solution {.unlisted}
+
+- $t_{1} = 6 + (-2) \cdot \frac{1}{2} = 5$ ; $t_{9} = 6 + 6 \cdot \frac{1}{2} = 9$ ; $t_{20} = 6 + 17 \cdot \frac{1}{2} = 14{,}5$.
+- $S_{10} = \frac{10}{2} (t_{0} + t_{9}) = 5 (10 - 17) = -35$.
+- $t_{6} = -3 + 6 \cdot 4 = 21$ et $S_{7} = \frac{7}{2} (-3 + 21) = 63$.
+- $r = \frac{11 - (-1)}{4} = 3$ ; $t_{34} = -1 + 34 \cdot 3 = 101$ ; $S_{35} = \frac{35}{2} (-1 + 101) = 1750$.
+
+## Pièges {.unlisted}
+
+- Prendre $t_{10}$ comme dernier terme de $S_{10}$ : la somme des $10$ premiers termes s’arrête à $t_{9}$.
+- Oublier le facteur $\frac{n}{2}$ (nombre de termes divisé par $2$).
+:::
+:::
+
+::: {#exercice-2-7 data-sorte="exercice" data-num="2.7" data-page="19" data-phys="22" data-id="5UAA2.ex.017" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 2.7]{.exo-titre} [[A4]{.exo-comp} ★★☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Dans la suite arithmétique $(u_{n}) = (1 ; 7 ; 13 ; \ldots)$ :
+
+- quel est le rang du terme valant $295$ ?
+- que vaut $1 + 7 + 13 + \ldots + 295$ ?
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [formule explicite d’une suite arithmétique](4-generer-une-suite-arithmetique.qmd#propriete-2-2) et la [somme de termes consécutifs](6-somme-des-n-premiers-termes.qmd#propriete-2-6).
+
+## Indice 2 {.unlisted}
+
+Quelle est la raison ? Pour quel $n$ a-t-on $u_{n} = 295$ ? Combien y a-t-il alors de termes dans la somme ?
+
+## Indice 3 {.unlisted}
+
+$r = 6$ et $u_{n} = 1 + 6n$. Résous $1 + 6n = 295$.
+
+## Solution {.unlisted}
+
+- $1 + 6n = 295$ donne $6n = 294$, $n = 49$ : le terme $295$ est de rang $49$.
+- La somme contient les termes de $u_{0}$ à $u_{49}$, soit $50$ termes : $1 + 7 + \ldots + 295 = \frac{50}{2} (1 + 295) = 25 \cdot 296 = 7400$.
+
+## Pièges {.unlisted}
+
+- Compter $49$ termes : de $u_{0}$ à $u_{49}$, il y en a $50$.
+:::
+:::
+
+::: {#exercice-2-8 data-sorte="exercice" data-num="2.8" data-page="19" data-phys="22" data-id="5UAA2.ex.018" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 2.8]{.exo-titre} [[C7]{.exo-comp} ★★★]{.exo-meta}
+:::
+
+::: {.exo-corps}
+**Cite la théorie.** Un élève écrit : « la somme des $n$ premiers termes d’une suite arithmétique vaut $\frac{n}{2} (u_{0} + u_{n-1})$ ». Énonce la propriété qui le justifie, puis **démontre-la**.
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [propriété de la somme des $n$ premiers termes](6-somme-des-n-premiers-termes.qmd#propriete-2-6), sa démonstration, et l’astuce de Gauss dans l’[activité de la pyramide](1-une-pyramide-de-verre.qmd#activite-2-1).
+
+## Indice 2 {.unlisted}
+
+Si tu écris la somme une fois dans l’ordre et une fois à l’envers, que vaut la somme de deux termes placés l’un sous l’autre ?
+
+## Indice 3 {.unlisted}
+
+Sous $u_{0}$ on trouve $u_{n-1}$, sous $u_{1}$ on trouve $u_{n-2}$. Or $u_{1} + u_{n-2} = (u_{0} + r) + (u_{n-1} - r) = u_{0} + u_{n-1}$.
+
+## Solution {.unlisted}
+
+**Propriété.** Si $(u_{n})$ est arithmétique, $S_{n} = u_{0} + u_{1} + \ldots + u_{n-1} = \frac{n}{2} (u_{0} + u_{n-1})$.
+
+**Démonstration.** On écrit la somme dans les deux sens :
+
+$$
+S_{n} = u_{0} + u_{1} + \ldots + u_{n-1},  \\ S_{n} = u_{n-1} + u_{n-2} + \ldots + u_{0}.
+$$
+
+Dans chaque colonne, le terme du haut a le rang $k$ et celui du bas le rang $n - 1 - k$ ; comme $u_{k} = u_{0} + k r$ et $u_{n-1-k} = u_{n-1} - k r$, leur somme vaut $u_{0} + u_{n-1}$, la même pour toutes les colonnes. Il y a $n$ colonnes : en additionnant les deux lignes, $2 S_{n} = n (u_{0} + u_{n-1})$, d’où $S_{n} = \frac{n}{2} (u_{0} + u_{n-1})$.
+
+## Pièges {.unlisted}
+
+- Vérifier la formule sur un exemple au lieu de la démontrer : un exemple ne prouve rien pour toutes les suites.
+- Oublier de justifier pourquoi toutes les colonnes ont la même somme : c’est là que sert le fait que la suite est arithmétique.
+:::
+:::
+
+::: {#exercice-2-9 data-sorte="exercice" data-num="2.9" data-page="19" data-phys="22" data-id="5UAA2.ex.019" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 2.9]{.exo-titre} [[A2]{.exo-comp} ★★☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+**Cite la théorie.** Un élève affirme que la suite $(u_{n}) = (2 ; 5 ; 8 ; 11 ; \ldots)$ est arithmétique. A-t-il raison ? Justifie en citant la *définition* utilisée, puis donne la formule explicite.
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [définition d’une suite arithmétique](2-definition.qmd#definition-2-1).
+
+## Indice 2 {.unlisted}
+
+Que dit exactement la définition ? Que faut-il calculer pour la vérifier sur les termes donnés ?
+
+## Indice 3 {.unlisted}
+
+$5 - 2 = 3$, $8 - 5 = 3$, $11 - 8 = 3$.
+
+## Solution {.unlisted}
+
+Une suite est arithmétique si la différence entre deux termes consécutifs est constante. Ici, $5 - 2 = 8 - 5 = 11 - 8 = 3$ : sur les termes donnés, la différence vaut toujours $3$. Si la suite continue de la même façon (c’est ce que suggèrent les points de suspension), elle est arithmétique de raison $r = 3$, et $u_{n} = 2 + 3n$.
+
+## Pièges {.unlisted}
+
+- Justifier par « on voit qu’on ajoute $3$ » sans citer la définition.
+- Oublier qu’une liste finie de termes ne suffit pas à **prouver** : on vérifie la définition sur les termes connus et l’on suppose que la régularité continue.
+:::
+:::
+
+::: {#exercice-2-10 data-sorte="exercice" data-num="2.10" data-page="19" data-phys="22" data-id="5UAA2.ex.020" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 2.10]{.exo-titre} [[C5]{.exo-comp} ★★☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+**Donne un exemple.** Dans chaque cas, propose une suite arithmétique qui convient et précise son premier terme $u_{0}$, sa raison $r$ et sa formule explicite (plusieurs réponses sont possibles).
+
+::: {.colonnes style="--n:2"}
+- strictement décroissante ;
+- constante, égale à $7$ ;
+- strictement croissante avec $u_{0} = -5$ ;
+- qui converge vers $-\infty$.
+:::
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis les propriétés sur la [variation](3-representation-et-variation.qmd#propriete-2-1) et la [limite](5-caracteristiques-variation-limite.qmd#propriete-2-5) d’une suite arithmétique.
+
+## Indice 2 {.unlisted}
+
+Quel est le seul nombre qui décide si une suite arithmétique monte, descend ou reste constante ? Quel signe doit-il avoir dans chaque cas ?
+
+## Indice 3 {.unlisted}
+
+Choisis d’abord le signe de $r$, puis un premier terme $u_{0}$ qui convient ; écris enfin $u_{n} = u_{0} + n r$.
+
+## Solution {.unlisted}
+
+Par exemple (d’autres réponses sont possibles) :
+
+- strictement décroissante : $u_{0} = 10$, $r = -2$, $u_{n} = 10 - 2n$ ;
+- constante, égale à $7$ : $u_{0} = 7$, $r = 0$, $u_{n} = 7$ ;
+- strictement croissante avec $u_{0} = -5$ : $r = 3$, $u_{n} = -5 + 3n$ ;
+- qui converge vers $-\infty$ : $u_{0} = 0$, $r = -1$, $u_{n} = -n$ (toute raison négative convient).
+
+## Pièges {.unlisted}
+
+- Pour « constante égale à $7$ », donner $r = 7$ : c’est $u_{0}$ qui vaut $7$, et $r = 0$.
+- Oublier de donner les trois éléments demandés ($u_{0}$, $r$ et la formule).
+:::
+:::
+
+::: {#exercice-2-11 data-sorte="exercice" data-num="2.11" data-page="20" data-phys="23" data-id="5UAA2.ex.021" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 2.11]{.exo-titre} [[A1]{.exo-comp} ★★☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+**a)** Représente les six premiers termes ($n$ de $0$ à $5$) de la suite arithmétique $u_{n} = -3 + 2 n$ dans le repère ci-dessous. Les points sont-ils alignés ?
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, -3.0], [1.0, -1.0], [2.0, 1.0], [3.0, 3.0], [4.0, 5.0], [5.0, 7.0]], "nmax": 6, "ymin": -4.0, "ymax": 8.0, "fixe": true, "ypas": 2.0, "n0": 0, "largeur": 520, "hauteur": 307, "cache": true}'></div>
+```
+
+**b)** On donne ci-dessous une *autre* suite. Peut-elle être arithmétique ? Justifie, puis lis $u_{0}$ et la raison $r$ sur le graphique et donne la formule explicite.
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 2.0], [1.0, 4.0], [2.0, 6.0], [3.0, 8.0], [4.0, 10.0]], "nmax": 5, "ymin": 0.0, "ymax": 12.0, "fixe": true, "ypas": 2.0, "n0": 0, "largeur": 520, "hauteur": 317}'></div>
+```
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la section « Représentation et variation » : les points d’une suite arithmétique sont [alignés](3-representation-et-variation.qmd#propriete-2-1).
+
+## Indice 2 {.unlisted}
+
+Sur le second graphique, les hauteurs augmentent-elles toujours du même nombre d’un rang au suivant ?
+
+## Indice 3 {.unlisted}
+
+a) $u_{0} = -3$, $u_{1} = -1$… b) Lis $u_{0}$ sur l’axe vertical, puis la montée d’un point au suivant.
+
+## Solution {.unlisted}
+
+a) $u_{0} = -3$, $u_{1} = -1$, $u_{2} = 1$, $u_{3} = 3$, $u_{4} = 5$, $u_{5} = 7$ : les points $(n ; u_{n})$ sont alignés, car on monte de $2$ à chaque rang.
+
+b) Les points sont alignés : on monte de $2$ à chaque rang. La suite peut donc être arithmétique, avec $u_{0} = 2$ et $r = 2$ ; $u_{n} = 2 + 2n$.
+
+## Pièges {.unlisted}
+
+- Lire la raison sur l’axe horizontal : c’est la montée **verticale** d’un rang au suivant.
+- Relier les points par un trait.
+:::
+:::
+
+::: {#exercice-2-12 data-sorte="exercice" data-num="2.12" data-page="20" data-phys="23" data-id="5UAA2.ex.022" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 2.12]{.exo-titre} [[C6]{.exo-comp} ★★☆]{.exo-meta}
+:::
+
+::: {.exo-corps}
+**Calcule la limite** de chaque suite, à partir de sa représentation, sachant que ce sont des suites arithmétiques.
+
+**a)** D’après le graphique :
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 1.0], [1.0, 4.0], [2.0, 7.0], [3.0, 10.0], [4.0, 13.0], [5.0, 16.0]], "nmax": 5, "ymin": 0.0, "ymax": 18.0, "fixe": true, "ypas": 4.0, "n0": 0, "largeur": 520, "hauteur": 300}'></div>
+```
+
+**b)** D’après le tableau de valeurs :
+
+::: {.tableau}
+| $n$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| $u_{n}$ | $20$ | $17$ | $14$ | $11$ | $8$ | $5$ |
+:::
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [propriété « limite d’une suite arithmétique »](5-caracteristiques-variation-limite.qmd#propriete-2-5).
+
+## Indice 2 {.unlisted}
+
+Pour appliquer la propriété, que suffit-il de connaître ? Peux-tu le lire sur le graphique ou dans le tableau ?
+
+## Indice 3 {.unlisted}
+
+Calcule la raison : sur le graphique, de combien monte-t-on d’un point au suivant ? Dans le tableau, que vaut $u_{1} - u_{0}$ ?
+
+## Solution {.unlisted}
+
+a) On monte de $3$ à chaque rang : $r = 3 > 0$, donc $\lim\limits_{n \to +\infty} u_{n} = +\infty$.
+
+b) $17 - 20 = -3$ (et de même pour les autres) : $r = -3 < 0$, donc $\lim\limits_{n \to +\infty} u_{n} = -\infty$.
+
+## Pièges {.unlisted}
+
+- Donner la dernière valeur du tableau ($5$) comme limite : la suite continue de descendre ($2$, $-1$, …).
+- Oublier de justifier par le signe de la raison.
+:::
+:::
+
+::: {#exercice-2-13 data-sorte="exercice" data-num="2.13" data-page="21" data-phys="24" data-id="5UAA2.ex.023" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 2.13]{.exo-titre} [[T1]{.exo-comp} ★★★]{.exo-meta}
+:::
+
+::: {.exo-corps}
+En janvier, Vincent économise 12,50 €. Chaque mois, il met de côté 1,20 € de plus que le mois précédent. On note $u_{0}$ l’économie de janvier.
+
+- Calcule $u_{1}$, $u_{2}$, $u_{3}$.
+- Exprime $u_{n}$ en fonction de $n$.
+- Combien économise-t-il le $24$^e^ mois ?
+- Quelle somme totale a-t-il économisée en $24$ mois ?
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [définition d’une suite arithmétique](2-definition.qmd#definition-2-1), la [formule explicite](4-generer-une-suite-arithmetique.qmd#propriete-2-2) et la [somme des $n$ premiers termes](6-somme-des-n-premiers-termes.qmd#propriete-2-6).
+
+## Indice 2 {.unlisted}
+
+D’un mois au suivant, l’économie augmente-t-elle toujours du même montant ? Quel est le rang du $24$^e^ mois si janvier est le rang $0$ ?
+
+## Indice 3 {.unlisted}
+
+$u_{0} = 12{,}50$ et $r = 1{,}20$. Le $24$^e^ mois est $u_{23}$.
+
+## Solution {.unlisted}
+
+- $u_{1} = 13{,}70$ €, $u_{2} = 14{,}90$ €, $u_{3} = 16{,}10$ €.
+- La suite est arithmétique de raison $1{,}20$ : $u_{n} = 12{,}50 + 1{,}20 n$.
+- Le $24$^e^ mois : $u_{23} = 12{,}50 + 1{,}20 \cdot 23 = 40{,}10$ €.
+- En $24$ mois : $S_{24} = \frac{24}{2} (u_{0} + u_{23}) = 12 (12{,}50 + 40{,}10) = 631{,}20$ €.
+
+## Pièges {.unlisted}
+
+- Calculer $u_{24}$ pour le $24$^e^ mois : janvier est le mois de rang $0$.
+- Confondre l’économie du dernier mois ($40{,}10$ €) et le total économisé.
+:::
+:::
+
+::: {#exercice-2-14 data-sorte="exercice" data-num="2.14" data-page="21" data-phys="24" data-id="5UAA2.ex.024" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 2.14]{.exo-titre} [[T1]{.exo-comp} ★★★]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Un charpentier construit une échelle de $9$ échelons dont la longueur diminue régulièrement, de $45$ cm à la base à $33$ cm au sommet.
+
+- Détermine la longueur des $7$ échelons intermédiaires.
+- Quelle longueur totale de bois faut-il pour les $9$ échelons ?
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [propriété « raison à partir de deux termes »](4-generer-une-suite-arithmetique.qmd#propriete-2-4) et la [somme des $n$ premiers termes](6-somme-des-n-premiers-termes.qmd#propriete-2-6).
+
+## Indice 2 {.unlisted}
+
+Si l’échelon du bas est $u_{0} = 45$, quel est le rang de l’échelon du haut ? Combien de fois la raison sépare-t-elle ces deux échelons ?
+
+## Indice 3 {.unlisted}
+
+$u_{8} = 33$, donc $8 r = 33 - 45 = -12$.
+
+## Solution {.unlisted}
+
+- $r = -\frac{12}{8} = -1{,}5$ cm. Les échelons intermédiaires mesurent $43{,}5$ ; $42$ ; $40{,}5$ ; $39$ ; $37{,}5$ ; $36$ ; $34{,}5$ cm.
+- Longueur totale : $S_{9} = \frac{9}{2} (45 + 33) = 9 \cdot 39 = 351$ cm, soit $3{,}51$ m.
+
+## Pièges {.unlisted}
+
+- Diviser par $9$ (le nombre d’échelons) au lieu de $8$ (le nombre d’écarts entre eux).
+- Oublier que la longueur diminue : la raison est négative.
+:::
+:::
+
+::: {#exercice-2-15 data-sorte="exercice" data-num="2.15" data-page="21" data-phys="24" data-id="5UAA2.ex.025" data-type="exercice" data-tags="" .exo}
+::: {.exo-tete}
+[✎ Exercice 2.15]{.exo-titre} [[T1]{.exo-comp} ★★★]{.exo-meta}
+:::
+
+::: {.exo-corps}
+Un jardinier doit déposer une brouette de terreau au pied de chacun des $30$ arbres alignés d’une allée. Les arbres sont espacés de $6$ m ; le tas de terreau est à $10$ m devant le premier arbre. Entre deux arbres, il revient systématiquement au tas. Combien de mètres aura-t-il parcourus une fois le travail terminé (brouette ramenée au tas) ?
+:::
+:::
+
+::: {.aides}
+::: {.panel-tabset}
+## Indice 1 {.unlisted}
+
+Relis la [somme de termes consécutifs](6-somme-des-n-premiers-termes.qmd#propriete-2-6) : nombre de termes divisé par $2$, fois (premier + dernier).
+
+## Indice 2 {.unlisted}
+
+Quelle distance parcourt-il pour la brouette du premier arbre, aller et retour ? Et pour le deuxième ? De combien ces trajets augmentent-ils ?
+
+## Indice 3 {.unlisted}
+
+Premier arbre : $10$ m aller, $10$ m retour, soit $20$ m. Deuxième arbre : $2 \cdot 16 = 32$ m. Chaque trajet est plus long de $12$ m.
+
+## Solution {.unlisted}
+
+Le trajet vers l’arbre de rang $k$ (de $0$ à $29$) mesure $u_{k} = 20 + 12k$ m (aller-retour). C’est une suite arithmétique de raison $12$ ; le dernier trajet vaut $u_{29} = 20 + 12 \cdot 29 = 368$ m. Distance totale : $S_{30} = \frac{30}{2} (20 + 368) = 15 \cdot 388 = 5820$ m, soit environ $5{,}8$ km.
+
+## Pièges {.unlisted}
+
+- Oublier le retour au tas (il faut doubler chaque distance).
+- Prendre une raison de $6$ m : l’arbre suivant est $6$ m plus loin à l’aller **et** au retour.
+:::
+:::

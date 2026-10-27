@@ -1,0 +1,54 @@
+---
+title: "Représentation et variation"
+---
+
+<!-- GÉNÉRÉ par typweb à partir des notes Typst : NE PAS ÉDITER (les modifications seraient écrasées). -->
+
+Les points d’une suite géométrique ne sont **pas alignés** : si $q > 1$ la courbe monte de plus en plus vite (on parle alors de croissance exponentielle) ; si $0 < q < 1$ les termes décroissent vers $0$ ; si $q < 0$ les termes changent de signe à chaque étape (la suite « saute » d’un côté à l’autre de l’axe).
+
+::: {.grille style="--n:3"}
+::: {.cellule}
+**$q > 1$ (explose)**
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 0.5], [1.0, 0.9], [2.0, 1.6], [3.0, 2.9], [4.0, 5.2], [5.0, 9.4]], "nmax": 5, "ymin": 0.0, "ymax": 10.0, "fixe": true, "ypas": 2.0, "n0": 0, "largeur": 520, "hauteur": 360}'></div>
+```
+:::
+
+::: {.cellule}
+**$0 < q < 1$ (vers $0$)**
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 8.0], [1.0, 4.8], [2.0, 2.9], [3.0, 1.7], [4.0, 1.0], [5.0, 0.6]], "nmax": 5, "ymin": 0.0, "ymax": 10.0, "fixe": true, "ypas": 2.0, "n0": 0, "largeur": 520, "hauteur": 360, "zero": true}'></div>
+```
+:::
+
+::: {.cellule}
+**$q < 0$ (alterne)**
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 6.0], [1.0, -4.8], [2.0, 3.8], [3.0, -3.1], [4.0, 2.5], [5.0, -2.0]], "nmax": 5, "ymin": -6.0, "ymax": 8.0, "fixe": true, "ypas": 2.0, "n0": 0, "largeur": 520, "hauteur": 360, "zero": true}'></div>
+```
+:::
+:::
+
+::: {#propriete-3-1 data-sorte="propriete" data-num="3.1" data-page="24" data-phys="27" data-id="5UAA2.variation-suite-geometrique" data-type="propriete" data-tags="" .theo .theo-propriete}
+::: {.theo-head}
+**Propriété 3.1** — variation d’une suite géométrique
+:::
+
+::: {.theo-body}
+Soit $(u_{n})$ une suite géométrique de premier terme $u_{0} \neq 0$ et de raison $q$. Sa variation dépend de la raison $q$ **et** du signe du premier terme $u_{0}$ :
+
+::: {.tableau}
+|   | $q < 0$ | $0 < q < 1$ | $q = 1$ | $q > 1$ |
+|:---:|:---:|:---:|:---:|:---:|
+| $u_{0} > 0$ | quelconque | strict. décroissante | constante | strict. croissante |
+| $u_{0} < 0$ | quelconque | strict. croissante | constante | strict. décroissante |
+:::
+:::
+:::
+
+::: {.ae-lien}
+[✔ S'autoévaluer sur cette section : test de 2 questions →](../autoeval.qmd#sections=sec-geo-representation)
+:::

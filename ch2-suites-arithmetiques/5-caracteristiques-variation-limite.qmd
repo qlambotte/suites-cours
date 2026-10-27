@@ -1,0 +1,70 @@
+---
+title: "Caractéristiques : variation, limite"
+---
+
+<!-- GÉNÉRÉ par typweb à partir des notes Typst : NE PAS ÉDITER (les modifications seraient écrasées). -->
+
+Nous savons déjà lire la variation dans le signe de $r$. Occupons-nous de la **limite**, en reprenant la démarche du chapitre 1 : on **conjecture** en observant, puis on **confirme** par la formule explicite.
+
+::: {#activite-2-3 data-sorte="activite" data-num="2.3" data-page="16" data-phys="19" data-id="5UAA2.conjecturer-puis-confirmer" data-type="activite" data-tags="" .theo .theo-activite}
+::: {.theo-head}
+**Activité 2.3** — conjecturer puis confirmer
+:::
+
+::: {.theo-body}
+À l’aide de la formule explicite $u_{n} = u_{0} + n r$, complète le tableau selon le signe de la raison (la variation a déjà été vue) :
+
+::: {.tableau}
+| Raison $r$ | $r > 0$ | $r = 0$ | $r < 0$ |
+|:---:|:---:|:---:|:---:|
+| Variation | [strict. croissante]{.rep} | [constante]{.rep} | [strict. décroissante]{.rep} |
+| $\lim\limits_{n \to +\infty} u_{n}$ | [$+\infty$]{.rep} | [$u_{0}$]{.rep} | [$-\infty$]{.rep} |
+:::
+
+Où filent les termes quand $n$ grandit ? Observe les trois comportements :
+
+::: {.grille style="--n:3"}
+::: {.cellule}
+**$r > 0 : \rightarrow +\infty$**
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 1.0], [1.0, 3.0], [2.0, 5.0], [3.0, 7.0], [4.0, 9.0], [5.0, 11.0], [6.0, 13.0]], "nmax": 6, "ymin": 0.0, "ymax": 14.0, "fixe": true, "ypas": 4.0, "n0": 0, "largeur": 520, "hauteur": 360}'></div>
+```
+:::
+
+::: {.cellule}
+**$r = 0 : \rightarrow u_{0}$**
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 5.0], [1.0, 5.0], [2.0, 5.0], [3.0, 5.0], [4.0, 5.0], [5.0, 5.0], [6.0, 5.0]], "nmax": 6, "ymin": 0.0, "ymax": 14.0, "fixe": true, "ypas": 4.0, "n0": 0, "largeur": 520, "hauteur": 360}'></div>
+```
+:::
+
+::: {.cellule}
+**$r < 0 : \rightarrow -\infty$**
+
+```{=html}
+<div class="ia" data-ia="suite" data-cfg='{"points": [[0.0, 7.0], [1.0, 5.0], [2.0, 3.0], [3.0, 1.0], [4.0, -1.0], [5.0, -3.0], [6.0, -5.0]], "nmax": 6, "ymin": -6.0, "ymax": 14.0, "fixe": true, "ypas": 4.0, "n0": 0, "largeur": 520, "hauteur": 360}'></div>
+```
+:::
+:::
+:::
+:::
+
+::: {#propriete-2-5 data-sorte="propriete" data-num="2.5" data-page="16" data-phys="19" data-id="5UAA2.limite-suite-arithmetique" data-type="propriete" data-tags="" .theo .theo-propriete}
+::: {.theo-head}
+**Propriété 2.5** — limite d’une suite arithmétique
+:::
+
+::: {.theo-body}
+Soit $(u_{n})$ une suite arithmétique de raison $r$. Alors
+
+- si $r=0$, $\lim\limits_{n\to +\infty}u_{n}=u_{0}$ ;
+- si $r>0$, $\lim\limits_{n\to +\infty}u_{n}=+\infty$ ;
+- si $r<0$, $\lim\limits_{n\to +\infty}u_{n}=-\infty$ ;
+:::
+:::
+
+::: {.ae-lien}
+[✔ S'autoévaluer sur cette section : test de 3 questions →](../autoeval.qmd#sections=sec-arith-limite)
+:::
