@@ -16,7 +16,7 @@ Considérons la suite géométrique donnée par $u_{0} = 5$, $q = 3$. Alors $u_{
 
 ::: {#exercice-3-1 data-sorte="exercice" data-num="3.1" data-page="28" data-phys="33" data-id="5UAA2.ex.026" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 3.1]{.exo-titre} [[C2]{.exo-comp} ★☆☆]{.exo-meta}
+[✎ Exercice 3.1]{.exo-titre} [[C2]{.exo-comp data-tip="C2 : Reconnaître une suite arithmétique / géométrique exprimée dans des registres différents : numérique, symbolique, graphique ou au départ d’un énoncé contextualisé." tabindex="0"} ★☆☆]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -63,7 +63,7 @@ Par la [Définition 3.1](2-definition.qmd#definition-3-1), une suite est géomé
 
 ::: {#exercice-3-2 data-sorte="exercice" data-num="3.2" data-page="28" data-phys="33" data-id="5UAA2.ex.027" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 3.2]{.exo-titre} [[A3]{.exo-comp} ★★☆]{.exo-meta}
+[✎ Exercice 3.2]{.exo-titre} [[A3]{.exo-comp data-tip="A3 : Calculer les éléments caractéristiques ou un terme d’une suite arithmétique / géométrique." tabindex="0"} ★★☆]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -134,7 +134,7 @@ $$
 
 ::: {#exercice-3-3 data-sorte="exercice" data-num="3.3" data-page="28" data-phys="33" data-id="5UAA2.ex.028" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 3.3]{.exo-titre} [[A3]{.exo-comp} ★★☆]{.exo-meta}
+[✎ Exercice 3.3]{.exo-titre} [[A3]{.exo-comp data-tip="A3 : Calculer les éléments caractéristiques ou un terme d’une suite arithmétique / géométrique." tabindex="0"} ★★☆]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -190,7 +190,7 @@ Par la [Propriété 3.3](4-generer-une-suite-geometrique.qmd#propriete-3-3), pou
 
 ::: {#exercice-3-4 data-sorte="exercice" data-num="3.4" data-page="28" data-phys="33" data-id="5UAA2.ex.029" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 3.4]{.exo-titre} [[A3]{.exo-comp} ★★☆]{.exo-meta}
+[✎ Exercice 3.4]{.exo-titre} [[A3]{.exo-comp data-tip="A3 : Calculer les éléments caractéristiques ou un terme d’une suite arithmétique / géométrique." tabindex="0"} ★★☆]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -232,7 +232,7 @@ b) Par la [Propriété 3.4](4-generer-une-suite-geometrique.qmd#propriete-3-4), 
 
 ::: {#exercice-3-5 data-sorte="exercice" data-num="3.5" data-page="29" data-phys="34" data-id="5UAA2.ex.030" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 3.5]{.exo-titre} [[A4]{.exo-comp} ★★☆]{.exo-meta}
+[✎ Exercice 3.5]{.exo-titre} [[A4]{.exo-comp data-tip="A4 : Calculer la somme de n termes consécutifs d’une suite arithmétique / géométrique." tabindex="0"} ★★☆]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -284,7 +284,7 @@ $$
 
 ::: {#exercice-3-6 data-sorte="exercice" data-num="3.6" data-page="29" data-phys="34" data-id="5UAA2.ex.031" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 3.6]{.exo-titre} [[A3]{.exo-comp} ★★☆]{.exo-meta}
+[✎ Exercice 3.6]{.exo-titre} [[A3]{.exo-comp data-tip="A3 : Calculer les éléments caractéristiques ou un terme d’une suite arithmétique / géométrique." tabindex="0"} ★★☆]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -326,7 +326,7 @@ Deux suites conviennent : $u_{n} = 3 \cdot 2^{n}$ et $u_{n} = -3 \cdot (-2)^{n}$
 
 ::: {#exercice-3-7 data-sorte="exercice" data-num="3.7" data-page="29" data-phys="34" data-id="5UAA2.ex.032" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 3.7]{.exo-titre} [[A2]{.exo-comp} ★★☆]{.exo-meta}
+[✎ Exercice 3.7]{.exo-titre} [[A2]{.exo-comp data-tip="A2 : Justifier qu’une suite est arithmétique / géométrique." tabindex="0"} ★★☆]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -367,7 +367,7 @@ Les rapports sont tous égaux à $-3$ : l’élève a raison, la suite est géom
 
 ::: {#exercice-3-8 data-sorte="exercice" data-num="3.8" data-page="29" data-phys="34" data-id="5UAA2.ex.033" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 3.8]{.exo-titre} [[C7]{.exo-comp} ★★★]{.exo-meta}
+[✎ Exercice 3.8]{.exo-titre} [[C7]{.exo-comp data-tip="C7 : Démontrer la formule de la somme des n premiers termes d’une suite arithmétique / géométrique." tabindex="0"} ★★★]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -426,7 +426,7 @@ Si $q = 1$, tous les termes valent $u_{0}$, et la somme vaut $n \cdot u_{0}$.
 
 ::: {#exercice-3-9 data-sorte="exercice" data-num="3.9" data-page="29" data-phys="34" data-id="5UAA2.ex.034" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 3.9]{.exo-titre} [[C5]{.exo-comp} ★★☆]{.exo-meta}
+[✎ Exercice 3.9]{.exo-titre} [[C5]{.exo-comp data-tip="C5 : Donner un exemple de suites arithmétique / géométrique vérifiant des contraintes (croissance, convergence)." tabindex="0"} ★★☆]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -473,7 +473,7 @@ D’autres réponses sont possibles. On choisit d’abord la raison $q$ (et le s
 
 ::: {#exercice-3-10 data-sorte="exercice" data-num="3.10" data-page="29" data-phys="34" data-id="5UAA2.ex.035" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 3.10]{.exo-titre} [[A1]{.exo-comp} ★☆☆]{.exo-meta}
+[✎ Exercice 3.10]{.exo-titre} [[A1]{.exo-comp data-tip="A1 : Représenter graphiquement une suite de nombres." tabindex="0"} ★☆☆]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -519,7 +519,7 @@ b) On lit $u_{0} = 8$, $u_{1} = 4$, $u_{2} = 2$, $u_{3} = 1$. Les points ne sont
 
 ::: {#exercice-3-11 data-sorte="exercice" data-num="3.11" data-page="30" data-phys="35" data-id="5UAA2.ex.036" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 3.11]{.exo-titre} [[C6]{.exo-comp} ★★☆]{.exo-meta}
+[✎ Exercice 3.11]{.exo-titre} [[C6]{.exo-comp data-tip="C6 : Conjecturer la limite d’une suite au départ de sa représentation numérique ou graphique." tabindex="0"} ★★☆]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -572,7 +572,7 @@ b) $\frac{3}{1} = \frac{9}{3} = \frac{27}{9} = 3$, donc $q = 3$. Comme $q > 1$ e
 
 ::: {#exercice-3-12 data-sorte="exercice" data-num="3.12" data-page="31" data-phys="36" data-id="5UAA2.ex.037" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 3.12]{.exo-titre} [[T1]{.exo-comp} ★★★]{.exo-meta}
+[✎ Exercice 3.12]{.exo-titre} [[T1]{.exo-comp data-tip="T1 : Résoudre un problème où interviennent des suites dans différents contextes." tabindex="0"} ★★★]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -615,7 +615,7 @@ Diminuer un prix de $5 \%$, c’est en garder $95 \%$, donc le multiplier par $0
 
 ::: {#exercice-3-13 data-sorte="exercice" data-num="3.13" data-page="31" data-phys="36" data-id="5UAA2.ex.038" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 3.13]{.exo-titre} [[T1]{.exo-comp} ★★★]{.exo-meta}
+[✎ Exercice 3.13]{.exo-titre} [[T1]{.exo-comp data-tip="T1 : Résoudre un problème où interviennent des suites dans différents contextes." tabindex="0"} ★★★]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -656,7 +656,7 @@ Il y a donc environ $1{,}84 \cdot 10^{19}$ grains. Comme $100$ grains pèsent $5
 
 ::: {#exercice-3-14 data-sorte="exercice" data-num="3.14" data-page="31" data-phys="36" data-id="5UAA2.ex.039" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 3.14]{.exo-titre} [[T1]{.exo-comp} ★★★]{.exo-meta}
+[✎ Exercice 3.14]{.exo-titre} [[T1]{.exo-comp data-tip="T1 : Résoudre un problème où interviennent des suites dans différents contextes." tabindex="0"} ★★★]{.exo-meta}
 :::
 
 ::: {.exo-corps}

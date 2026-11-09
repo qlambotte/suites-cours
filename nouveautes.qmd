@@ -5,6 +5,12 @@ subtitle: "Ce qui a changé dans le cours en ligne"
 
 <!-- GÉNÉRÉ par typweb à partir des notes Typst : NE PAS ÉDITER (les modifications seraient écrasées). -->
 
+## 09/11/2026
+
+- [Exercices](ch1-generalites-sur-les/7-exercices.qmd) — 10 encadrés modifiés
+- [Exercices](ch2-suites-arithmetiques/7-exercices.qmd) — 15 encadrés modifiés
+- [Exercices](ch3-suites-geometriques/7-exercices.qmd) — 14 encadrés modifiés
+
 ## 30/09/2026
 
 - Première version en ligne du cours.

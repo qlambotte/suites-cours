@@ -16,7 +16,7 @@ Une suite arithmétique a $u_{0} = 4$ et $r = -3$. Alors $u_{n} = 4 - 3 n$ ; ell
 
 ::: {#exercice-2-1 data-sorte="exercice" data-num="2.1" data-page="18" data-phys="21" data-id="5UAA2.ex.011" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 2.1]{.exo-titre} [[C2]{.exo-comp} ★☆☆]{.exo-meta}
+[✎ Exercice 2.1]{.exo-titre} [[C2]{.exo-comp data-tip="C2 : Reconnaître une suite arithmétique / géométrique exprimée dans des registres différents : numérique, symbolique, graphique ou au départ d’un énoncé contextualisé." tabindex="0"} ★☆☆]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -61,7 +61,7 @@ Pour la première : $-10 - (-17) = 7$, $-3 - (-10) = 7$… Si la différence est
 
 ::: {#exercice-2-2 data-sorte="exercice" data-num="2.2" data-page="18" data-phys="21" data-id="5UAA2.ex.012" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 2.2]{.exo-titre} [[A3]{.exo-comp} ★☆☆]{.exo-meta}
+[✎ Exercice 2.2]{.exo-titre} [[A3]{.exo-comp data-tip="A3 : Calculer les éléments caractéristiques ou un terme d’une suite arithmétique / géométrique." tabindex="0"} ★☆☆]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -96,7 +96,7 @@ $x_{0} = -4$, $x_{1} = -1$, $x_{2} = 2$, $x_{3} = 5$, $x_{4} = 8$. La raison $r 
 
 ::: {#exercice-2-3 data-sorte="exercice" data-num="2.3" data-page="18" data-phys="21" data-id="5UAA2.ex.013" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 2.3]{.exo-titre} [[C6]{.exo-comp} ★☆☆]{.exo-meta}
+[✎ Exercice 2.3]{.exo-titre} [[C6]{.exo-comp data-tip="C6 : Conjecturer la limite d’une suite au départ de sa représentation numérique ou graphique." tabindex="0"} ★☆☆]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -141,7 +141,7 @@ Suite arithmétique, $r = 2$, $u_{30} = 50$. Alors $u_{12} = u_{30} + (12 - 30) 
 
 ::: {#exercice-2-4 data-sorte="exercice" data-num="2.4" data-page="18" data-phys="21" data-id="5UAA2.ex.014" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 2.4]{.exo-titre} [[A3]{.exo-comp} ★★☆]{.exo-meta}
+[✎ Exercice 2.4]{.exo-titre} [[A3]{.exo-comp data-tip="A3 : Calculer les éléments caractéristiques ou un terme d’une suite arithmétique / géométrique." tabindex="0"} ★★☆]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -196,7 +196,7 @@ On applique $u_{n} = u_{p} + (n - p) r$.
 
 ::: {#exercice-2-5 data-sorte="exercice" data-num="2.5" data-page="19" data-phys="22" data-id="5UAA2.ex.015" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 2.5]{.exo-titre} [[A3]{.exo-comp} ★★☆]{.exo-meta}
+[✎ Exercice 2.5]{.exo-titre} [[A3]{.exo-comp data-tip="A3 : Calculer les éléments caractéristiques ou un terme d’une suite arithmétique / géométrique." tabindex="0"} ★★☆]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -237,7 +237,7 @@ De $u_{9}$ à $u_{21}$, on avance de $12$ rangs et la valeur augmente de $120 - 
 
 ::: {#exercice-2-6 data-sorte="exercice" data-num="2.6" data-page="19" data-phys="22" data-id="5UAA2.ex.016" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 2.6]{.exo-titre} [[A4]{.exo-comp} ★★☆]{.exo-meta}
+[✎ Exercice 2.6]{.exo-titre} [[A4]{.exo-comp data-tip="A4 : Calculer la somme de n termes consécutifs d’une suite arithmétique / géométrique." tabindex="0"} ★★☆]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -284,7 +284,7 @@ Pour $S_{10}$ avec $t_{0} = 10$ et $r = -3$ : le dernier terme est $t_{9} = 10 +
 
 ::: {#exercice-2-7 data-sorte="exercice" data-num="2.7" data-page="19" data-phys="22" data-id="5UAA2.ex.017" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 2.7]{.exo-titre} [[A4]{.exo-comp} ★★☆]{.exo-meta}
+[✎ Exercice 2.7]{.exo-titre} [[A4]{.exo-comp data-tip="A4 : Calculer la somme de n termes consécutifs d’une suite arithmétique / géométrique." tabindex="0"} ★★☆]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -322,7 +322,7 @@ $r = 6$ et $u_{n} = 1 + 6n$. Résous $1 + 6n = 295$.
 
 ::: {#exercice-2-8 data-sorte="exercice" data-num="2.8" data-page="19" data-phys="22" data-id="5UAA2.ex.018" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 2.8]{.exo-titre} [[C7]{.exo-comp} ★★★]{.exo-meta}
+[✎ Exercice 2.8]{.exo-titre} [[C7]{.exo-comp data-tip="C7 : Démontrer la formule de la somme des n premiers termes d’une suite arithmétique / géométrique." tabindex="0"} ★★★]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -365,7 +365,7 @@ Dans chaque colonne, le terme du haut a le rang $k$ et celui du bas le rang $n -
 
 ::: {#exercice-2-9 data-sorte="exercice" data-num="2.9" data-page="19" data-phys="22" data-id="5UAA2.ex.019" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 2.9]{.exo-titre} [[A2]{.exo-comp} ★★☆]{.exo-meta}
+[✎ Exercice 2.9]{.exo-titre} [[A2]{.exo-comp data-tip="A2 : Justifier qu’une suite est arithmétique / géométrique." tabindex="0"} ★★☆]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -400,7 +400,7 @@ Une suite est arithmétique si la différence entre deux termes consécutifs est
 
 ::: {#exercice-2-10 data-sorte="exercice" data-num="2.10" data-page="19" data-phys="22" data-id="5UAA2.ex.020" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 2.10]{.exo-titre} [[C5]{.exo-comp} ★★☆]{.exo-meta}
+[✎ Exercice 2.10]{.exo-titre} [[C5]{.exo-comp data-tip="C5 : Donner un exemple de suites arithmétique / géométrique vérifiant des contraintes (croissance, convergence)." tabindex="0"} ★★☆]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -447,7 +447,7 @@ Par exemple (d’autres réponses sont possibles) :
 
 ::: {#exercice-2-11 data-sorte="exercice" data-num="2.11" data-page="20" data-phys="23" data-id="5UAA2.ex.021" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 2.11]{.exo-titre} [[A1]{.exo-comp} ★★☆]{.exo-meta}
+[✎ Exercice 2.11]{.exo-titre} [[A1]{.exo-comp data-tip="A1 : Représenter graphiquement une suite de nombres." tabindex="0"} ★★☆]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -494,7 +494,7 @@ b) Les points sont alignés : on monte de $2$ à chaque rang. La suite peut donc
 
 ::: {#exercice-2-12 data-sorte="exercice" data-num="2.12" data-page="20" data-phys="23" data-id="5UAA2.ex.022" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 2.12]{.exo-titre} [[C6]{.exo-comp} ★★☆]{.exo-meta}
+[✎ Exercice 2.12]{.exo-titre} [[C6]{.exo-comp data-tip="C6 : Conjecturer la limite d’une suite au départ de sa représentation numérique ou graphique." tabindex="0"} ★★☆]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -545,7 +545,7 @@ b) $17 - 20 = -3$ (et de même pour les autres) : $r = -3 < 0$, donc $\lim\limit
 
 ::: {#exercice-2-13 data-sorte="exercice" data-num="2.13" data-page="21" data-phys="24" data-id="5UAA2.ex.023" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 2.13]{.exo-titre} [[T1]{.exo-comp} ★★★]{.exo-meta}
+[✎ Exercice 2.13]{.exo-titre} [[T1]{.exo-comp data-tip="T1 : Résoudre un problème où interviennent des suites dans différents contextes." tabindex="0"} ★★★]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -588,7 +588,7 @@ $u_{0} = 12{,}50$ et $r = 1{,}20$. Le $24$^e^ mois est $u_{23}$.
 
 ::: {#exercice-2-14 data-sorte="exercice" data-num="2.14" data-page="21" data-phys="24" data-id="5UAA2.ex.024" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 2.14]{.exo-titre} [[T1]{.exo-comp} ★★★]{.exo-meta}
+[✎ Exercice 2.14]{.exo-titre} [[T1]{.exo-comp data-tip="T1 : Résoudre un problème où interviennent des suites dans différents contextes." tabindex="0"} ★★★]{.exo-meta}
 :::
 
 ::: {.exo-corps}
@@ -627,7 +627,7 @@ $u_{8} = 33$, donc $8 r = 33 - 45 = -12$.
 
 ::: {#exercice-2-15 data-sorte="exercice" data-num="2.15" data-page="21" data-phys="24" data-id="5UAA2.ex.025" data-type="exercice" data-tags="" .exo}
 ::: {.exo-tete}
-[✎ Exercice 2.15]{.exo-titre} [[T1]{.exo-comp} ★★★]{.exo-meta}
+[✎ Exercice 2.15]{.exo-titre} [[T1]{.exo-comp data-tip="T1 : Résoudre un problème où interviennent des suites dans différents contextes." tabindex="0"} ★★★]{.exo-meta}
 :::
 
 ::: {.exo-corps}
