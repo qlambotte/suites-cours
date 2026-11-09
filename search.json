@@ -505,7 +505,7 @@
     "href": "nouveautes.html",
     "title": "Quoi de neuf ?",
     "section": "",
-    "text": "30/09/2026",
+    "text": "09/11/2026",
     "crumbs": [
       "<span class='chapter-number'>26</span>  <span class='chapter-title'>Quoi de neuf ?</span>"
     ]
@@ -515,7 +515,17 @@
     "href": "nouveautes.html#section",
     "title": "Quoi de neuf ?",
     "section": "",
-    "text": "Première version en ligne du cours.",
+    "text": "Exercices — 10 encadrés modifiés\nExercices — 15 encadrés modifiés\nExercices — 14 encadrés modifiés",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Quoi de neuf ?</span>"
+    ]
+  },
+  {
+    "objectID": "nouveautes.html#section-1",
+    "href": "nouveautes.html#section-1",
+    "title": "Quoi de neuf ?",
+    "section": "30/09/2026",
+    "text": "30/09/2026\n\nPremière version en ligne du cours.",
     "crumbs": [
       "<span class='chapter-number'>26</span>  <span class='chapter-title'>Quoi de neuf ?</span>"
     ]
